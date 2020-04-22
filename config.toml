@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Notes on Watchmen"
 theme="mytheme"
 relativeURLs=true
 
@@ -11,6 +11,6 @@ relativeURLs=true
     url = "/about/"
 
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = "chapters"
+    name = "chapters"
+    url = "/chapters/"

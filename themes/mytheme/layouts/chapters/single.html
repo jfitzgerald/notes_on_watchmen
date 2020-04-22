@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="chapter_wrapper tsize-2">
+{{ range .Params.pages }}
+    {{ $page := . }}
+    <table class="page_wrapper"><tr><td>
+      <table class="panel_grid">
+        {{ range .panels }}
+        <tr>
+          {{ range . }}
+          <td {{ if .rows }}rowspan="{{.rows}}" {{ end }}
+          {{ if .cols }}colspan="{{.cols}}"
+          {{ else }}
+          width="{{ if eq (int $page.layout) 9 }}32%{{ else }}24%{{ end }}"
+          {{ end }}
+          class="{{ .color }}"><div>{{ $page.layout }}</div></td>
+          {{ end }}
+        </tr>
+        {{ end }}
+      </table>
+    </td></tr></table>
+{{ end }}
+</div>
+{{ end }}

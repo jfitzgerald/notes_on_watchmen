@@ -1,0 +1,1374 @@
+{
+  "chapters": [
+  {
+    "chapter_num": 1
+    ,"chapter_numeral": "Chapter I"
+    ,"title": "At midnight, all the agents..."
+    ,"quote": "At midnight, all the agents and superhuman crew, go out and round up everyone who knows more than they do. -- Bob Dylan"
+    ,"doomsday_clock": "11:50"
+    ,"pages": [
+    {
+      "page": 1,
+      "panels": [
+      {
+        "panel": 1,
+        "chronology": "present",
+        "verbal_visual": {
+          "I have seen its true face." : "happy face badge"
+        },
+        "rorschachs_journal_date": "October 12th, 1985",
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 2,
+        "chronology": "present",
+        "verbal_visual": {
+          "the gutters are full of blood" : "bloody sidewalk"
+        },
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 3,
+        "chronology": "present",
+        "characters": ["walter_kovacs"],
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "characters": ["walter_kovacs"],
+        "verbal_visual": {
+          "They could have followed in the footsteps of good men" : "bloody foot prints"
+        },
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 5,
+        "chronology": "present",
+        "characters": ["walter_kovacs"],
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 6,
+        "chronology": "present",
+        "verbal_visual": {
+          "staring down into the bloody hell" : "view down to street"
+        },
+        "transition": {
+          "type": "narrative",
+          "verbal": "nobody can think of anything to say"
+        },
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 7,
+        "width": 3,
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page": 2,
+      "panels": [
+      {
+        "panel": 1,
+        "width": 2,
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "chronology": "past",
+        "characters": ["edward_blake"]
+      },
+      {
+        "panel": 5,
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "chronology": "past",
+        "characters": ["edward_blake"]
+      },
+      {
+        "panel": 7,
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "chronology": "past",
+        "characters": ["edward_blake"]
+      },
+      {
+        "panel": 9,
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page": 3,
+      "panels": [
+      {
+        "panel": 1,
+        "chronology": "past",
+        "characters": ["edward_blake"]
+      },
+      {
+        "panel": 2,
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "chronology": "past",
+        "characters": ["edward_blake"]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "characters": ["edward_blake"]
+      },
+      {
+        "panel": 5,
+        "chronology": "past",
+        "characters": ["edward_blake"]
+      },
+      {
+        "panel": 6,
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "width": 3,
+        "chronology": "past",
+        "verbal_visual": {
+          "ground floor comin' up": "comedian falling to his death"
+        },
+        "characters": ["edward_blake"]
+      }
+    ]
+    },
+    {
+      "page": 4,
+      "panels": [
+      {
+        "panel": 1
+        ,"chronology": "present"
+      },
+      {
+        "panel": 2
+        ,"chronology": "past"
+        ,"characters": ["edward_blake"]
+      },
+      {
+        "panel": 3
+        ,"chronology": "present"
+        ,"characters":["bernie"]
+        ,"world_building":[
+          {
+            "context":"headline",
+            "content":"Vietnam 51st State"
+          },
+          {
+            "context":"comic book",
+            "content":"Tales of the Black Freighter"
+          }
+        ]
+      },
+      {
+        "panel": 4
+        ,"chronology": "past"
+        ,"characters":["edward_blake"]
+        ,"verbal_visual": {
+          "let this one drop out of sight":"comedian falling to his death"
+        }
+      },
+      {
+        "panel": 5
+        ,"width":2
+        ,"chronology": "present"
+        ,"world_building":[
+          {
+            "context": "place",
+            "content": "Gunga Diner"
+          },
+          {
+            "context": "people",
+            "content": "Knot-Top"
+          }
+        ]
+      },
+      {
+        "panel": 7
+        ,"chronology": "past"
+        ,"verbal_visual": {
+          "his buddies fell outta grace": "comedian falling to his death"
+        }
+      },
+      {
+        "panel": 8
+        ,"characters": ["walter_kovacs"]
+        ,"chronology": "present"
+      },
+      {
+        "panel": 9
+        ,"characters": ["walter_kovacs"]
+        ,"chronology": "present"
+      }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 4
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 5
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "layout":12,
+      "panels": [
+        {
+          "panel": 1
+          ,"width": 4
+          ,"height": 2
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 10
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 11
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 12
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 4
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 5
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+      {
+        "panel": 1
+        ,"width": 2
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      },
+      {
+        "panel": 3
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      },
+      {
+        "panel": 4
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      },
+      {
+        "panel": 5
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      },
+      {
+        "panel": 6
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      },
+      {
+        "panel": 7
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      },
+      {
+        "panel": 8
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      },
+      {
+        "panel": 9
+        ,"chronology": "present"
+        ,"characters":["rorschach"]
+      }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"world_building":[
+            {
+              "context":"headline",
+              "content":"(partial) Hero Retires - Opens own auto business"
+            }
+          ]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg" ,"hollis_mason"]
+        },
+        {
+          "panel": 4
+          ,"width": 2
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg" ,"hollis_mason"]
+          ,"world_building":[
+            {
+              "context": "book",
+              "content": "Under the Hood by Hollis Mason"
+            },
+            {
+              "context": "book",
+              "content": "Mobile Maintenance"
+            },
+            {
+              "context": "award",
+              "content": "Gratitude"
+            }
+          ]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg" ,"hollis_mason"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg" ,"hollis_mason"]
+          ,"world_building":[
+            {
+              "context": "grafiti",
+              "content": "Pale Horse (partial)"
+            }
+          ]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg" ,"hollis_mason"]
+          ,"world_building":[
+            {
+              "context": "grafiti",
+              "content": "Who Watches the Watchmen (partial)"
+            },
+            {
+              "context": "grafiti",
+              "content": "Pale Horse (partial)"
+            },
+            {
+              "context": "place",
+              "content": "Mason's Auto Repairs (partial)"
+            }
+          ]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg"]
+          ,"world_building":[
+            {
+              "context": "sign",
+              "content": "Closed - We Fix'em! - Obsolete models a specialty"
+            },
+            {
+              "context": "sign",
+              "content": "Pale Horse (partial)"
+            },
+            {
+              "context": "trash",
+              "content": "Gunga Diner take-out box"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg"]
+          ,"world_building": [
+            {
+              "context":"headline",
+              "content":"(partial) Russian Protests US Advantage in Afghanistan"
+            },
+            {
+              "context":"ad",
+              "content":"86 Buick"
+            }
+          ]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg"]
+          ,"world_building": [
+            {
+              "context":"place",
+              "content":"Treasure Island"
+            },
+            {
+              "context":"ad",
+              "content":"Nostalgia"
+            }
+          ]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg"]
+        },
+        {
+          "panel": 4
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg"]
+        },
+        {
+          "panel": 5
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg"]
+          ,"world_building":[
+            {
+              "context": "product",
+              "content": "(Partial) Heinz Baked Beans 58 Varieties"
+            }
+          ]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["dan_dreiberg" ,"rorschach"]
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+      {
+        "panel": 1
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 2
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 3
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 4
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 5
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 6
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 7
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 8
+        ,"width":2
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      }
+    ]
+    },
+    {
+      "page": 12,
+      "panels": [
+      {
+        "panel": 1
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 2
+        ,"width":2
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 4
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 5
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 6
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 7
+        ,"width":2
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 9
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      }
+    ]
+    },
+    {
+      "page": 13,
+      "layout":12,
+      "panels": [
+      {
+        "panel": 1
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 2
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 3
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 4
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg" ,"rorschach"]
+      },
+      {
+        "panel": 5
+        ,"width":4
+        ,"height":2
+        ,"chronology": "present"
+        ,"characters":["dan_dreiberg"]
+      }
+    ]
+    },
+    {
+      "page": 14,
+      "panels": [
+      {
+        "panel": 1,
+        "width":3,
+        "chronology": "present",
+        "rorschachs_journal_date": "October 13th, 1985",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 5,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 6,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 7,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "world_building":[
+          {
+            "context":"place",
+            "content":"Happy Harry's"
+          },
+          {
+            "context":"grafiti",
+            "content":"Viet Bronx"
+          },
+          {
+            "context":"headline",
+            "content":"Congress Approves Lunar Silos"
+          }
+        ]
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "chronology": "present",
+        "characters":["rorschach"],
+        "rorschachs_journal": true
+      }
+    ]
+    },
+    {
+      "page": 15,
+      "panels": [
+      {
+        "panel": 1,
+        "chronology": "present",
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 2,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 3,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 5,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 6,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 7,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 8,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 9,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      }
+    ]
+    },
+    {
+      "page": 16,
+      "panels": [
+      {
+        "panel": 1,
+        "chronology": "present",
+        "characters": ["rorschach"]
+      },
+      {
+        "panel": 2,
+        "chronology": "present",
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 3,
+        "chronology": "present",
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 5,
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "chronology": "present",
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 7,
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "chronology": "present",
+        "characters":["rorschach"],
+        "rorschachs_journal":true
+      },
+      {
+        "panel": 9,
+        "chronology": "present",
+        "characters":["rorschach"],
+        "rorschachs_journal":true
+      }
+    ]
+    },
+    {
+      "page": 17,
+      "panels": [
+      {
+        "panel": 1,
+        "chronology": "present",
+        "world_building":[
+          {
+            "context":"place",
+            "content":"Veidt Tower"
+          }
+        ]
+      },
+      {
+        "panel": 2,
+        "width":2,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      },
+      {
+        "panel": 5,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      },
+      {
+        "panel": 6,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      },
+      {
+        "panel": 7,
+        "chronology": "present",
+        "characters": ["adrian_veidt"]
+      },
+      {
+        "panel": 8,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      },
+      {
+        "panel": 9,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      }
+    ]
+    },
+    {
+      "page": 18,
+      "panels": [
+      {
+        "panel": 1,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      },
+      {
+        "panel": 2,
+        "chronology": "present",
+        "characters":["rorschach", "adrian_veidt"]
+      },
+      {
+        "panel": 3,
+        "chronology": "present",
+        "characters": ["adrian_veidt"]
+      },
+      {
+        "panel": 4,
+        "width": 3,
+        "height": 2,
+        "chronology": "present",
+        "characters": ["adrian_veidt"],
+        "world_building":[
+          {
+            "context":"product",
+            "content":"Ozymandias Action Figure"
+          },
+          {
+            "context":"headline",
+            "content":"Geneva Talks: U.S. Refuses to Discuss Dr. Manhattan"
+          },
+          {
+            "context":"headline",
+            "content":"Nuclear Doomsday Clock Stands at Five to Twelve Warn Experts"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "page": 19,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"rorschachs_journal_date": "October 13th, 1985. 8:30 P.M."
+          ,"rorschachs_journal": true
+          ,"world_building":[
+            {
+              "context":"place",
+              "content":"Rockefeller Military Research Center (Founded 1981)"
+            }
+          ]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"rorschachs_journal": true
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"rorschachs_journal": true
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 4
+          ,"chronology": "present"
+          ,"rorschachs_journal": true
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 5
+          ,"chronology": "present"
+          ,"rorschachs_journal": true
+          ,"characters":["rorschach"]
+          ,"world_building":[
+            {
+              "context":"place",
+              "content":"Special Talent Quarters - Private"
+            }
+          ]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"rorschachs_journal": true
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"rorschachs_journal": true
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"rorschachs_journal": true
+          ,"characters":["rorschach"]
+          ,"world_building":[
+            {
+              "context":"place",
+              "content":"Clearance 2 Only - Keep Out"
+            }
+          ]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "panels": [
+        {
+          "panel": 1
+          ,"width":2
+          ,"height":3
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 4
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan"]
+        },
+        {
+          "panel": 5
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        }
+      ]
+    },
+    {
+      "page": 22,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan"]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan"]
+        },
+        {
+          "panel": 4
+          ,"chronology": "present"
+          ,"characters":["rorschach" ,"dr_manhattan"]
+        },
+        {
+          "panel": 5
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters":["rorschach"]
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan","laurie_juspeczyk"]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan","laurie_juspeczyk"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 4
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 5
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "panels": [
+      {
+        "panel": 1,
+        "width": 3,
+        "chronology": "present",
+        "rorschachs_journal_date": "October 13th 1985. 11:30 P.M.",
+        "rorschachs_journal": true,
+        "characters":["rorschach"],
+        "world_building":[
+          {
+            "context":"grafiti",
+            "content":"Krystalnacht"
+          },
+          {
+            "context":"poster",
+            "content":"(Partial) Madison Sqaure Garden - Pale Horse"
+          },
+          {
+            "context":"trash",
+            "content":"Gunga Diner"
+          },
+          {
+            "context":"grafiti",
+            "content":"(Partial) Who Watches the Watchmen"
+          }
+        ]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 5,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 4,
+        "chronology": "present",
+        "rorschachs_journal": true,
+        "characters":["rorschach"]
+      },
+      {
+        "panel": 6,
+        "chronology": "present",
+        "characters":["rorschach"],
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 7,
+        "chronology": "present",
+        "characters":["rorschach"],
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 8,
+        "chronology": "present",
+        "characters":["rorschach"],
+        "rorschachs_journal": true
+      },
+      {
+        "panel": 9,
+        "chronology": "present",
+        "characters":["rorschach"],
+        "rorschachs_journal": true,
+        "world_building":[
+          {
+            "context":"grafiti",
+            "content":"Four More Years"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "page": 25,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"world_building":[
+            {
+              "context":"place",
+              "content":"Rafael's"
+            }
+          ]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 4
+          ,"width": 2
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 7
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 8
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 9
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        }
+      ]
+    },
+    {
+      "page": 26,
+      "panels": [
+        {
+          "panel": 1
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 2
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 3
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 4
+          ,"width": 2
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 6
+          ,"chronology": "present"
+          ,"characters": ["dr_manhattan" ,"laurie_juspeczyk"]
+        },
+        {
+          "panel": 7
+          ,"width": 3
+          ,"chronology": "present"
+          ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+        }
+      ]
+    }
+    ]
+  }
+  ]
+}
