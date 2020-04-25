@@ -698,7 +698,7 @@
       "panels": [
       {
         "panel": 1,
-        "width":3,
+        "width": 3,
         "chronology": "present",
         "rorschachs_journal_date": "October 13th, 1985",
         "rorschachs_journal": true,
@@ -712,12 +712,6 @@
       },
       {
         "panel": 5,
-        "chronology": "present",
-        "rorschachs_journal": true,
-        "characters":["rorschach"]
-      },
-      {
-        "panel": 4,
         "chronology": "present",
         "rorschachs_journal": true,
         "characters":["rorschach"]
@@ -1238,12 +1232,6 @@
       },
       {
         "panel": 5,
-        "chronology": "present",
-        "rorschachs_journal": true,
-        "characters":["rorschach"]
-      },
-      {
-        "panel": 4,
         "chronology": "present",
         "rorschachs_journal": true,
         "characters":["rorschach"]

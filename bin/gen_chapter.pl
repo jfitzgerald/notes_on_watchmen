@@ -33,7 +33,7 @@ foreach my $ch (@{$book->{chapters}}) {
     foreach my $pg (@{$ch->{pages}}) {
         my $new_pg = { page => $pg->{page} };
         my $pn_max = $pg->{layout} || 9;
-        $new_pg->{layout} = $pn_max;
+        $new_pg->{col_layout} = $pn_max/3;
         my $cols = int $pn_max / 3;
         my $prev_row;
         foreach my $pn (@{$pg->{panels}}) {
@@ -44,6 +44,10 @@ foreach my $ch (@{$book->{chapters}}) {
             if($pn->{width}) {$new_pn->{cols} = $pn->{width};}
             if($pn->{height}) {$new_pn->{rows} = $pn->{height};}
             if($pn->{color}) {$new_pn->{color} = $pn->{color};}
+
+            if($new_pn->{cols} == $cols && $new_pn->{rows} > 1) {
+                $new_pg->{has_splash} = "1";
+            }
 
             my $p_index = $pn_num - 1;
             my $row = int $p_index / $cols;

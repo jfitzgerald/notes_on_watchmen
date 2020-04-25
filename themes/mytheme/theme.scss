@@ -15,7 +15,7 @@ $enable-gradients: true;
 table {
   border-collapse: separate;
 }
-.chapter_wrapper {
+.chapter-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -35,10 +35,7 @@ table {
 .blue {
   background-color: blue;
 }
-table.panel_grid td {
-  padding-bottom: 40%;
-  border: 1px solid;
-}
+
 .cs-1 {
   border-spacing: 1px;
 }
@@ -51,10 +48,13 @@ table.panel_grid td {
 .cs-9 {
   border-spacing: 9px;
 }
-.w-33 {
+.w-32 {
   width: 32%;
 }
-table.panel_grid {
+.w-24 {
+  width: 24%;
+}
+table.panel-grid {
   border: none;
 }
 .p6 {
@@ -78,79 +78,90 @@ table.panel_grid {
 .p0 {
   padding: 0px;
 }
-table.page_wrapper {
+
+div.chapter-wrapper.tsize-5 {
+  width: 650px;
+}
+div.chapter-wrapper.tsize-4 {
+  width: 440px;
+}
+div.chapter-wrapper.tsize-3 {
+  width: 300px;
+}
+div.chapter-wrapper.tsize-2 {
+  width: 200px;
+}
+div.chapter-wrapper.tsize-1 {
+  width: 140px;
+}
+div.chapter-wrapper.tsize-0 {
+  width: 80px;
+}
+
+
+table.page-wrapper {
   border: 1px solid #dedede;
   padding: 0px;
 }
 
+table.panel-grid.cols-3 td {
+  padding-bottom: 47%;
+  border: 1px solid;
+}
+table.panel-grid.cols-4 td {
+  padding-bottom: 34%;
+  border: 1px solid;
+}
+table.panel-grid.double.cols-3 td {
+}
+table.panel-grid.double.cols-4 td {
+    padding-bottom: 45%;
+}
+table.panel-grid.cols-3 td.double {
+  padding-bottom: 100%;
+}
+table.panel-grid.cols-4 td.double {
+  padding-bottom: 99%;
+}
 
-div.chapter_wrapper.tsize-5 {
+
+div.tsize-9 table.panel-grid {
+  border-spacing: 5px;
   width: 1200px;
 }
-div.tsize-5 table.panel_grid {
+div.tsize-8 table.panel-grid {
+  border-spacing: 5px;
+  width: 900px;
+}
+div.tsize-7 table.panel-grid {
+  border-spacing: 5px;
+  width: 700px;
+}
+div.tsize-6 table.panel-grid {
+  border-spacing: 5px;
+  width: 500px;
+}
+div.tsize-5 table.panel-grid {
   border-spacing: 5px;
   width: 300px;
 }
-div.tsize-5 table.panel_grid td {
-  height: 27px; /* div height = 9% of table width */
-}
-
-
-div.chapter_wrapper.tsize-4 {
-  width: 800px;
-}
-div.tsize-4 table.panel_grid {
+div.tsize-4 table.panel-grid {
   border-spacing: 4px;
   width: 200px;
 }
-div.tsize-4 table.panel_grid td {
-  height: 18px;
-}
-
-
-div.chapter_wrapper.tsize-3 {
-  width: 536px;
-}
-div.tsize-3 table.panel_grid {
+div.tsize-3 table.panel-grid {
   border-spacing: 2px;
   width: 134px;
 }
-div.tsize-3 table.panel_grid td {
-  height: 12px;
-}
-
-
-div.chapter_wrapper.tsize-2 {
-  width: 360px;
-}
-div.tsize-2 table.panel_grid {
+div.tsize-2 table.panel-grid {
   border-spacing: 1px;
   width: 90px;
 }
-div.tsize-2 table.panel_grid td {
-  height: 8px;
-}
-
-
-div.chapter_wrapper.tsize-1 {
-  width: 240px;
-}
-div.tsize-1 table.panel_grid {
+div.tsize-1 table.panel-grid {
   border-spacing: 1px;
   width: 60px;
 }
-div.tsize-1 table.panel_grid td {
-  height: 5px;
-}
-
-
-div.chapter_wrapper.tsize-0 {
-  width: 120px;
-}
-div.tsize-0 table.panel_grid {
+div.tsize-0 table.panel-grid {
   border-spacing: 1px;
   width: 30px;
-}
-div.tsize-0 table.panel_grid td {
-  height: 0px;
 }
