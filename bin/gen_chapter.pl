@@ -30,6 +30,8 @@ foreach my $ch (@{$book->{chapters}}) {
 #     [ { "color":"yellow" },{ "color":"gray" },{ "color":"yellow" } ]
 #   ]
 # },
+    // chapter cover has 2 columns
+    my $cover = { page:"0", col_layout:2, panels: [ [ {color:"black"}, {color:"gray"} ] ]};
     foreach my $pg (@{$ch->{pages}}) {
         my $new_pg = { page => $pg->{page} };
         my $pn_max = $pg->{layout} || 9;

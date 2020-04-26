@@ -7028,6 +7028,9 @@ table {
   justify-content: flex-start;
   align-items: flex-start; }
 
+.black {
+  background-color: black; }
+
 .gray {
   background-color: gray; }
 
@@ -7055,8 +7058,14 @@ table {
 .w-32 {
   width: 32%; }
 
+.w-26 {
+  width: 26%; }
+
 .w-24 {
   width: 24%; }
+
+.w-20 {
+  width: 20%; }
 
 table.panel-grid {
   border: none; }
@@ -7104,6 +7113,14 @@ table.page-wrapper {
   border: 1px solid #dedede;
   padding: 0px; }
 
+table.panel-grid.cols-1 td {
+  padding-bottom: 160%;
+  border: 1px solid; }
+
+table.panel-grid.cols-2 td {
+  padding-bottom: 148%;
+  border: 1px solid; }
+
 table.panel-grid.cols-3 td {
   padding-bottom: 47%;
   border: 1px solid; }
@@ -7150,7 +7167,7 @@ div.tsize-3 table.panel-grid {
   width: 134px; }
 
 div.tsize-2 table.panel-grid {
-  border-spacing: 1px;
+  border-spacing: 2px;
   width: 90px; }
 
 div.tsize-1 table.panel-grid {
