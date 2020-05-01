@@ -1,28 +1,28 @@
 {
     "main_characters":[
-    {
-        "hero_name" : "The Comedian",
-        "real_name" : "Edward Blake"
-    },
-    {
-        "hero_name" : "Rorschach",
-        "real_name" : "Walter Kovacs"
-    },
-    {
-        "hero_name" : "Dr. Manhattan",
-        "real_name" : "Jon Osterman"
-    },
-    {
-        "hero_name" : "Ozymandias",
-        "real_name" : "Adrian Veidt"
-    },
-    {
-        "hero_name" : "Nite Owl",
-        "real_name" : "Dan Dreiberg"
-    },
-    {
-        "hero_name" : "Silk Spectre",
-        "real_name" : "Laurie Juspeczyk"
-    }
+        {
+            "hero_name" : "The Comedian",
+            "real_name" : "Edward Blake"
+        },
+        {
+            "hero_name" : "Rorschach",
+            "real_name" : "Walter Kovacs"
+        },
+        {
+            "hero_name" : "Dr. Manhattan",
+            "real_name" : "Jon Osterman"
+        },
+        {
+            "hero_name" : "Ozymandias",
+            "real_name" : "Adrian Veidt"
+        },
+        {
+            "hero_name" : "Nite Owl",
+            "real_name" : "Dan Dreiberg"
+        },
+        {
+            "hero_name" : "Silk Spectre",
+            "real_name" : "Laurie Juspeczyk"
+        }
     ]
 }

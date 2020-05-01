@@ -1,0 +1,18 @@
+# count number of colors
+$ identify -format %k wm-1-14.jpg
+632736
+
+# generate gif of unique colors
+convert wm-1-14.jpg -unique-colors -scale 1000%  wm-1-14.gif
+
+# generate text list of unique colors
+convert tree.gif -unique-colors -depth 16  txt:-
+
+# generate histogram image
+convert wm-1-15.jpg -colors 256 -format %c histogram:info:- |
+    sed 's/:.*#/ #/' |
+      while read count color colorname; do
+        convert -size 1x$count xc:$color miff:-
+      done |
+        convert - -alpha set -gravity south -background none +append \
+                unique_color_histogram.png

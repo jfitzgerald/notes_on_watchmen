@@ -24,10 +24,16 @@ foreach my $ch (@{$book->{chapters}}) {
     foreach my $pg (@{$ch->{pages}}) {
         foreach my $pn (@{$pg->{panels}}) {
             if($pn->{characters}) {
+                my @tmp = @{$pn->{characters}};
                 foreach my $nm (@{$pn->{characters}}) {
+                    if(!$data->{$nm}) {
+                        $data->{$nm} = {total=>0, appears_with=>{}};
+                    }
                     # character/chapter counter
                     # {"rorschach"}->{"chapter1"}++
-                    $data->{$nm}++;
+                    $data->{$nm}{total}++;
+                    # tally the character-character associations
+                    map { if($nm ne $_){ $data->{$nm}{appears_with}{$_}++; } } @tmp;
                 }
             }
         }
@@ -37,18 +43,23 @@ foreach my $ch (@{$book->{chapters}}) {
 my $people = JSON::Parse::json_file_to_perl('/Users/justin/Code/watchmen/characters.json');
 foreach my $ch (@{$people->{main_characters}}) {
     # set reverse key lookups by real and hero name
+    $ch->{appears_with} = {};
     foreach my $k (qw(hero_name real_name)) {
         my $val = lc $ch->{$k};
         $val =~ s/\.//;
         $val =~ s/\s/_/;
         #$data->{$val} = $ch;
-print STDERR "looking up $val\n";
-        $ch->{panel_total} += $data->{$val};
+        #print STDERR "looking up $val\n";
+        $ch->{panel_total} += $data->{$val}{total};
+
+        while (my ($costar, $num) = each %{$data->{$val}{appears_with}}) {
+            $ch->{appears_with}{$costar} += $num;
+        }
     }
 }
 
 print STDERR Dumper($people);
-print STDERR Dumper($data);
+#print STDERR Dumper($data);
 
 {
     # Create character data files

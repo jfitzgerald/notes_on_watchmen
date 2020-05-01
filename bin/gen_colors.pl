@@ -42,20 +42,24 @@ while(my $line = <$fh>) {
         $rev_colors{$hex} = $next_key;
     }
 }
-# http://www.imagemagick.org/discourse-server/viewtopic.php?t=29666
+close $fh;
 
+# Get crops
+# http://www.imagemagick.org/discourse-server/viewtopic.php?t=29666
 # http://dcl.ils.indiana.edu/cbml/
-#
+
+# Get Histograms
 #   convert "wm - 59.jpg" +dither -remap netscape: websafe.jpg
 #   convert websafe.jpg -format %c -depth 8 -remap netscape: histogram:info:hist_websafe.txt
 #   sort -n hist_websafe.txt |tail -20
 
-    print Dumper($colors);
+# unique colors:
+# perl -e 'my $c=(); while(my $l=<>){my $clr; $clr = $1 if($l=~/(#[A-Z0-9]{6})/);print $clr ."\n" if(!$c{$clr}); $c{$clr}=1;}' < chapter1-hist.txt >out
+
+    #print Dumper($colors);
 
 {
-    # Create character data files
-    #my $new_file = $base_path . $o->{slug} . ".md";
-    #print STDERR "$new_file\n";
-    #open my $fh, '>', $new_file or die $!;
-    #print $fh Dumper($o);
+    # Update color files
+    open my $fh, '>', $json_file or die $!;
+    print $fh Dumper($colors);
 }
