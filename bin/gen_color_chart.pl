@@ -23,6 +23,7 @@ while(my $line = <$fh>) {
     my ($num, $rem) = split ':', $line;
     my $hex;
     $hex = $1 if($rem =~ /(#[A-Z0-9]{6})/);
+    next if($hex eq "#FFFFFF" || $hex eq "#000000");
     $cnt{$hex} += $num;
     $total+=$num;
 }
@@ -38,12 +39,12 @@ my $data = {
     }]
 };
 foreach my $clr (sort {$cnt{$b} <=> $cnt{$a}} keys %cnt) {
-    print STDERR $cnt{$clr}."/$total\n";
-    my $percent = $cnt{$clr}/$total * 100;
-    next unless int $percent > 0;
+    #print STDERR $cnt{$clr}."/$total\n";
+    my $percent = int($cnt{$clr}/$total * 100);
+    next unless $percent > 0;
     push @{$data->{datasets}[0]{data}}, $cnt{$clr};
     push @{$data->{datasets}[0]{backgroundColor}}, $clr;
-    push @{$data->{datasets}[0]{labels}}, $clr;
+    push @{$data->{labels}}, "$clr ($percent %)";
 }
 
 print Dumper($data);
