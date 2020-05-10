@@ -1,4 +1,22 @@
 {{ define "main" }}
+
+<div class="w-80 mt2 pa2">
+    <h2>Chapter Info</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td>{{ .Params.chapter_numeral }}</td>
+                <td>{{ .Params.title }}</td>
+            </tr>
+            <tr>
+                <td>Quote</td>
+                <td>{{ .Params.quote }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
 <div class="chapter-wrapper tsize-4">
     <table class="page-wrapper"><tr><td>
       <table class="panel-grid cols-2">

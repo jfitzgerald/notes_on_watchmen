@@ -5,22 +5,29 @@ use JSON::Parse;
 use Data::Dumper;
 
 # Dumper setting to output JSON
+$Data::Dumper::Indent = 1;
 $Data::Dumper::Terse = 1;
 $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
-#my $json_ads = '/Users/justin/Code/myrtspostcards/data/cards.json';
-my $json = $ARGV[0] or die "Missing input JSON file\n";
-my $book = JSON::Parse::json_file_to_perl($json);
+use NOWUtil;
+
+#my $json_file = '../data/chapter1.json';
+my $json_file = $ARGV[0] or die "Missing input JSON file\n";
+my $book = JSON::Parse::json_file_to_perl($json_file);
 
 foreach my $ch (@{$book->{chapters}}) {
     my $data = {};
     $data->{pages} = [];
     while (my ($key, $val) = each (%$ch)) {
-        if(ref $val eq 'SCALAR') {
+        if(!ref $val) {
             $data->{$key} = $val;
         }
     }
+    $data->{total_pages} = scalar @{$ch->{pages}};
+
+    my $characters = NOWUtil::gen_characters($ch->{pages});
+    $data->{characters} = $characters;
 
 # {
 #   "page": 1,
@@ -30,8 +37,9 @@ foreach my $ch (@{$book->{chapters}}) {
 #     [ { "color":"yellow" },{ "color":"gray" },{ "color":"yellow" } ]
 #   ]
 # },
-    // chapter cover has 2 columns
-    my $cover = { page:"0", col_layout:2, panels: [ [ {color:"black"}, {color:"gray"} ] ]};
+    # chapter cover page is a 2-column grid
+    my $cover = { page=>"0", col_layout=>2, panels=> [ [ {color=>"black"}, {color=>"gray"} ] ]};
+    push @{ $data->{pages} }, $cover;
     foreach my $pg (@{$ch->{pages}}) {
         my $new_pg = { page => $pg->{page} };
         my $pn_max = $pg->{layout} || 9;
@@ -63,6 +71,7 @@ foreach my $ch (@{$book->{chapters}}) {
         }
         push @{ $data->{pages} }, $new_pg;
     }
+
     print Dumper($data);
 }
 

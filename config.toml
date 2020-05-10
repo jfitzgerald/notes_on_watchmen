@@ -6,11 +6,6 @@ relativeURLs=true
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-
-  [[menu.main]]
+    name = "Chapters"
     identifier = "chapters"
-    name = "chapters"
     url = "/chapters/"

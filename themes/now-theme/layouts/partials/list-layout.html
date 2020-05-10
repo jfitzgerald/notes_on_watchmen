@@ -1,0 +1,28 @@
+{{ $section := .section_to_display  }}
+
+<div class="w-100 ph4 pb5 pb6-ns pt1 mt4 pt3-ns">
+    <div class="flex">
+        <div class="w-100 w-80-l ph0 ph4-l">
+
+        <article class="w-100 nested-copy-line-height nested-links nested-img">
+          <h1 class="primary-color-dark f2">
+            {{ .context.Title }}
+          </h1>
+          <div class="{{ .Site.Params.copyClass }} mid-gray f5 f4-l">
+            {{ .context.Content }}
+          </div>
+        </article>
+
+        <div class="flex flex-wrap">
+        <section class="flex-ns flex-wrap justify-between w-100">
+        <div class="chapter-wrapper tsize-3">
+        {{ range $section }}
+          {{ partial "list-summaries" (dict "context" . "classes" "" "fullcontent" true) }}
+        {{ end }}
+        </div>
+        </section>
+        </div>
+
+    </div>
+  </div>
+</div>
