@@ -2,6 +2,7 @@
   "pages" : [
                {
                  "page" : 1,
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
@@ -27,16 +28,13 @@
                                ],
                                [
                                  {
-                                   "cols" : 3,
-                                   "color" : "gray"
+                                   "color" : "gray",
+                                   "cols" : 3
                                  }
                                ]
-                             ],
-                 "layout" : 9
+                             ]
                },
                {
-                 "layout" : 9,
-                 "page" : 2,
                  "panels" : [
                                [
                                  {
@@ -69,11 +67,13 @@
                                    "color" : "gray"
                                  }
                                ]
-                             ]
+                             ],
+                 "col_layout" : 3,
+                 "page" : 2
                },
                {
-                 "layout" : 9,
                  "page" : 3,
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
@@ -99,51 +99,51 @@
                                ],
                                [
                                  {
-                                   "cols" : 3,
+                                   "color" : "gray",
+                                   "cols" : 3
+                                 }
+                               ]
+                             ]
+               },
+               {
+                 "page" : 4,
+                 "col_layout" : 3,
+                 "panels" : [
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ],
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray",
+                                   "cols" : 2
+                                 }
+                               ],
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
                                    "color" : "gray"
                                  }
                                ]
                              ]
                },
                {
-                 "panels" : [
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ],
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "cols" : 2,
-                                   "color" : "gray"
-                                 }
-                               ],
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ]
-                             ],
-                 "page" : 4,
-                 "layout" : 9
-               },
-               {
-                 "page" : 5,
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
@@ -179,18 +179,21 @@
                                  }
                                ]
                              ],
-                 "layout" : 9
+                 "page" : 5
                },
                {
                  "page" : 6,
+                 "has_splash" : 1,
+                 "col_layout" : 4,
                  "panels" : [
                                [
                                  {
-                                   "rows" : 2,
                                    "cols" : 4,
-                                   "color" : "gray"
+                                   "color" : "gray",
+                                   "rows" : 2
                                  }
                                ],
+                               [],
                                [
                                  {
                                    "color" : "gray"
@@ -205,11 +208,10 @@
                                    "color" : "gray"
                                  }
                                ]
-                             ],
-                 "layout" : 12
+                             ]
                },
                {
-                 "page" : 7,
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
@@ -245,10 +247,9 @@
                                  }
                                ]
                              ],
-                 "layout" : 9
+                 "page" : 7
                },
                {
-                 "layout" : 9,
                  "page" : 8,
                  "panels" : [
                                [
@@ -282,7 +283,8 @@
                                    "color" : "gray"
                                  }
                                ]
-                             ]
+                             ],
+                 "col_layout" : 3
                },
                {
                  "page" : 9,
@@ -300,8 +302,8 @@
                                ],
                                [
                                  {
-                                   "cols" : 2,
-                                   "color" : "gray"
+                                   "color" : "gray",
+                                   "cols" : 2
                                  },
                                  {
                                    "color" : "gray"
@@ -319,10 +321,10 @@
                                  }
                                ]
                              ],
-                 "layout" : 9
+                 "col_layout" : 3
                },
                {
-                 "layout" : 9,
+                 "page" : 10,
                  "panels" : [
                                [
                                  {
@@ -358,11 +360,9 @@
                                  }
                                ]
                              ],
-                 "page" : 10
+                 "col_layout" : 3
                },
                {
-                 "layout" : 9,
-                 "page" : 11,
                  "panels" : [
                                [
                                  {
@@ -395,7 +395,9 @@
                                    "color" : "gray"
                                  }
                                ]
-                             ]
+                             ],
+                 "col_layout" : 3,
+                 "page" : 11
                },
                {
                  "panels" : [
@@ -404,8 +406,8 @@
                                    "color" : "gray"
                                  },
                                  {
-                                   "cols" : 2,
-                                   "color" : "gray"
+                                   "color" : "gray",
+                                   "cols" : 2
                                  }
                                ],
                                [
@@ -429,11 +431,11 @@
                                  }
                                ]
                              ],
-                 "page" : 12,
-                 "layout" : 9
+                 "col_layout" : 3,
+                 "page" : 12
                },
                {
-                 "layout" : 12,
+                 "has_splash" : 1,
                  "page" : 13,
                  "panels" : [
                                [
@@ -452,20 +454,20 @@
                                ],
                                [
                                  {
-                                   "rows" : 2,
                                    "color" : "gray",
+                                   "rows" : 2,
                                    "cols" : 4
                                  }
                                ]
-                             ]
+                             ],
+                 "col_layout" : 4
                },
                {
-                 "layout" : 9,
                  "panels" : [
                                [
                                  {
-                                   "cols" : 3,
-                                   "color" : "gray"
+                                   "color" : "gray",
+                                   "cols" : 3
                                  }
                                ],
                                [
@@ -477,9 +479,6 @@
                                  },
                                  {
                                    "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
                                  }
                                ],
                                [
@@ -487,11 +486,12 @@
                                    "color" : "gray"
                                  },
                                  {
-                                   "cols" : 2,
-                                   "color" : "gray"
+                                   "color" : "gray",
+                                   "cols" : 2
                                  }
                                ]
                              ],
+                 "col_layout" : 3,
                  "page" : 14
                },
                {
@@ -530,10 +530,12 @@
                                  }
                                ]
                              ],
-                 "page" : 15,
-                 "layout" : 9
+                 "col_layout" : 3,
+                 "page" : 15
                },
                {
+                 "page" : 16,
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
@@ -568,12 +570,10 @@
                                    "color" : "gray"
                                  }
                                ]
-                             ],
-                 "page" : 16,
-                 "layout" : 9
+                             ]
                },
                {
-                 "layout" : 9,
+                 "page" : 17,
                  "panels" : [
                                [
                                  {
@@ -607,9 +607,10 @@
                                  }
                                ]
                              ],
-                 "page" : 17
+                 "col_layout" : 3
                },
                {
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
@@ -631,10 +632,11 @@
                                ]
                              ],
                  "page" : 18,
-                 "layout" : 9
+                 "has_splash" : 1
                },
                {
-                 "layout" : 9,
+                 "page" : 19,
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
@@ -669,16 +671,15 @@
                                    "color" : "gray"
                                  }
                                ]
-                             ],
-                 "page" : 19
+                             ]
                },
                {
-                 "page" : 20,
+                 "col_layout" : 3,
                  "panels" : [
                                [
                                  {
-                                   "rows" : 3,
                                    "color" : "gray",
+                                   "rows" : 3,
                                    "cols" : 2
                                  },
                                  {
@@ -696,7 +697,46 @@
                                  }
                                ]
                              ],
-                 "layout" : 9
+                 "page" : 20
+               },
+               {
+                 "col_layout" : 3,
+                 "panels" : [
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ],
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ],
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ]
+                             ],
+                 "page" : 21
                },
                {
                  "panels" : [
@@ -734,101 +774,25 @@
                                  }
                                ]
                              ],
-                 "page" : 21,
-                 "layout" : 9
-               },
-               {
-                 "layout" : 9,
-                 "panels" : [
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ],
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ],
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ]
-                             ],
+                 "col_layout" : 3,
                  "page" : 22
                },
                {
-                 "panels" : [
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ],
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ],
-                               [
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 }
-                               ]
-                             ],
                  "page" : 23,
-                 "layout" : 9
-               },
-               {
-                 "layout" : 9,
-                 "page" : 24,
+                 "col_layout" : 3,
                  "panels" : [
-                               [
-                                 {
-                                   "color" : "gray",
-                                   "cols" : 3
-                                 }
-                               ],
                                [
                                  {
                                    "color" : "gray"
                                  },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ],
+                               [
                                  {
                                    "color" : "gray"
                                  },
@@ -856,19 +820,16 @@
                  "panels" : [
                                [
                                  {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
-                                 },
-                                 {
-                                   "color" : "gray"
+                                   "color" : "gray",
+                                   "cols" : 3
                                  }
                                ],
                                [
                                  {
-                                   "color" : "gray",
-                                   "cols" : 2
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
                                  },
                                  {
                                    "color" : "gray"
@@ -886,11 +847,11 @@
                                  }
                                ]
                              ],
-                 "page" : 25,
-                 "layout" : 9
+                 "col_layout" : 3,
+                 "page" : 24
                },
                {
-                 "page" : 26,
+                 "page" : 25,
                  "panels" : [
                                [
                                  {
@@ -905,8 +866,44 @@
                                ],
                                [
                                  {
-                                   "color" : "gray",
-                                   "cols" : 2
+                                   "cols" : 2,
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ],
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ]
+                             ],
+                 "col_layout" : 3
+               },
+               {
+                 "panels" : [
+                               [
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 },
+                                 {
+                                   "color" : "gray"
+                                 }
+                               ],
+                               [
+                                 {
+                                   "cols" : 2,
+                                   "color" : "gray"
                                  },
                                  {
                                    "color" : "gray"
@@ -919,7 +916,8 @@
                                  }
                                ]
                              ],
-                 "layout" : 9
+                 "col_layout" : 3,
+                 "page" : 26
                }
              ]
 }

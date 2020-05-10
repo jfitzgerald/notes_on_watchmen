@@ -1,0 +1,54 @@
+==== Home ====
+- Layout
+  - Characters (grid)
+  - Chapters (grid)
+  - Colors
+  - Numbers
+
+==== Book ====
+- Timeline chart 
+  - Past/Present/Future
+  - Character plots (selectable)
+  - Chapter grid lines
+- Character panel appearances
+- Color Chart (vertical bar)
+- Chapter Grid Colors (clikable)
+
+==== Chapters ====
+- TODO: Do this next. Get the skeleton page layouts done
+- Meta
+    - Title
+    - Cover
+    - Quote
+    - # of Pages
+    - Color histogram
+        - Chronological (horizontal bar chart)
+    - Characters (# of panels)
+- Characters
+  - # of pages each
+  - chronological per panel
+- Page/Panel grids
+    - color by prevalence
+    - color by spectrum
+  (DONE) random canvas colors
+  (DONE) rectangular fill by percentage
+
+==== Characters ====
+- Hero Picture (Real Picture)
+- Bio (Name, Hero Name, )
+- Stats
+  - First Panel
+  - Last Panel
+  - Primary Chapter
+  - Appears with Most
+- Character Primary Colors
+- # panels (%)
+- # of panels appears solo
+- # of panels appears with characters
+- Book timeline (broken line graph)
+
+---- Colors ----
+- characters primary colors
+- vertical color bar chart
+  - by chapter
+  - by panels

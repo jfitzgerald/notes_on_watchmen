@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Notes on Watchmen"
-theme="mytheme"
+theme="now-theme"
 relativeURLs=true
 
 [menu]
