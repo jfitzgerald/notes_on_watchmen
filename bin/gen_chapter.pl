@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+
+# Usage: perl gen_chapter.pl src/chapter1.json > dest/chapter1.md
 use strict;
 
 use JSON::Parse;
@@ -38,10 +40,12 @@ foreach my $ch (@{$book->{chapters}}) {
 #   ]
 # },
     # chapter cover page is a 2-column grid
-    my $cover = { page=>"0", col_layout=>2, panels=> [ [ {color=>"black"}, {color=>"gray"} ] ]};
-    push @{ $data->{pages} }, $cover;
+    #my $cover = { page=>"0", col_layout=>2, panels=> [ [ {color=>"black"}, {color=>"gray"} ] ]};
+    #push @{ $data->{pages} }, $cover;
     foreach my $pg (@{$ch->{pages}}) {
-        my $new_pg = { page => $pg->{page} };
+        my $page_id = sprintf("wm-%d-%d", $ch->{chapter_num}, $pg->{page});
+
+        my $new_pg = { id => $page_id, page => $pg->{page} };
         my $pn_max = $pg->{layout} || 9;
         $new_pg->{col_layout} = $pn_max/3;
         my $cols = int $pn_max / 3;
@@ -50,7 +54,8 @@ foreach my $ch (@{$book->{chapters}}) {
             my $pn_num = $pn->{panel};
             #print STDERR "Panel # $pn_num\n";
 
-            my $new_pn = {"color" => "gray"};
+            my $panel_id = sprintf("wm-%d-%d-%d", $ch->{chapter_num}, $pg->{page}, $pn_num);
+            my $new_pn = { id => $panel_id, color => "gray"};
             if($pn->{width}) {$new_pn->{cols} = $pn->{width};}
             if($pn->{height}) {$new_pn->{rows} = $pn->{height};}
             if($pn->{color}) {$new_pn->{color} = $pn->{color};}

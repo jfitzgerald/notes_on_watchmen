@@ -6,28 +6,29 @@
   - Numbers
 
 ==== Book ====
-- Timeline chart 
+- Timeline chart
   - Past/Present/Future
   - Character plots (selectable)
   - Chapter grid lines
 - Character panel appearances
 - Color Chart (vertical bar)
-- Chapter Grid Colors (clikable)
+- Chapter Grid Colors (clickable)
 
 ==== Chapters ====
 - TODO: Do this next. Get the skeleton page layouts done
 - Meta
-    - Title
-    - Cover
-    - Quote
-    - # of Pages
+    -X Title
+    -X Cover
+    -X Quote
+    -X # of Pages
     - Color histogram
         - Chronological (horizontal bar chart)
-    - Characters (# of panels)
+    -X Characters (# of panels)
 - Characters
   - # of pages each
   - chronological per panel
 - Page/Panel grids
+    - add panel.id to data
     - color by prevalence
     - color by spectrum
   (DONE) random canvas colors

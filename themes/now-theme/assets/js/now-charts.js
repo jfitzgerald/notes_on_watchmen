@@ -1,4 +1,6 @@
-var refresh_grid = function(ctx, width, height, colors, sort_colors) {
+window.charts = {
+
+  "refresh_grid": function(ctx, width, height, colors, sort_colors) {
     var total=0;
     Object.values(colors).forEach(function (num) {
       total += num;
@@ -18,27 +20,32 @@ var refresh_grid = function(ctx, width, height, colors, sort_colors) {
             return colors[b]-colors[a];
         }
     }).forEach(function (hex) {
-        colors[hex] = colors[hex]/total;
-
-        var color_height = colors[hex] * height;
+        var norm_val = colors[hex]/total;
+        var color_height = norm_val * height;
 
         ctx.fillStyle = hex;
         ctx.fillRect(0, y_start, width, color_height);
 
         y_start += color_height;
     });
-}
+ },
 
-var refresh_circles = function(ctx, width, height, colors) {
+ "refresh_circles": function(ctx, width, height, colors) {
     var total=0;
+
+    var is_first = true;
     Object.values(colors).forEach(function (num) {
+      if(is_first) {
+        is_first = false;
+        return;
+      }
       total += num;
     });
+
     ctx.clearRect(0,0,width,height);
+
     var main_color = true;
     Object.keys(colors).sort((a,b)=>colors[b]-colors[a]).forEach(function (hex) {
-        colors[hex] = colors[hex]/total;
-
         // the main color becomes the background.
         if(main_color) {
             ctx.fillStyle = hex;
@@ -46,6 +53,7 @@ var refresh_circles = function(ctx, width, height, colors) {
             main_color = false;
             return;
         }
+        var norm_val = colors[hex]/total;
 
         // position
         var xoffset = Math.floor(width*.1);
@@ -53,8 +61,8 @@ var refresh_circles = function(ctx, width, height, colors) {
         var x = Math.floor(Math.random()*(width*.8))+xoffset;
         var y = Math.floor(Math.random()*(height*.8))+yoffset;
         // size
-        var diam = Math.floor(width/10)*Math.floor(height/10);
-        var radius = Math.floor(colors[hex]*diam);
+        var diam = height * 4;
+        var radius = Math.floor(norm_val*diam);
 
         ctx.beginPath();
         ctx.arc(x,y,radius,Math.PI*2,0,false);
@@ -62,4 +70,5 @@ var refresh_circles = function(ctx, width, height, colors) {
         ctx.fill();
         ctx.closePath();
     });
-}
+  }
+};

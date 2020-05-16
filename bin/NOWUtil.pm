@@ -37,6 +37,7 @@ sub gen_characters {
 
 
     my $people = JSON::Parse::json_file_to_perl('../data/characters.json');
+    my $name_map = {};
     foreach my $ch (@{$people->{main_characters}}) {
         # set reverse key lookups by real and hero name
         $ch->{appears_with} = {};
@@ -48,12 +49,35 @@ sub gen_characters {
             #print STDERR "looking up $val\n";
             $ch->{panel_total} += $data->{$val}{total};
 
+            # set the names
+            $name_map->{$val} = $ch->{$k};
+            $data->{$val}{name} = $ch->{$k};
+
             while (my ($costar, $num) = each %{$data->{$val}{appears_with}}) {
                 $ch->{appears_with}{$costar} += $num;
             }
         }
     }
-    return $data;
+
+    # Clean up the data
+    while (my ($char_key, $obj) = each %$data) {
+        my @costar_keys = keys %{$obj->{appears_with}};
+        foreach my $costar_key (@costar_keys) {
+            my $new_key = $name_map->{$costar_key};
+            if(!$new_key) {
+              delete $obj->{appears_with}{$costar_key};
+              next;
+            }
+            next unless $new_key;
+            $obj->{appears_with}{$new_key} = $obj->{appears_with}{$costar_key};
+            delete $obj->{appears_with}{$costar_key};
+        }
+    }
+    my @chars = ();
+    map { push @chars, $_ if($_->{name} && $_->{total}) } values %$data;
+    #my @chars = values %$data;
+    return \@chars;
+    #return $data;
 }
 
 1;

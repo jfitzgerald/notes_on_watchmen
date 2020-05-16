@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-<div class="w-80 mt2 pa2">
+<div class="flex">
+
+  <div class="w-50 pa3 mr2">
     <h2>Chapter Info</h2>
     <table>
         <tbody>
@@ -12,33 +14,59 @@
                 <td>Quote</td>
                 <td>{{ .Params.quote }}</td>
             </tr>
+            <tr>
+                <td>Pages</td>
+                <td>{{ .Params.total_pages }}</td>
+            </tr>
+            <tr>
+                <td>Doomsday Clock</td>
+                <td>{{ .Params.doomsday_clock }}</td>
+            </tr>
+          </tbody>
+      </table>
+
+      <h2>Characters</h2>
+      <table><tbody>
+      {{ range sort .Params.characters "total" "desc" }}
+        <tr>
+            <td class="v-top">{{ .name }}</td>
+            <td class="v-top">Appears in {{ .total }} panels</td>
+            <td class="v-top">
+            {{ with .appears_with }}
+            Appears with:<br>
+            <ul>
+                {{ range $name, $val := . }}
+                <li>{{$name}} in {{$val}} panels</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+            </td>
+        </tr>
+      {{ end }}
         </tbody>
     </table>
-</div>
 
+</div>
+<div class="w-50 pa3 mr2">
+
+<h2>Panels</h2>
 
 <div class="chapter-wrapper tsize-4">
-    <table class="page-wrapper"><tr><td>
-      <table class="panel-grid cols-2">
-        <tr>
-          <td class="black w-26"><div></div></td>
-          <td class="yellow"><div></div></td>
-        </tr>
-      </table>
-    </td></tr></table>
+
+{{ partial "chapter-cover-grid.html" }}
 
 {{ range .Params.pages }}
     {{ $page := . }}
     <table class="page-wrapper"><tr><td>
-      <table class="panel-grid {{if .has_splash}}double{{end}}
+      <table id="{{ $page.id }}" class="panel-grid {{if .has_splash}}double{{end}}
       {{if eq (int $page.col_layout) 3 }}cols-3{{ else }}cols-4{{ end }}">
         {{ range .panels }}
-        {{with .}}
+        {{ with . }}
         <tr>
           {{ range . }}
           {{ $is_double := false }}
           {{ if and (eq .cols $page.col_layout) (gt .rows 1) }}{{ $is_double = true}}{{end}}
-          <td {{ if and (.rows) (not $is_double) }}rowspan="{{.rows}}" {{ end }}
+          <td id="{{ .id }}" {{ if and (.rows) (not $is_double) }}rowspan="{{.rows}}" {{ end }}
           {{ if .cols }}colspan="{{.cols}}"{{ end }}
           class="{{ .color }}{{if $is_double}} double{{end}} {{if (not .cols)}}{{if (eq (int $page.col_layout) 3) }}w-32{{ else }}w-24{{ end }}{{end}}"><div></div></td>
           {{ end }}
@@ -48,5 +76,10 @@
       </table>
     </td></tr></table>
 {{ end }}
+</div>
+</div>
+
+{{ partial "page-panel-colors.html" (dict "pages" .Params.pages) }}
+
 </div>
 {{ end }}

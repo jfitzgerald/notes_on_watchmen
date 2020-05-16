@@ -9,9 +9,11 @@ $Data::Dumper::Terse = 1;
 $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
+use NOWUtil;
+
 #my $json_ads = '/Users/justin/Code/myrtspostcards/data/cards.json';
 #my $json = $ARGV[0] or die "Missing input JSON file\n";
-my $book = JSON::Parse::json_file_to_perl('/Users/justin/Code/watchmen/chapter1.json');
+my $book = JSON::Parse::json_file_to_perl('../notes_on_watchmen/data/chapter1.json');
 
 my $data = {};
 foreach my $ch (@{$book->{chapters}}) {
@@ -51,6 +53,8 @@ foreach my $ch (@{$people->{main_characters}}) {
         #$data->{$val} = $ch;
         #print STDERR "looking up $val\n";
         $ch->{panel_total} += $data->{$val}{total};
+        # capture the names
+        $data->{$val}{$k} = $ch->{$k};
 
         while (my ($costar, $num) = each %{$data->{$val}{appears_with}}) {
             $ch->{appears_with}{$costar} += $num;
