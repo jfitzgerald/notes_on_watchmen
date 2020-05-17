@@ -1,8 +1,42 @@
 <script>
 
 // Get all panels
+//var chapter_colors = {};
+var chapter_colors = {{ .context.Site.Data.colors.chapter1 | jsonify | safeJS }};
+</script>
 
-{{ range .pages }}
+<script>
+Object.keys(chapter_colors).forEach(function (page_id) {
+  var t = document.getElementById(page_id);
+  // var d = t.getElementsByTagName("tr")[0],
+  // var r = d.getElementsByTagName("td")[0];
+  //"refresh_circles": function(ctx, width, height, colors) {
 
-{{ end }}
+  var data = {};
+  chapter_colors[page_id]["labels"].forEach(function(hex, index) {
+      data[hex] = chapter_colors[page_id]["percent_values"][index];
+  });
+
+  var tds = document.querySelectorAll("#"+page_id+" td");
+  var sizes = [];
+  tds.forEach(function(td, index) {
+    sizes[index] = {width:td.offsetWidth, height:td.offsetHeight};
+  });
+  tds.forEach(function(td, index) {
+    td.style["padding-bottom"] = 0;
+    //td.style["display"] = "block";
+  });
+
+  tds.forEach(function(td, index) {
+    var cnv = document.createElement("canvas");
+    cnv.id = page_id;
+    cnv.style.display = "block";
+    cnv.width = sizes[index]["width"]-2;
+    cnv.height = sizes[index]["height"]-2;
+    td.appendChild(cnv);
+    var ctx = cnv.getContext("2d");
+    window.charts.refresh_circles(ctx, cnv.width, cnv.height, data);
+  });
+});
+
 </script>

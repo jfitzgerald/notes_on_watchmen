@@ -43,9 +43,9 @@
   {{ end }}
   {{ with $scripts }}
     {{ if  $isDev }}
-    <script type="text/javascript" src="{{ .RelPermalink }}" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{{ .RelPermalink }}" crossorigin="anonymous"></script>
     {{ else }}
-    <script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
     {{ end }}
     {{ $.Scratch.Set "scripts" . }}
   {{end}}

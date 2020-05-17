@@ -15,7 +15,7 @@
 - Chapter Grid Colors (clickable)
 
 ==== Chapters ====
-- TODO: Do this next. Get the skeleton page layouts done
+- TODO: Do this next: Panel form controls: Random, Spectrum, Prevalence
 - Meta
     -X Title
     -X Cover
@@ -28,7 +28,8 @@
   - # of pages each
   - chronological per panel
 - Page/Panel grids
-    - add panel.id to data
+    -X add panel.id to data
+    -X panel canvas circles
     - color by prevalence
     - color by spectrum
   (DONE) random canvas colors

@@ -1,4 +1,4 @@
-window.charts = {
+window["charts"] = {
 
   "refresh_grid": function(ctx, width, height, colors, sort_colors) {
     var total=0;

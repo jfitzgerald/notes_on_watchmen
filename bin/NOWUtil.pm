@@ -80,4 +80,28 @@ sub gen_characters {
     #return $data;
 }
 
+#  IN: { "#FF0000" : 123567 }
+# OUT: { labels => [], raw_values  => [], percent_values => [] }
+sub gen_panel_colors {
+  my ($cnt) = shift;
+  my $data = {
+      labels => [],
+      raw_values => [],
+      percent_values => []
+  };
+  my $total=0;
+  map { $total += $_ } values %$cnt;
+
+  foreach my $clr (sort {$cnt->{$b} <=> $cnt->{$a}} keys %$cnt) {
+      #print STDERR $cnt{$clr}."/$total\n";
+      my $percent = int($cnt->{$clr}/$total * 100);
+      next unless $percent > 0;
+      push @{$data->{raw_values}}, $cnt->{$clr};
+      push @{$data->{percent_values}}, $percent;
+      push @{$data->{labels}}, $clr;
+  }
+
+  return $data;
+}
+
 1;

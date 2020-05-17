@@ -5,6 +5,7 @@ use JSON::Parse;
 use Data::Dumper;
 
 # Dumper setting to output JSON
+$Data::Dumper::Indent = 1;
 $Data::Dumper::Terse = 1;
 $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
