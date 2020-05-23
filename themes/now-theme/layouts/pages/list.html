@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+  <div class="w-90 pa3 mr2">
+  <h1>
+    Chapter {{ .Type | humanize }}
+  </h1>
+
+  <ul class="list">
+  {{ range sort .Pages.ByWeight }}
+    <li>
+        <a class="link underline" href="{{ .URL | relURL }}">{{ .Title | markdownify }}</a>
+      </li>
+  {{ end }}
+  </ul>
+
+  </div>
+
+{{ end }}

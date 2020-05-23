@@ -2,27 +2,45 @@
     "main_characters":[
         {
             "hero_name" : "The Comedian",
-            "real_name" : "Edward Blake"
+            "real_name" : "Edward Blake",
+            "hero_name_key" : "the_comedian",
+            "real_name_key" : "edward_blake",
+            "primary_color" : "clr-178"
         },
         {
             "hero_name" : "Rorschach",
-            "real_name" : "Walter Kovacs"
+            "real_name" : "Walter Kovacs",
+            "hero_name_key" : "rorschach",
+            "real_name_key" : "walter_kovacs",
+            "primary_color" : "clr-172"
         },
         {
             "hero_name" : "Dr. Manhattan",
-            "real_name" : "Jon Osterman"
+            "real_name" : "Jon Osterman",
+            "hero_name_key" : "dr_manhattan",
+            "real_name_key" : "jon_osterman",
+            "primary_color" : "clr-54"
         },
         {
             "hero_name" : "Ozymandias",
-            "real_name" : "Adrian Veidt"
+            "real_name" : "Adrian Veidt",
+            "hero_name_key" : "ozymandias",
+            "real_name_key" : "adrian_veidt",
+            "primary_color" : "clr-179"
         },
         {
             "hero_name" : "Nite Owl",
-            "real_name" : "Dan Dreiberg"
+            "real_name" : "Dan Dreiberg",
+            "hero_name_key" : "nite_owl",
+            "real_name_key" : "dan_dreiberg",
+            "primary_color" : "clr-194"
         },
         {
             "hero_name" : "Silk Spectre",
-            "real_name" : "Laurie Juspeczyk"
+            "real_name" : "Laurie Juspeczyk",
+            "hero_name_key" : "silk_spectre",
+            "real_name_key" : "laurie_juspeczyk",
+            "primary_color" : "clr-137"
         }
     ]
 }

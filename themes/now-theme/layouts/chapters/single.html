@@ -1,8 +1,6 @@
 {{ define "main" }}
 
-<div class="flex">
-
-  <div class="w-50 pa3 mr2">
+  <div class="w-90 pa3 mr2">
     <h2>Chapter Info</h2>
     <table>
         <tbody>
@@ -47,7 +45,15 @@
     </table>
 
 </div>
+
+
 <div class="w-50 pa3 mr2">
+<canvas id="characters"></canvas>
+{{ partial "characters-chart.html" (dict "context" $ "page" .) }}
+</div>
+
+
+<div class="w-90 pa3 mr2">
 
 <h2>Panels</h2>
 
@@ -78,6 +84,7 @@
 {{ end }}
 </div>
 </div>
+
 
 {{ partial "page-panel-colors.html" (dict "context" $) }}
 

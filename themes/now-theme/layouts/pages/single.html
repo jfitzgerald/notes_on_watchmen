@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  <div class="w-90 pa3 mr2">
+    <h2>{{ .Title }} Colors</h2>
+    <table>
+        <tbody>
+          {{ range .Params.labels }}
+          <tr><td>{{ . }}</td><td width="90%" style="background:{{ . }}"><div></div></td></tr>
+          {{ end }}
+          </tbody>
+      </table>
+  </div>
+
+{{ end }}

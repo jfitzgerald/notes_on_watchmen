@@ -11,6 +11,7 @@ $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
 use NOWUtil;
+die "Do not use this script. See t/character_stats.pl or NOWUtil::gen_characters";
 
 #my $json_ads = '/Users/justin/Code/myrtspostcards/data/cards.json';
 #my $json = $ARGV[0] or die "Missing input JSON file\n";

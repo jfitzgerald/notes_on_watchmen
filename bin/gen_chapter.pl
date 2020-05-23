@@ -42,6 +42,7 @@ foreach my $ch (@{$book->{chapters}}) {
     # chapter cover page is a 2-column grid
     #my $cover = { page=>"0", col_layout=>2, panels=> [ [ {color=>"black"}, {color=>"gray"} ] ]};
     #push @{ $data->{pages} }, $cover;
+    my $total_panels=0;
     foreach my $pg (@{$ch->{pages}}) {
         my $page_id = sprintf("wm-%d-%d", $ch->{chapter_num}, $pg->{page});
 
@@ -73,9 +74,11 @@ foreach my $ch (@{$book->{chapters}}) {
                 $prev_row = $row;
             }
             push @{ $new_pg->{panels}[$row] }, $new_pn;
+            $total_panels++;
         }
         push @{ $data->{pages} }, $new_pg;
     }
+    $data->{total_panels} = $total_panels;
 
     print Dumper($data);
 }

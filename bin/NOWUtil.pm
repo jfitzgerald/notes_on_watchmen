@@ -10,74 +10,56 @@ $Data::Dumper::Terse = 1;
 $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
+use constant HOMEDIR => '/Users/justin/Code/notes_on_watchmen/';
 
 #  IN: $pages ARRAY REF
 # OUT: $character_data
 sub gen_characters {
     my ($pages) = shift;
-    my $data = {};
 
+    # Create Name Map
+    # Name Map =
+    # {
+    #    "dr_manhattan" => $drman_ref,
+    #    "jon_osterman" => $drman_ref,
+    #    "nite_owl"     => $owl_ref,
+    #    "dan_dreiberg" => $owl_ref,
+    #  }
+    my $people = JSON::Parse::json_file_to_perl(HOMEDIR.'data/characters.json');
+    my $name_map = {};
+    foreach my $ch (@{$people->{main_characters}}) {
+        # set reverse key lookups by real and hero name
+        $ch->{appears_with} = {};
+        $ch->{total} = 0;
+        $name_map->{$ch->{hero_name_key}} = $ch;
+        $name_map->{$ch->{real_name_key}} = $ch;
+    }
+
+    # Reading page/panel data
+    # Example panel:
+    # {
+    #   "panel": 2
+    #   ,"chronology": "present"
+    #   ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
+    # },
     foreach my $pg (@$pages) {
         foreach my $pn (@{$pg->{panels}}) {
             if($pn->{characters}) {
                 my @tmp = @{$pn->{characters}};
                 foreach my $nm (@{$pn->{characters}}) {
-                    if(!$data->{$nm}) {
-                        $data->{$nm} = {total=>0, appears_with=>{}};
-                    }
-                    # character/chapter counter
-                    # {"rorschach"}->{"chapter1"}++
-                    $data->{$nm}{total}++;
+                    my $chr = $name_map->{$nm};
+                    $chr->{total}++;
                     # tally the character-character associations
-                    map { if($nm ne $_){ $data->{$nm}{appears_with}{$_}++; } } @tmp;
+                    map { if($nm ne $_){ $chr->{appears_with}{$_}++; } } @tmp;
                 }
             }
         }
     }
 
-
-    my $people = JSON::Parse::json_file_to_perl('../data/characters.json');
-    my $name_map = {};
-    foreach my $ch (@{$people->{main_characters}}) {
-        # set reverse key lookups by real and hero name
-        $ch->{appears_with} = {};
-        foreach my $k (qw(hero_name real_name)) {
-            my $val = lc $ch->{$k};
-            $val =~ s/\.//;
-            $val =~ s/\s/_/;
-            #$data->{$val} = $ch;
-            #print STDERR "looking up $val\n";
-            $ch->{panel_total} += $data->{$val}{total};
-
-            # set the names
-            $name_map->{$val} = $ch->{$k};
-            $data->{$val}{name} = $ch->{$k};
-
-            while (my ($costar, $num) = each %{$data->{$val}{appears_with}}) {
-                $ch->{appears_with}{$costar} += $num;
-            }
-        }
-    }
-
-    # Clean up the data
-    while (my ($char_key, $obj) = each %$data) {
-        my @costar_keys = keys %{$obj->{appears_with}};
-        foreach my $costar_key (@costar_keys) {
-            my $new_key = $name_map->{$costar_key};
-            if(!$new_key) {
-              delete $obj->{appears_with}{$costar_key};
-              next;
-            }
-            next unless $new_key;
-            $obj->{appears_with}{$new_key} = $obj->{appears_with}{$costar_key};
-            delete $obj->{appears_with}{$costar_key};
-        }
-    }
     my @chars = ();
-    map { push @chars, $_ if($_->{name} && $_->{total}) } values %$data;
-    #my @chars = values %$data;
+    map { push @chars, $_ if($_->{hero_name} && $_->{total}) } @{$people->{main_characters}};
+
     return \@chars;
-    #return $data;
 }
 
 #  IN: { "#FF0000" : 123567 }

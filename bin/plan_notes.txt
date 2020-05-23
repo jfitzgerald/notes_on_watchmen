@@ -1,3 +1,15 @@
+==== Site ====
+- Consider "rough" chart plugin: https://nagix.github.io/chartjs-plugin-rough/
+- TODO: Add ChartJS Plugin for Image Labels: https://github.com/emn178/chartjs-plugin-labels
+- TODO: Create character images
+- Styles/Design
+  - Headings
+  - Meta Info Tables
+  - Sizes
+  - Colors
+  - Header Banner
+  - Breadcrumb
+
 ==== Home ====
 - Layout
   - Characters (grid)
@@ -15,7 +27,7 @@
 - Chapter Grid Colors (clickable)
 
 ==== Chapters ====
-- TODO: Do this next: Panel form controls: Random, Spectrum, Prevalence
+- TODO: Do this next: Character counts, charts, images, chart hovers
 - Meta
     -X Title
     -X Cover
@@ -34,6 +46,15 @@
     - color by spectrum
   (DONE) random canvas colors
   (DONE) rectangular fill by percentage
+
+=== Pages ====
+- Next/Prev Links
+- Book Visual Context
+  - Chapter Visual Context
+- Book Page layout
+- Characters on this page
+- Panel Layout (9/12)
+- Color Chart
 
 ==== Characters ====
 - Hero Picture (Real Picture)
