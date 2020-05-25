@@ -1,0 +1,21 @@
+{{ $chapter_num := . }}
+{{ $marker_position := (add (mul (sub (int $chapter_num) 1) 3.5) 3.5) }}
+<table class="w-100 tc">
+  <tbody>
+    <tr>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 1 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 silver" href="/pages/page-01-01/">I</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 2 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-02-01/">II</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 3 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-03-01/">III</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 4 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-04-01/">IV</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 5 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-05-01/">V</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 6 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-06-01/">VI</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 7 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-07-01/">VII</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 8 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-08-01/">VIII</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 9 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-09-01/">IX</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 10 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-10-01/">X</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 11 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-11-01/">XI</a></td>
+      <td width="8%" class="ba {{ if eq (int $chapter_num) 12 }}b--silver{{ else }}b--light-gray{{ end }}"><a class="w-100 db pv2 link mw5 f3 fw4 light-gray" href="/pages/page-12-01/">XII</a></td>
+    </tr>
+    <tr><td colspan="12"><div class="w-100 mt3 relative ch-marker bg-silver"><span class="marker absolute" style="left: {{ $marker_position }}%;">&#9650;</span></div></td></tr>
+  </tbody>
+</table>

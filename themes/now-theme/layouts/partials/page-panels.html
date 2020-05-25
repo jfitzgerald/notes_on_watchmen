@@ -1,0 +1,19 @@
+{{ $page := . }}
+<table class="page-wrapper"><tr><td>
+  <table id="{{ $page.id }}" class="panel-grid {{if .has_splash}}double{{end}}
+  {{if eq (int $page.col_layout) 3 }}cols-3{{ else }}cols-4{{ end }}">
+    {{ range .panels }}
+    {{ with . }}
+    <tr>
+      {{ range . }}
+      {{ $is_double := false }}
+      {{ if and (eq .cols $page.col_layout) (gt .rows 1) }}{{ $is_double = true}}{{end}}
+      <td id="{{ .id }}" {{ if and (.rows) (not $is_double) }}rowspan="{{.rows}}" {{ end }}
+      {{ if .cols }}colspan="{{.cols}}"{{ end }}
+      class="{{ .color }}{{if $is_double}} double{{end}} {{if (not .cols)}}{{if (eq (int $page.col_layout) 3) }}w-32{{ else }}w-24{{ end }}{{end}}"></td>
+      {{ end }}
+    </tr>
+    {{ end }}
+    {{ end }}
+  </table>
+</td></tr></table>

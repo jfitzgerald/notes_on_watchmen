@@ -1,0 +1,30 @@
+<script>
+  function highlight_color_bar(t) {
+    var n = parseInt(t.target.dataset.id);
+    i = n.parent()
+    e.highlightSingleBeat(i, n),
+  }
+
+  var bars = document.getElementsByClass("now-color-bar");
+  bars.forEach.addEventListener("mouseover", function(event) {
+    highlight_color_bar(event.target);
+  });
+
+  r(".bts-beat-selected").attr("y", "0").attr("height", "100%").css("height", "100%"),
+  r(".bts-beat-selected").removeClass("bts-beat-selected");
+  var n = r(".bts-movie-barcode-" + t + " .bts-beat-" + e)
+      , i = n.parent();
+    n.remove().appendTo(i),
+
+            bars[0].setAttribute("y", "-3%");
+bars[0].setAttribute("height", "106%");
+bars[0].style.height="106%";
+
+  e.dom.beats.on("mouseover", function(t) {
+                  var n = parseInt(t.target.dataset.id)
+                    , r = parseInt(t.target.dataset.movieId)
+                    , i = e.movieMatrix[r];
+                  e.highlightSingleBeat(i, n),
+                  "roll" === e.activeView ? e.showSingleBeat(n, i, e.scenes[i][n]) : "list" === e.activeView ? e.scrollToRow(n) : "grid" === e.activeView && e.scrollToGridItem(n)
+              })
+</script>

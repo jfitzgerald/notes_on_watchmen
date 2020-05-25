@@ -2,6 +2,14 @@
 - Consider "rough" chart plugin: https://nagix.github.io/chartjs-plugin-rough/
 - TODO: Add ChartJS Plugin for Image Labels: https://github.com/emn178/chartjs-plugin-labels
 - TODO: Create character images
+- TODO: Recreate this https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/
+e.dom.beats.on("mouseover", function(t) {
+                var n = parseInt(t.target.dataset.id)
+                  , r = parseInt(t.target.dataset.movieId)
+                  , i = e.movieMatrix[r];
+                e.highlightSingleBeat(i, n),
+                "roll" === e.activeView ? e.showSingleBeat(n, i, e.scenes[i][n]) : "list" === e.activeView ? e.scrollToRow(n) : "grid" === e.activeView && e.scrollToGridItem(n)
+            })
 - Styles/Design
   - Headings
   - Meta Info Tables

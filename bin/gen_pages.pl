@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 use strict;
 
-# Usage: gen_page_swatches.pl ../data/colors/chapter1.json
+# Usage: gen_pages.pl ../data/colors/chapter1.json
+# Usage: gen_pages.pl chapter1
 use NOWUtil;
 
 use Data::Dumper;
@@ -13,20 +14,28 @@ $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
 
-my $json_file = $ARGV[0] or die "no color data file specified";
-my $data = JSON::Parse::json_file_to_perl($json_file);
+foreach my $chap (1..12) {
+    my $fname = "chapter$chap.json";
 
-foreach my $page_id (keys %$data) {
-  my (undef, $chapter, $page) = split '-', $page_id;
-  # panel color pages
-  my $fname = sprintf("page-%02d-%02d", $chapter, $page);
-  my $file = "../content/pages/$fname.md";
-  my $obj = $data->{$page_id};
-  $obj->{ChapterNum} = $chapter;
-  $obj->{Title} = sprintf("Chapter %d, Page %d", $chapter, $page);
-  $obj->{weight} = sprintf("%d%02d", $chapter, $page);
-  $obj->{PageNum} = $page;
-  open my $fh, '>', $file or die $!;
-  print $fh Dumper($obj);
-  close $fh;
+    # page data in data/chapter1.json
+
+    # color data in data/colors/chapter1.json
+
+    my $color_file = NOWUTIL::PROJDIR;
+    my $data = JSON::Parse::json_file_to_perl($color_file);
+
+    foreach my $page_id (keys %$data) {
+      my (undef, $chapter, $page) = split '-', $page_id;
+      # panel color pages
+      my $fname = sprintf("page-%02d-%02d", $chapter, $page);
+      my $file = "../content/pages/$fname.md";
+      my $obj = $data->{$page_id};
+      $obj->{chapter_num} = $chapter;
+      $obj->{title} = sprintf("Chapter %d, Page %d", $chapter, $page);
+      $obj->{weight} = sprintf("%d%02d", $chapter, $page);
+      $obj->{page_num} = $page;
+      open my $fh, '>', $file or die $!;
+      print $fh Dumper($obj);
+      close $fh;
+    }
 }

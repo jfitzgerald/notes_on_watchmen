@@ -3514,4 +3514,10 @@ div.tsize-0 table.panel-grid {
   border-spacing: 1px;
   width: 30px;
 }
+.ch-marker {
+  height: 1px;
+}
+.marker {
+  top: -13px;
+}
 

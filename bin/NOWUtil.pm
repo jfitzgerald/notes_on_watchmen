@@ -1,6 +1,7 @@
 package NOWUtil;
 
 use strict;
+
 use JSON::Parse;
 use Data::Dumper;
 
@@ -10,7 +11,7 @@ $Data::Dumper::Terse = 1;
 $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
-use constant HOMEDIR => '/Users/justin/Code/notes_on_watchmen/';
+use constant PROJDIR => '/Users/justin/Code/notes_on_watchmen/';
 
 #  IN: $pages ARRAY REF
 # OUT: $character_data
@@ -25,7 +26,7 @@ sub gen_characters {
     #    "nite_owl"     => $owl_ref,
     #    "dan_dreiberg" => $owl_ref,
     #  }
-    my $people = JSON::Parse::json_file_to_perl(HOMEDIR.'data/characters.json');
+    my $people = JSON::Parse::json_file_to_perl(PROJDIR.'data/characters.json');
     my $name_map = {};
     foreach my $ch (@{$people->{main_characters}}) {
         # set reverse key lookups by real and hero name
