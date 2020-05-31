@@ -1,6 +1,10 @@
 {{ define "main" }}
 
   <div class="w-90 pa3 mr2">
+    <div class="w-90 pa3 mr2">
+    {{- partial "chapter-nav-bar.html" .Params.chapter_num -}}
+    </div>
+
     <h2>Chapter Info</h2>
     <table>
         <tbody>
@@ -52,21 +56,16 @@
 {{ partial "js-characters-chart.html" (dict "context" $ "page" .) }}
 </div>
 
-
 <div class="w-90 pa3 mr2">
-
 <h2>Panels</h2>
-
+{{ partial "panel-color-buttons.html" }}
+  
 <div class="chapter-wrapper tsize-4">
-
-{{ partial "chapter-cover-grid.html" }}
-
 {{ range .Params.pages }}
-  {{ partial "page-panels.html" . }}
+  {{ partial "page-panels.html" (dict "this" .) }}
 {{ end }}
 </div>
 </div>
-
 
 {{ partial "js-page-panel-colors.html" (dict "context" $) }}
 

@@ -9,6 +9,13 @@ table {
   align-items: flex-start;
 }
 
+table.now-page-bar {
+  border-collapse: collapse;
+}
+table.now-page-bar td {
+  padding: 0;
+  border-spacing: 0;
+}
 table.panel-grid {
   border: none;
 }
@@ -33,7 +40,6 @@ div.chapter-wrapper.tsize-0 {
 
 
 table.page-wrapper {
-  border: 1px solid #dedede;
   padding: 0px;
 }
 
@@ -45,6 +51,9 @@ table.panel-grid.cols-2 td {
   padding-bottom: 148%;
   border: 1px solid;
 }
+.tsize-0 table.panel-grid.cols-2 td {
+  padding-bottom: 167%;
+}
 table.panel-grid.cols-3 td {
   padding-bottom: 47%;
   border: 1px solid;
@@ -53,16 +62,33 @@ table.panel-grid.cols-4 td {
   padding-bottom: 34%;
   border: 1px solid;
 }
+.tsize-0 table.panel-grid.cols-4 td {
+  padding-bottom: 47%;
+}
+.tsize-0 table.panel-grid.double.cols-4 td {
+  padding-bottom: 47%;
+}
 table.panel-grid.double.cols-3 td {
 }
+
 table.panel-grid.double.cols-4 td {
     padding-bottom: 45%;
 }
+.tsize-0 table.panel-grid.double.cols-4 td {
+  padding-bottom: 47%;
+}
+
 table.panel-grid.cols-3 td.double {
   padding-bottom: 100%;
 }
+.tsize-0 table.panel-grid.cols-3 td.double {
+  padding-bottom: 107%;
+}
 table.panel-grid.cols-4 td.double {
   padding-bottom: 99%;
+}
+.tsize-0 table.panel-grid.cols-4 td.double {
+  padding-bottom: 107%;
 }
 
 

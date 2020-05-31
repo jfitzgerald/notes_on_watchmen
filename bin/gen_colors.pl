@@ -10,6 +10,7 @@ $Data::Dumper::Terse = 1;
 $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
+use NOWUtil;
 
 #my $hist_file = '/Users/justin/Pictures/watchmen/Chapter01/chapter1-hist.txt';
 my $hist_file = $ARGV[0] or die "Missing input histogram file\n";
@@ -18,7 +19,7 @@ open $fh, "<$hist_file" or die "Could not open $hist_file\n";
 #my $hist = JSON::Parse::json_file_to_perl($hist_file);
 
 
-my $json_file = '/Users/justin/Code/notes_on_watchmen/data/colors.json';
+my $json_file = NOWUtil::PROJDIR.'data/colors.json';
 #my $json_file = $ARGV[0] or die "Missing input JSON file\n";
 my $colors = JSON::Parse::json_file_to_perl($json_file);
 my %rev_colors = reverse %$colors;
@@ -63,4 +64,5 @@ close $fh;
     # Update color files
     open my $fh, '>', $json_file or die $!;
     print $fh Dumper($colors);
+    close $fh;
 }

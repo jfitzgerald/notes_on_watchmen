@@ -1,8 +1,7 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
 title = "Notes on Watchmen"
-theme="now-theme"
-relativeURLs=true
+theme = "now-theme"
+relativeURLs = false
 
 [menu]
   [[menu.main]]

@@ -1,0 +1,16 @@
+{{ $this := .this }}
+{{ $chapter_num := (int $this.Params.chapter_num) }}
+{{ $chap_key := printf "chapter%d" $chapter_num }}
+
+{{ $data := (index $this.Site.Data.chapters $chap_key) }}
+<div class="w-100 pv2 mr2 now-page-bar">
+<div class="flex justify-center tsize-0 bb b--silver">
+{{ range $data.pages }}
+<a href="/pages/{{.id}}/" class="link tc pr1">
+  <span class="v-mid w-100 h-100 child {{ if eq (int .page_num) 0 }}white{{ else }}black-40{{end}}">{{ .page_num }}</span>
+  {{ partial "page-panels.html" (dict "this" . "selected" (eq $this.Params.page_num .page_num)) }}
+  <span class="marker relative black-90 {{ if ne $this.Params.page_num .page_num }}dn{{end}}">&#9650;</span>
+</a>
+{{ end }}
+</div>
+</div>

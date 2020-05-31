@@ -1,10 +1,9 @@
 {{ if or .PrevInSection .NextInSection }}
-{{/* this div holds these tags as a unit for flex-box display */}}
 	<div date-pref>
 		{{if .NextInSection}}
 			<a href="{{.NextInSection.Permalink }}" class="dib f6 pl1 hover-bg-light-gray br-100" title="{{ .NextInSection.Title }} ">Previous</a>
 		{{end}}
-    
+
 			<a href="{{.Parent.Permalink }}" class="dib f6 pl1 hover-bg-light-gray br-100" title="{{ .Parent.Title }} ">Return to All Pages</a>
 
 		{{if .PrevInSection}}

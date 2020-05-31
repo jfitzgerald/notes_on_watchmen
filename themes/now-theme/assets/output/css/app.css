@@ -3312,6 +3312,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
 }
+button {
+  border-width: 1px;
+}
 .cs-1 {
   border-spacing: 1px;
 }
@@ -3356,21 +3359,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 }
 .w-20 {
   width: 20%;
-}
-.black {
-  background-color: black;
-}
-.gray {
-  background-color: gray;
-}
-.red {
-  background-color: red;
-}
-.yellow {
-  background-color: yellow;
-}
-.blue {
-  background-color: blue;
 }
 .primary-color                      {color: #0594CB}
 .bg-primary-color                   {background-color: #0594CB}
@@ -3422,6 +3410,13 @@ table {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+table.now-page-bar {
+  border-collapse: collapse;
+}
+table.now-page-bar td {
+  padding: 0;
+  border-spacing: 0;
+}
 table.panel-grid {
   border: none;
 }
@@ -3444,7 +3439,6 @@ div.chapter-wrapper.tsize-0 {
   width: 80px;
 }
 table.page-wrapper {
-  border: 1px solid #dedede;
   padding: 0px;
 }
 table.panel-grid.cols-1 td {
@@ -3455,6 +3449,9 @@ table.panel-grid.cols-2 td {
   padding-bottom: 148%;
   border: 1px solid;
 }
+.tsize-0 table.panel-grid.cols-2 td {
+  padding-bottom: 167%;
+}
 table.panel-grid.cols-3 td {
   padding-bottom: 47%;
   border: 1px solid;
@@ -3463,16 +3460,31 @@ table.panel-grid.cols-4 td {
   padding-bottom: 34%;
   border: 1px solid;
 }
+.tsize-0 table.panel-grid.cols-4 td {
+  padding-bottom: 47%;
+}
+.tsize-0 table.panel-grid.double.cols-4 td {
+  padding-bottom: 47%;
+}
 table.panel-grid.double.cols-3 td {
 }
 table.panel-grid.double.cols-4 td {
     padding-bottom: 45%;
 }
+.tsize-0 table.panel-grid.double.cols-4 td {
+  padding-bottom: 47%;
+}
 table.panel-grid.cols-3 td.double {
   padding-bottom: 100%;
 }
+.tsize-0 table.panel-grid.cols-3 td.double {
+  padding-bottom: 107%;
+}
 table.panel-grid.cols-4 td.double {
   padding-bottom: 99%;
+}
+.tsize-0 table.panel-grid.cols-4 td.double {
+  padding-bottom: 107%;
 }
 div.tsize-9 table.panel-grid {
   border-spacing: 5px;
@@ -3517,7 +3529,10 @@ div.tsize-0 table.panel-grid {
 .ch-marker {
   height: 1px;
 }
-.marker {
+.now-chapter-bar .marker {
   top: -13px;
+}
+.now-page-bar .marker {
+  top: 5px;
 }
 

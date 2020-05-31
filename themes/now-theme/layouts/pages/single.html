@@ -1,27 +1,18 @@
 {{ define "main" }}
+  {{ $chapter_num := (int .Params.chapter_num) }}
+  {{ $chap_key := printf "chapter%d" $chapter_num }}
 
   {{- partial "prev-next-links.html" . -}}
 
   <div class="w-90 pa3 mr2">
-  <h2>Spectrum</h2>
   {{- partial "chapter-nav-bar.html" .Params.chapter_num -}}
-  {{- partial "chapter-color-bar.html" . -}}
+  {{- partial "chapter-page-bar.html" (dict "this" .) -}}
   </div>
 
   <div class="w-90 pa3 mr2">
-  <h2>{{ .Title }}</h2>
+  <h2>Chapter {{ $chapter_num }}, Page {{ .Params.page_num }}</h2>
   <div class="chapter-wrapper tsize-5">
-    {{ if not (modBool .Params.page_num 2) }}
-      {{ if eq (int .Params.page_num) 1 }}
-        {{ partial "cover-placeholder.html" }}
-      {{ else }}
-        {{ partial "page-placeholder.html" }}
-      {{ end }}
-      {{ partial "page-panels.html" .Params }}
-    {{ else }}
-      {{ partial "page-panels.html" .Params }}
-      {{ partial "page-placeholder.html" }}
-    {{ end }}
+      {{ partial "page-panels.html" (dict "this" .Params) }}
   </div>
   </div>
 
@@ -35,5 +26,5 @@
           </tbody>
       </table>
   </div>
-  
+
 {{ end }}

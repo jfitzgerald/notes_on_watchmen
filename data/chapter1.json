@@ -6,9 +6,9 @@
     ,"title": "At midnight, all the agents..."
     ,"quote": "\"At midnight, all the agents and superhuman crew, go out and round up everyone who knows more than they do.\" -- Bob Dylan"
     ,"doomsday_clock": "11:50 PM"
-    ,"pages": [
+    ,"pages": [{"page_num": 0},
     {
-      "page": 1,
+      "page_num": 1,
       "panels": [
       {
         "panel": 1,
@@ -68,7 +68,7 @@
     ]
     },
     {
-      "page": 2,
+      "page_num": 2,
       "panels": [
       {
         "panel": 1,
@@ -109,7 +109,7 @@
     ]
     },
     {
-      "page": 3,
+      "page_num": 3,
       "panels": [
       {
         "panel": 1,
@@ -151,7 +151,7 @@
     ]
     },
     {
-      "page": 4,
+      "page_num": 4,
       "panels": [
       {
         "panel": 1
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "page": 5,
+      "page_num": 5,
       "panels": [
         {
           "panel": 1
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "page": 6,
+      "page_num": 6,
       "layout":12,
       "panels": [
         {
@@ -303,7 +303,7 @@
       ]
     },
     {
-      "page": 7,
+      "page_num": 7,
       "panels": [
         {
           "panel": 1
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "page": 8,
+      "page_num": 8,
       "panels": [
       {
         "panel": 1
@@ -399,7 +399,7 @@
       ]
     },
     {
-      "page": 9,
+      "page_num": 9,
       "panels": [
         {
           "panel": 1
@@ -497,7 +497,7 @@
       ]
     },
     {
-      "page": 10,
+      "page_num": 10,
       "panels": [
         {
           "panel": 1
@@ -573,7 +573,7 @@
       ]
     },
     {
-      "page": 11,
+      "page_num": 11,
       "panels": [
       {
         "panel": 1
@@ -619,7 +619,7 @@
     ]
     },
     {
-      "page": 12,
+      "page_num": 12,
       "panels": [
       {
         "panel": 1
@@ -661,7 +661,7 @@
     ]
     },
     {
-      "page": 13,
+      "page_num": 13,
       "layout":12,
       "panels": [
       {
@@ -694,7 +694,7 @@
     ]
     },
     {
-      "page": 14,
+      "page_num": 14,
       "panels": [
       {
         "panel": 1,
@@ -751,7 +751,7 @@
     ]
     },
     {
-      "page": 15,
+      "page_num": 15,
       "panels": [
       {
         "panel": 1,
@@ -801,7 +801,7 @@
     ]
     },
     {
-      "page": 16,
+      "page_num": 16,
       "panels": [
       {
         "panel": 1,
@@ -851,7 +851,7 @@
     ]
     },
     {
-      "page": 17,
+      "page_num": 17,
       "panels": [
       {
         "panel": 1,
@@ -902,7 +902,7 @@
     ]
     },
     {
-      "page": 18,
+      "page_num": 18,
       "panels": [
       {
         "panel": 1,
@@ -943,7 +943,7 @@
     ]
     },
     {
-      "page": 19,
+      "page_num": 19,
       "panels": [
         {
           "panel": 1
@@ -1019,7 +1019,7 @@
       ]
     },
     {
-      "page": 20,
+      "page_num": 20,
       "panels": [
         {
           "panel": 1
@@ -1046,7 +1046,7 @@
       ]
     },
     {
-      "page": 21,
+      "page_num": 21,
       "panels": [
         {
           "panel": 1
@@ -1096,7 +1096,7 @@
       ]
     },
     {
-      "page": 22,
+      "page_num": 22,
       "panels": [
         {
           "panel": 1
@@ -1146,7 +1146,7 @@
       ]
     },
     {
-      "page": 23,
+      "page_num": 23,
       "panels": [
         {
           "panel": 1
@@ -1196,7 +1196,7 @@
       ]
     },
     {
-      "page": 24,
+      "page_num": 24,
       "panels": [
       {
         "panel": 1,
@@ -1269,7 +1269,7 @@
     ]
     },
     {
-      "page": 25,
+      "page_num": 25,
       "panels": [
         {
           "panel": 1
@@ -1320,7 +1320,7 @@
       ]
     },
     {
-      "page": 26,
+      "page_num": 26,
       "panels": [
         {
           "panel": 1

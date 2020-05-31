@@ -1,0 +1,17 @@
+<div class="now-color-view-wrapper cf mb2">
+    <button title="Switch to roll view"
+    aria-label="Switch to random view"
+    class="fl ba br2 br--left now-color-view now-color-view-random"
+    data-view="random"
+    data-state="true">{{ partial "svg/color-grid-random.svg" (dict "size" "25px") }}</button>
+    <button title="Switch to spectrum view"
+    aria-label="Switch to spectrum view"
+    class="fl bt bb now-color-view now-color-view-spectrum"
+    data-view="spectrum"
+    data-state="false">{{ partial "svg/color-grid-spectrum.svg" (dict "size" "25px") }}</button>
+    <button title="Switch to histogram view"
+    aria-label="Switch to histogram view"
+    class="fl ba br2 br--right now-color-view now-color-view-histogram"
+    data-view="histogram"
+    data-state="false">{{ partial "svg/color-grid-histogram.svg" (dict "size" "25px") }}</button>
+  </div>

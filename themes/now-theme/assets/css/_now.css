@@ -1,6 +1,9 @@
 .ch-marker {
   height: 1px;
 }
-.marker {
+.now-chapter-bar .marker {
   top: -13px;
+}
+.now-page-bar .marker {
+  top: 5px;
 }

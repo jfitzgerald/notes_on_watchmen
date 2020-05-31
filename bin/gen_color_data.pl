@@ -18,8 +18,10 @@ foreach my $hist_file (@ARGV) {
   my $fh;
   open $fh, "<$hist_file" or die "Could not open $hist_file\n";
   my @parts = split /\//, $hist_file;
-  my ($page_id, $ext) = split /\./, $parts[-1];
-  my (undef, $chapter_num, $page_num) = split '-', $page_id;
+  my ($base, $ext) = split /\./, $parts[-1];
+  my (undef, $chapter_num, $page_num) = split '-', $base;
+  my $page_id = sprintf("page-%02d-%02d", $chapter_num, $page_num);
+
 
   print STDERR "page_id: $page_id\n";
 

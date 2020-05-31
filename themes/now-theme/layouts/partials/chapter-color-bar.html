@@ -2,19 +2,24 @@
 {{ $chap_key := printf "chapter%d" $chapter_num }}
 {{ $colors := index .Site.Data.colors $chap_key }}
 
+{{ if $colors }}
 <div class="now-chapter-animation-layer now-movie-flash">
 <div class="bts-movie-summary" aria-hidden="true">
     <div class="bts-movie-barcode-wrapper bts-movie-trigger" data-id="{{ int $chapter_num }}">
-    <div class="bts-barcode-prompt">Click for more detail</div>
-    <svg class="w-80 h-100 pointer">
+      <div class="bts-barcode-prompt">Click for more detail</div>
+      <svg class="w-80 h-100 pointer">
 
-{{ $width := (div 100.0 (len $colors)) }}
-{{ range $page_id, $obj := sort $colors "page_num" "asc" }}
+      {{ $width := (div 100.0 (len $colors)) }}
+      {{ range $page_id, $obj := sort $colors "page_num" "asc" }}
 
-  {{ $xpos := (mul (int $obj.page_num) $width) }}
-  {{ $color := index $obj.labels 0 }}
-  <rect data-id="{{ int $obj.page_num }}" data-chapter-id="{{ int $chapter_num }}" class="now-color-bar" y="0" x="{{ $xpos }}%" height="100%" width="{{ $width }}%" style="height: 100%; background-color: {{ $color }}; fill: {{ $color }}"></rect>
+        {{ $xpos := (mul (int $obj.page_num) $width) }}
+        {{ $color := index $obj.labels 0 }}
+        <rect data-id="{{ int $obj.page_num }}" data-chapter-id="{{ int $chapter_num }}" class="now-color-bar" y="0" x="{{ $xpos }}%" height="100%" width="{{ $width }}%" style="height: 100%; background-color: {{ $color }}; fill: {{ $color }}"></rect>
 
+      {{ end }}
+
+      </svg>
+    </div>
+  </div>
+</div>
 {{ end }}
-
-</svg>

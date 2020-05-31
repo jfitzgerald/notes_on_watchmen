@@ -1,8 +1,14 @@
-{{ $page := . }}
-<table class="page-wrapper"><tr><td>
+{{ $page := .this }}
+{{ $selected := false }}
+{{ $selected := .selected }}
+
+{{ if eq (int $page.page_num) 0 }}
+{{- partial "cover-placeholder.html" -}}
+{{ else }}
+<table class="page-wrapper ba {{ if $selected }}b--black-90 {{ else }} b--black-20{{ end }}"><tr><td>
   <table id="{{ $page.id }}" class="panel-grid {{if .has_splash}}double{{end}}
   {{if eq (int $page.col_layout) 3 }}cols-3{{ else }}cols-4{{ end }}">
-    {{ range .panels }}
+    {{ range $page.panels }}
     {{ with . }}
     <tr>
       {{ range . }}
@@ -10,10 +16,11 @@
       {{ if and (eq .cols $page.col_layout) (gt .rows 1) }}{{ $is_double = true}}{{end}}
       <td id="{{ .id }}" {{ if and (.rows) (not $is_double) }}rowspan="{{.rows}}" {{ end }}
       {{ if .cols }}colspan="{{.cols}}"{{ end }}
-      class="{{ .color }}{{if $is_double}} double{{end}} {{if (not .cols)}}{{if (eq (int $page.col_layout) 3) }}w-32{{ else }}w-24{{ end }}{{end}}"></td>
+      class="{{ if $selected }}black-90 bg-yellow {{ else }} black-20{{ end }} {{if $is_double}} double{{end}} {{if (not .cols)}}{{if (eq (int $page.col_layout) 3) }}w-32{{ else }}w-24{{ end }}{{end}}"></td>
       {{ end }}
     </tr>
     {{ end }}
     {{ end }}
   </table>
 </td></tr></table>
+{{ end }}
