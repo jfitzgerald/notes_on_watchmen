@@ -3313,7 +3313,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-l { vertical-align: bottom; }
 }
 button {
-  border-width: 1px;
+  border: none;
 }
 .cs-1 {
   border-spacing: 1px;
@@ -3460,6 +3460,15 @@ table.panel-grid.cols-4 td {
   padding-bottom: 34%;
   border: 1px solid;
 }
+.tsize-4 table.panel-grid.cols-4 td {
+  padding-bottom: 46%;
+}
+.tsize-4 table.panel-grid.cols-4 td.double {
+  padding-bottom: 98%;
+}
+.tsize-4 table.panel-grid.cols-3 td.double {
+  padding-bottom: 98%;
+}
 .tsize-0 table.panel-grid.cols-4 td {
   padding-bottom: 47%;
 }
@@ -3527,10 +3536,10 @@ div.tsize-0 table.panel-grid {
   width: 30px;
 }
 .ch-marker {
-  height: 1px;
+    height: 10px;
 }
 .now-chapter-bar .marker {
-  top: -13px;
+  top: 0px;
 }
 .now-page-bar .marker {
   top: 5px;

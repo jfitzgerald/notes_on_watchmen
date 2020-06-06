@@ -33,9 +33,33 @@ Object.keys(chapter_colors).forEach(function (page_id) {
     cnv.style.display = "block";
     cnv.width = sizes[index]["width"]-2;
     cnv.height = sizes[index]["height"]-2;
-    td.appendChild(cnv);
+    //td.appendChild(cnv);
     var ctx = cnv.getContext("2d");
     window.charts.refresh_circles(ctx, cnv.width, cnv.height, data);
+    var new_image_url = cnv.toDataURL();
+    var img = document.createElement('img');
+    img.className = "now-img-random";
+    img.src = new_image_url;
+    td.appendChild(img);
+
+    // Histogram colors (rainbow view)
+    var sort_colors = false;
+    window.charts.refresh_grid(ctx, cnv.width, cnv.height, data, sort_colors);
+    new_image_url = cnv.toDataURL();
+    img = document.createElement('img');
+    img.className = "now-img-histogram dn";
+    img.src = new_image_url;
+    td.appendChild(img);
+
+    // Sorted colors
+    sort_colors = true;
+    window.charts.refresh_grid(ctx, cnv.width, cnv.height, data, sort_colors);
+    new_image_url = cnv.toDataURL();
+    img = document.createElement('img');
+    img.className = "now-img-spectrum dn";
+    img.src = new_image_url;
+    td.appendChild(img);
+
   });
 });
 

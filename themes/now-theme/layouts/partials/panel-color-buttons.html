@@ -1,17 +1,34 @@
 <div class="now-color-view-wrapper cf mb2">
-    <button title="Switch to roll view"
-    aria-label="Switch to random view"
-    class="fl ba br2 br--left now-color-view now-color-view-random"
-    data-view="random"
-    data-state="true">{{ partial "svg/color-grid-random.svg" (dict "size" "25px") }}</button>
-    <button title="Switch to spectrum view"
-    aria-label="Switch to spectrum view"
-    class="fl bt bb now-color-view now-color-view-spectrum"
-    data-view="spectrum"
-    data-state="false">{{ partial "svg/color-grid-spectrum.svg" (dict "size" "25px") }}</button>
-    <button title="Switch to histogram view"
-    aria-label="Switch to histogram view"
-    class="fl ba br2 br--right now-color-view now-color-view-histogram"
-    data-view="histogram"
-    data-state="false">{{ partial "svg/color-grid-histogram.svg" (dict "size" "25px") }}</button>
-  </div>
+  <button id="now-button-random"
+  title="Switch to roll view"
+  aria-label="Switch to random view"
+  class="fl pt1 ba br2 br--left b--silver pointer o-90 glow now-color-view-button"
+  data-view="random"
+  data-state="true">
+  {{ partial "svg/color-grid-random.svg" (dict "size" "25px") }}
+  </button>
+
+  <button id="now-button-spectrum"
+  title="Switch to spectrum view"
+  aria-label="Switch to spectrum view"
+  class="fl pt1 bt bb b--silver pointer o-50 glow now-color-view-button"
+  data-view="spectrum"
+  data-state="false">
+  {{ partial "svg/color-grid-spectrum.svg" (dict "size" "25px") }}
+  </button>
+
+  <button id="now-button-histogram"
+  title="Switch to histogram view"
+  aria-label="Switch to histogram view"
+  class="fl pt1 ba br2 br--right b--silver pointer o-50 glow now-color-view-button"
+  data-view="histogram"
+  data-state="false">
+  {{ partial "svg/color-grid-histogram.svg" (dict "size" "25px") }}
+  </button>
+</div>
+<script>
+var buttons = document.getElementsByClassName("now-color-view-button");
+for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function(){window.charts.onclick_color_button(this)}, false);
+}
+</script>

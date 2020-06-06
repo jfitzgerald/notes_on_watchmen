@@ -1,5 +1,40 @@
 window["charts"] = {
 
+  "onclick_color_button": function(b) {
+    if(b.dataset.state != "true") {
+      var new_view = "now-img-" + b.dataset.view;
+      var bts = document.getElementsByClassName("now-color-view-button");
+      var cur_view;
+      for (var i = 0; i < bts.length; i++) {
+        var bt = bts[i];
+        if(bt.dataset.state == "true") {
+          bt.classList.remove("o-90");
+          bt.classList.add("o-50");
+          bt.dataset.state = "false";
+          cur_view = "now-img-" + bt.dataset.view;
+        }
+      }
+
+      // activate clicked button
+      b.dataset.state = "true";
+      b.classList.add("o-90");
+
+      // Hide images in current view
+      var imgs = document.getElementsByClassName(cur_view);
+      for (var i = 0; i < imgs.length; i++) {
+        var img = imgs[i];
+        img.classList.add("dn");
+      }
+
+      // Show images in new view
+      imgs = document.getElementsByClassName(new_view);
+      for (var i = 0; i < imgs.length; i++) {
+        var img = imgs[i];
+        img.classList.remove("dn");
+      }
+    }
+  },
+
   "characters": function(ctx, data) {
       var my_data = {
           datasets: [{

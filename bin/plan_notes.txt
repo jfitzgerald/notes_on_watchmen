@@ -1,15 +1,22 @@
 ==== Site ====
+- TODO: Clean up data files
+  - remove raw data file from repo
+  - remove generated data files from repo
+  - generate skeleton chapter.md and page.md files (just ID and Num?)
+  - generate character data indexed by page ID or chapter ID
+  - generate  "characters on page",
+  - generate character timeline chart for chapter and book (by panel)
+    - Use non-numeric y-axis: https://www.chartjs.org/samples/latest/scales/non-numeric-y.html
+    - Line styles: https://www.chartjs.org/samples/latest/charts/line/line-styles.html
+    - Chart 1: character appearance on page
+    - Chart 2: character percentage of page (calculate based on panel layout and panel size)
+
 - Consider "rough" chart plugin: https://nagix.github.io/chartjs-plugin-rough/
+
 - TODO: Add ChartJS Plugin for Image Labels: https://github.com/emn178/chartjs-plugin-labels
+
 - TODO: Create character images
-- TODO: Recreate this https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/
-e.dom.beats.on("mouseover", function(t) {
-                var n = parseInt(t.target.dataset.id)
-                  , r = parseInt(t.target.dataset.movieId)
-                  , i = e.movieMatrix[r];
-                e.highlightSingleBeat(i, n),
-                "roll" === e.activeView ? e.showSingleBeat(n, i, e.scenes[i][n]) : "list" === e.activeView ? e.scrollToRow(n) : "grid" === e.activeView && e.scrollToGridItem(n)
-            })
+
 - Styles/Design
   - Headings
   - Meta Info Tables

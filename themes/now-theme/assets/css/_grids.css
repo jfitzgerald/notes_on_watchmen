@@ -62,6 +62,15 @@ table.panel-grid.cols-4 td {
   padding-bottom: 34%;
   border: 1px solid;
 }
+.tsize-4 table.panel-grid.cols-4 td {
+  padding-bottom: 46%;
+}
+.tsize-4 table.panel-grid.cols-4 td.double {
+  padding-bottom: 98%;
+}
+.tsize-4 table.panel-grid.cols-3 td.double {
+  padding-bottom: 98%;
+}
 .tsize-0 table.panel-grid.cols-4 td {
   padding-bottom: 47%;
 }
