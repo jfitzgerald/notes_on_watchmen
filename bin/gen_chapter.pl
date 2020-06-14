@@ -37,8 +37,13 @@ foreach my $chap (1..12) {
         my $book = JSON::Parse::json_file_to_perl($chapter_file);
 
         foreach my $ch (@{$book->{chapters}}) {
-            my $ch_data = {};
-            $ch_data->{pages} = [];
+            my $ch_data = {
+              pages => [],
+              panel_sequence_labels => [],
+              total_pages => 0,
+              total_panels => 0,
+              characters => []
+            };
             while (my ($key, $val) = each (%$ch)) {
                 if(!ref $val) {
                     $ch_data->{$key} = $val;
@@ -83,6 +88,11 @@ foreach my $chap (1..12) {
                 foreach my $pn (@{$pg->{panels}}) {
                     my $pn_num = $pn->{panel};
                     #print STDERR "Panel # $pn_num\n";
+
+                    my $pg_pn_label = sprintf("Page %d, Panel %d",
+                      $pg->{page_num},
+                      $pn_num);
+                    push @{ $ch_data->{panel_sequence_labels} }, $pg_pn_label;
 
                     my $panel_id = sprintf("panel-%02d-%02d-%02d",
                       $ch->{chapter_num},

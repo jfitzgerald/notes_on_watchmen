@@ -35,39 +35,12 @@ window["charts"] = {
     }
   },
 
-  "characters": function(ctx, data) {
-      var my_data = {
-          datasets: [{
-              borderColor: "#000",
-              borderWidth: 1,
-              //hoverBorderColor: "#FFF",
-              hoverBorderWidth: 3,
-              backgroundColor: data['backgroundColor'],
-              data: data['data'],
-          }],
-          labels: data['labels']
-      };
-
-      var myChart = new Chart(ctx, {
-          type: 'doughnut',
-          data: my_data
-          ,options: {
-            responsive: true,
-            legend: {
-              position: 'bottom',
-            },
-            title: {
-              display: true,
-              text: 'Character Panel Appearances (Chapter 1)'
-            },
-            animation: {
-              animateScale: true,
-              animateRotate: true
-            },
-            circumference: Math.PI,
-            rotation: -Math.PI
-          }
-      });
+  "sort_alpha": function(a, b) {
+        var m1 = a.hero_name.toLowerCase();
+        var m2 = b.hero_name.toLowerCase();
+        if(m1 < m2) return -1;
+        if(m1 > m2) return 1;
+        return 0;
   },
 
   "refresh_grid": function(ctx, width, height, colors, sort_colors) {

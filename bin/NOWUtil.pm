@@ -32,6 +32,8 @@ sub gen_characters {
         # set reverse key lookups by real and hero name
         $ch->{appears_with} = {};
         $ch->{total} = 0;
+        $ch->{panel_appearance_data} = [];
+
         $name_map->{$ch->{hero_name_key}} = $ch;
         $name_map->{$ch->{real_name_key}} = $ch;
     }
@@ -43,17 +45,24 @@ sub gen_characters {
     #   ,"chronology": "present"
     #   ,"characters": ["dan_dreiberg" ,"laurie_juspeczyk"]
     # },
+    my $panel_index = 0;
     foreach my $pg (@$pages) {
         foreach my $pn (@{$pg->{panels}}) {
+            # initiliaze appearance data to 0
+            map { $_->{panel_appearance_data}[$panel_index] = 0 } @{$people->{main_characters}};
+
             if($pn->{characters}) {
                 my @tmp = @{$pn->{characters}};
                 foreach my $nm (@{$pn->{characters}}) {
                     my $chr = $name_map->{$nm};
                     $chr->{total}++;
+                    $chr->{panel_appearance_data}[$panel_index] = 1;
+
                     # tally the character-character associations
                     map { if($nm ne $_){ $chr->{appears_with}{$_}++; } } @tmp;
                 }
             }
+            $panel_index++;
         }
     }
 

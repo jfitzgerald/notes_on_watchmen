@@ -5,6 +5,7 @@
             "real_name" : "Edward Blake",
             "hero_name_key" : "the_comedian",
             "real_name_key" : "edward_blake",
+            "chart_order" : 6,
             "primary_color" : "clr-178"
         },
         {
@@ -12,6 +13,7 @@
             "real_name" : "Walter Kovacs",
             "hero_name_key" : "rorschach",
             "real_name_key" : "walter_kovacs",
+            "chart_order" : 1,
             "primary_color" : "clr-172"
         },
         {
@@ -19,6 +21,7 @@
             "real_name" : "Jon Osterman",
             "hero_name_key" : "dr_manhattan",
             "real_name_key" : "jon_osterman",
+            "chart_order" : 4,
             "primary_color" : "clr-54"
         },
         {
@@ -26,6 +29,7 @@
             "real_name" : "Adrian Veidt",
             "hero_name_key" : "ozymandias",
             "real_name_key" : "adrian_veidt",
+            "chart_order" : 5,
             "primary_color" : "clr-179"
         },
         {
@@ -33,6 +37,7 @@
             "real_name" : "Dan Dreiberg",
             "hero_name_key" : "nite_owl",
             "real_name_key" : "dan_dreiberg",
+            "chart_order" : 2,
             "primary_color" : "clr-194"
         },
         {
@@ -40,6 +45,7 @@
             "real_name" : "Laurie Juspeczyk",
             "hero_name_key" : "silk_spectre",
             "real_name_key" : "laurie_juspeczyk",
+            "chart_order" : 3,
             "primary_color" : "clr-137"
         }
     ]

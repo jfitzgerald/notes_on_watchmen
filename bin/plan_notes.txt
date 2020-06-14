@@ -4,12 +4,12 @@
   - remove generated data files from repo
   - generate skeleton chapter.md and page.md files (just ID and Num?)
   - generate character data indexed by page ID or chapter ID
-  - generate  "characters on page",
-  - generate character timeline chart for chapter and book (by panel)
+  
+  - generate  "characters on page"
+  - (DONE) generate character timeline chart for chapter and book (by panel)
     - Use non-numeric y-axis: https://www.chartjs.org/samples/latest/scales/non-numeric-y.html
     - Line styles: https://www.chartjs.org/samples/latest/charts/line/line-styles.html
     - Chart 1: character appearance on page
-    - Chart 2: character percentage of page (calculate based on panel layout and panel size)
 
 - Consider "rough" chart plugin: https://nagix.github.io/chartjs-plugin-rough/
 

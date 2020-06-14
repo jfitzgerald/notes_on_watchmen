@@ -51,15 +51,19 @@
 </div>
 
 
-<div class="w-50 pa3 mr2">
-<canvas id="characters"></canvas>
-{{ partial "js-characters-chart.html" (dict "context" $ "page" .) }}
+<div class="pa3 mt4 center">
+{{ partial "js-characters-panel-total-chart.html" (dict "context" $ "page" .) }}
 </div>
+
+<div class="pa3 mt4 center">
+{{ partial "js-characters-panel-timeline-chart.html" (dict "context" $ "page" .) }}
+</div>
+
 
 <div class="w-90 pa3 mr2">
 <h2>Panels</h2>
 {{ partial "panel-color-buttons.html" }}
-  
+
 <div class="chapter-wrapper tsize-4">
 {{ range .Params.pages }}
   {{ partial "page-panels.html" (dict "this" .) }}

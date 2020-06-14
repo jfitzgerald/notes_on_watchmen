@@ -1,0 +1,151 @@
+<div class="relative center" style="height: 250px; width: 800px">
+<h2>Character Panel Timeline</h2>
+<canvas id="cnv-characters-panel-timeline" height="250" width="800"></canvas>
+</div>
+
+<script>
+var characters = {{ .page.Params.characters | jsonify | safeJS }};
+var colors = {{ .context.Site.Data.colors.map | jsonify | safeJS }};
+var chart_labels = {{ .page.Params.panel_sequence_labels | jsonify | safeJS }};;
+</script>
+
+<script>
+var ctx = document.getElementById('cnv-characters-panel-timeline');
+var chart_data = [];
+
+// Set chart_order:
+// find the first panel the character appears in
+characters.forEach(function (chr) {
+  var list = chr['panel_appearance_data'];
+  for(let j=0; j < list.length; j++) {
+    if(list[j] == 1) {
+      chr['chart_order'] = j;
+      break;
+    }
+  }
+});
+
+characters.sort((a,b)=>b['chart_order']-a['chart_order']).forEach(function (chr) {
+  var hex = colors[chr['primary_color']];
+  var nm = chr['hero_name'];
+
+  // Convert 1 and 0 values to "Rorschach" and undefined values
+  var list = chr['panel_appearance_data'];
+  list.forEach(function(val, index) {
+    this[index] = (val == 1) ? nm : undefined;
+  }, list)
+
+  chart_data.push({
+    label: nm,
+    pointBackgroundColor: hex,
+    borderColor: hex,
+    data: list
+  });
+});
+
+var my_data = {
+    xLabels: chart_labels,
+    yLabels: [''],
+    datasets: chart_data
+};
+
+// Set yLabels to each character name
+// to create their timeline on the y-axis
+chart_data.forEach(function(chr) {
+  my_data.yLabels.push(chr.label);
+})
+
+//window.charts.character_panel_timeline(ctx, chart_data, chart_labels);
+
+var myChart = new Chart(ctx, {
+    data: my_data,
+    type: 'line',
+    responsive: true,
+    maintainAspectRatio: false,
+    options: {
+      legend: {
+        display: false,
+        position: 'bottom',
+        labels: {
+          usePointStyle: false,
+        }
+      },
+      elements: {
+        line: {
+          fill: false,
+          showLine: false,
+          spanGaps: false,
+          borderColor: "#000000",
+          borderWidth: 1,
+          steppedLine: false
+        },
+        point: {
+          pointStyle: "line",
+          //borderColor: "#000000",
+          rotation: 90,
+          radius: 13,
+          hoverRadius: 9,
+          hitRadius: 0,
+          borderWidth: 3
+        }
+      },
+      title: {
+        display: false,
+        padding: 20,
+        fontSize: 24,
+        fontFamily: "'avenir next', 'avenir', 'sans-serif'",
+        fontColor: "#000000",
+        fontStyle: 'bold',
+        text: 'Characters on Panels'
+      },
+      scales: {
+        xAxes: [{
+          display: true,
+          gridLines: {
+            display: true,
+            drawBorder: false,
+            drawOnChartArea: true,
+            drawTicks: false
+          },
+          scaleLabel: {
+            display: true,
+            labelString: 'Chapter {{ .page.Params.chapter_num }}'
+          },
+          ticks: {
+            autoSkip: false,
+            callback: function(labelString, index) {
+              if(labelString.match(/Panel 1$/)) {
+                return labelString.split(',')[0];
+              }
+              else {
+                return null;
+              }
+            },
+            padding: 6
+          }
+        }],
+        yAxes: [{
+          type: 'category',
+          position: 'left',
+          display: true,
+          gridLines: {
+            display: true,
+            drawBorder: false,
+            drawBorder: true,
+            drawOnChartArea: true,
+            drawTicks: false
+          },
+          scaleLabel: {
+            display: false,
+            labelString: 'Character'
+          },
+          ticks: {
+            reverse: true,
+            padding: 6
+          }
+        }]
+      }
+    }
+ });
+
+</script>
