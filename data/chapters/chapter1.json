@@ -957,6 +957,7 @@
   "chapter_numeral" : "Chapter I",
   "doomsday_clock" : "11:50 PM",
   "total_pages" : 27,
+  "cover_title_color" : "clr-101",
   "characters" : [
     {
       "hero_name_key" : "the_comedian",

@@ -3388,8 +3388,202 @@ button {
 .nested-links a {
   color: #0594CB;
   text-decoration: none;
-
 }
+.clr-21 { color: #3366FF; }
+.clr-187 { color: #996666; }
+.clr-11 { color: #0099CC; }
+.clr-64 { color: #CC33FF; }
+.clr-115 { color: #9999FF; }
+.clr-137 { color: #FFFF66; }
+.clr-86 { color: #CC3399; }
+.clr-163 { color: #999933; }
+.clr-12 { color: #0099FF; }
+.clr-116 { color: #6666CC; }
+.clr-105 { color: #FF3366; }
+.clr-40 { color: #66CCFF; }
+.clr-18 { color: #3300CC; }
+.clr-158 { color: #CCFF99; }
+.clr-37 { color: #66CC00; }
+.clr-24 { color: #3399FF; }
+.clr-190 { color: #999999; }
+.clr-99 { color: #99FF00; }
+.clr-109 { color: #FF9933; }
+.clr-72 { color: #FF0066; }
+.clr-20 { color: #3333FF; }
+.clr-94 { color: #006600; }
+.clr-58 { color: #CC0000; }
+.clr-82 { color: #3366CC; }
+.clr-173 { color: #000033; }
+.clr-79 { color: #FFCC00; }
+.clr-106 { color: #FFFF33; }
+.clr-60 { color: #CC0066; }
+.clr-186 { color: #FFFFFF; }
+.clr-110 { color: #CC99FF; }
+.clr-172 { color: #CC9966; }
+.clr-62 { color: #CC3300; }
+.clr-181 { color: #996633; }
+.clr-194 { color: #663333; }
+.clr-140 { color: #660000; }
+.clr-43 { color: #66FF66; }
+.clr-169 { color: #CCCC66; }
+.clr-85 { color: #CC3333; }
+.clr-51 { color: #9933CC; }
+.clr-90 { color: #FF66CC; }
+.clr-125 { color: #996600; }
+.clr-120 { color: #660066; }
+.clr-36 { color: #6699FF; }
+.clr-25 { color: #33CC33; }
+.clr-188 { color: #999966; }
+.clr-77 { color: #FF66FF; }
+.clr-65 { color: #CC6600; }
+.clr-73 { color: #FF0099; }
+.clr-179 { color: #663366; }
+.clr-97 { color: #006699; }
+.clr-17 { color: #330099; }
+.clr-130 { color: #330066; }
+.clr-32 { color: #6600CC; }
+.clr-42 { color: #66FF33; }
+.clr-162 { color: #336666; }
+.clr-192 { color: #FFFFCC; }
+.clr-165 { color: #003300; }
+.clr-104 { color: #990033; }
+.clr-160 { color: #CC99CC; }
+.clr-92 { color: #0000CC; }
+.clr-180 { color: #666699; }
+.clr-175 { color: #333366; }
+.clr-164 { color: #9999CC; }
+.clr-6 { color: #0066FF; }
+.clr-57 { color: #99FFFF; }
+.clr-50 { color: #9900CC; }
+.clr-23 { color: #3399CC; }
+.clr-71 { color: #FF0033; }
+.clr-81 { color: #FFFF00; }
+.clr-132 { color: #663399; }
+.clr-111 { color: #99CC33; }
+.clr-98 { color: #33CC66; }
+.clr-184 { color: #330000; }
+.clr-161 { color: #336633; }
+.clr-113 { color: #339933; }
+.clr-126 { color: #99CCCC; }
+.clr-166 { color: #669966; }
+.clr-131 { color: #CCFF66; }
+.clr-74 { color: #FF3333; }
+.clr-69 { color: #CCFF00; }
+.clr-121 { color: #FF6699; }
+.clr-5 { color: #0066CC; }
+.clr-114 { color: #6699CC; }
+.clr-149 { color: #003366; }
+.clr-47 { color: #990000; }
+.clr-78 { color: #FF9900; }
+.clr-136 { color: #9966CC; }
+.clr-4 { color: #0033FF; }
+.clr-34 { color: #6633FF; }
+.clr-45 { color: #66FFCC; }
+.clr-112 { color: #99FFCC; }
+.clr-31 { color: #660099; }
+.clr-53 { color: #99CC00; }
+.clr-145 { color: #99CC99; }
+.clr-87 { color: #FF3300; }
+.clr-174 { color: #FFCC99; }
+.clr-124 { color: #FF6666; }
+.clr-183 { color: #FFCCCC; }
+.clr-14 { color: #00CC66; }
+.clr-56 { color: #99FF99; }
+.clr-182 { color: #FFFF99; }
+.clr-59 { color: #CC0033; }
+.clr-155 { color: #CC6666; }
+.clr-193 { color: #000000; }
+.clr-159 { color: #FF9999; }
+.clr-170 { color: #330033; }
+.clr-150 { color: #CC9933; }
+.clr-76 { color: #FF6600; }
+.clr-8 { color: #009933; }
+.clr-49 { color: #990099; }
+.clr-157 { color: #CCFFCC; }
+.clr-88 { color: #FF3399; }
+.clr-127 { color: #993300; }
+.clr-135 { color: #336600; }
+.clr-142 { color: #CC6699; }
+.clr-63 { color: #CC33CC; }
+.clr-2 { color: #000099; }
+.clr-117 { color: #000066; }
+.clr-16 { color: #00CCCC; }
+.clr-108 { color: #66CC66; }
+.clr-3 { color: #0033CC; }
+.clr-83 { color: #339999; }
+.clr-28 { color: #33CCFF; }
+.clr-177 { color: #663300; }
+.clr-19 { color: #3333CC; }
+.clr-141 { color: #660033; }
+.clr-119 { color: #999900; }
+.clr-80 { color: #FFCC33; }
+.clr-153 { color: #FFCC66; }
+.clr-66 { color: #CC66CC; }
+.clr-46 { color: #66FFFF; }
+.clr-96 { color: #33FFCC; }
+.clr-118 { color: #333399; }
+.clr-152 { color: #993366; }
+.clr-35 { color: #6666FF; }
+.clr-26 { color: #33CC99; }
+.clr-1 { color: #333333; }
+.clr-189 { color: #333300; }
+.clr-122 { color: #993399; }
+.clr-10 { color: #009999; }
+.clr-7 { color: #009900; }
+.clr-48 { color: #990066; }
+.clr-123 { color: #339966; }
+.clr-154 { color: #993333; }
+.clr-95 { color: #00CCFF; }
+.clr-185 { color: #CC9999; }
+.clr-178 { color: #CCCCCC; }
+.clr-151 { color: #CCFFFF; }
+.clr-139 { color: #669933; }
+.clr-107 { color: #66CC99; }
+.clr-75 { color: #FF33CC; }
+.clr-128 { color: #006666; }
+.clr-9 { color: #009966; }
+.clr-129 { color: #006633; }
+.clr-52 { color: #9966FF; }
+.clr-191 { color: #666633; }
+.clr-27 { color: #33CCCC; }
+.clr-167 { color: #FFCCFF; }
+.clr-100 { color: #99FF66; }
+.clr-147 { color: #FF99CC; }
+.clr-33 { color: #6633CC; }
+.clr-103 { color: #CC3366; }
+.clr-143 { color: #99CC66; }
+.clr-91 { color: #FF99FF; }
+.clr-138 { color: #CC6633; }
+.clr-41 { color: #66FF00; }
+.clr-93 { color: #003399; }
+.clr-168 { color: #996699; }
+.clr-61 { color: #CC0099; }
+.clr-144 { color: #CCCCFF; }
+.clr-55 { color: #99FF33; }
+.clr-133 { color: #336699; }
+.clr-44 { color: #66FF99; }
+.clr-156 { color: #666600; }
+.clr-70 { color: #CCFF33; }
+.clr-146 { color: #FF9966; }
+.clr-30 { color: #33FFFF; }
+.clr-171 { color: #003333; }
+.clr-148 { color: #669999; }
+.clr-102 { color: #669900; }
+.clr-134 { color: #CCCC33; }
+.clr-29 { color: #33FF66; }
+.clr-89 { color: #FF6633; }
+.clr-39 { color: #66CCCC; }
+.clr-67 { color: #CC66FF; }
+.clr-101 { color: #CCCC00; }
+.clr-84 { color: #33FF99; }
+.clr-13 { color: #00CC33; }
+.clr-22 { color: #339900; }
+.clr-68 { color: #CC9900; }
+.clr-54 { color: #99CCFF; }
+.clr-15 { color: #00CC99; }
+.clr-195 { color: #666666; }
+.clr-38 { color: #66CC33; }
+.clr-176 {color: #CCCC99; }
 table {
   border-collapse: separate;
 }
@@ -3441,24 +3635,26 @@ div.chapter-wrapper.tsize-0 {
 table.page-wrapper {
   padding: 0px;
 }
+table.panel-grid td, table.cover-grid td {
+  border: 1px solid;
+}
+table.cover-grid td {
+  border: 1px solid;
+}
 table.panel-grid.cols-1 td {
   padding-bottom: 160%;
-  border: 1px solid;
 }
 table.panel-grid.cols-2 td {
   padding-bottom: 148%;
-  border: 1px solid;
 }
 .tsize-0 table.panel-grid.cols-2 td {
   padding-bottom: 167%;
 }
 table.panel-grid.cols-3 td {
   padding-bottom: 47%;
-  border: 1px solid;
 }
 table.panel-grid.cols-4 td {
   padding-bottom: 34%;
-  border: 1px solid;
 }
 .tsize-4 table.panel-grid.cols-4 td {
   padding-bottom: 46%;
@@ -3478,7 +3674,7 @@ table.panel-grid.cols-4 td {
 table.panel-grid.double.cols-3 td {
 }
 table.panel-grid.double.cols-4 td {
-    padding-bottom: 45%;
+  padding-bottom: 45%;
 }
 .tsize-0 table.panel-grid.double.cols-4 td {
   padding-bottom: 47%;
@@ -3495,43 +3691,68 @@ table.panel-grid.cols-4 td.double {
 .tsize-0 table.panel-grid.cols-4 td.double {
   padding-bottom: 107%;
 }
-div.tsize-9 table.panel-grid {
+div.tsize-9 table.panel-grid, div.tsize-9 table.cover-grid {
   border-spacing: 5px;
   width: 1200px;
 }
-div.tsize-8 table.panel-grid {
+div.tsize-8 table.panel-grid, div.tsize-8 table.cover-grid {
   border-spacing: 5px;
   width: 900px;
 }
-div.tsize-7 table.panel-grid {
+div.tsize-7 table.panel-grid, div.tsize-7 table.cover-grid {
   border-spacing: 5px;
   width: 700px;
 }
-div.tsize-6 table.panel-grid {
+div.tsize-6 table.panel-grid, div.tsize-6 table.cover-grid {
   border-spacing: 5px;
   width: 500px;
 }
-div.tsize-5 table.panel-grid {
+div.tsize-5 table.panel-grid, div.tsize-5 table.cover-grid {
   border-spacing: 5px;
   width: 300px;
 }
-div.tsize-4 table.panel-grid {
+div.tsize-4 table.panel-grid, div.tsize-4 table.cover-grid {
   border-spacing: 4px;
   width: 200px;
 }
-div.tsize-3 table.panel-grid {
+div.tsize-4 table.cover-grid {
+  height: 300px;
+}
+div.tsize-5 table.cover-grid {
+  height: 457px;
+}
+table.cover-grid .cover-title {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+div.tsize-4 table.cover-grid .cover-title {
+  font-size: 2.5em;
+}
+div.tsize-5 table.cover-grid .cover-title {
+  font-size: 3.6em;
+}
+div.tsize-6 table.cover-grid .cover-title {
+  font-size: 6em;
+}
+div.tsize-6 table.cover-grid {
+  height: 753px;
+}
+div.tsize-3 table.panel-grid, div.tsize-3 table.cover-grid {
   border-spacing: 2px;
   width: 134px;
 }
-div.tsize-2 table.panel-grid {
+div.tsize-2 table.panel-grid, div.tsize-2 table.cover-grid {
   border-spacing: 2px;
   width: 90px;
 }
-div.tsize-1 table.panel-grid {
+div.tsize-1 table.panel-grid, div.tsize-1 table.cover-grid {
   border-spacing: 1px;
   width: 60px;
 }
-div.tsize-0 table.panel-grid {
+div.tsize-0 table.panel-grid, div.tsize-0 table.cover-grid {
   border-spacing: 1px;
   width: 30px;
 }

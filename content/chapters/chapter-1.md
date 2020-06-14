@@ -200,6 +200,7 @@
   "chapter_num" : 1,
   "doomsday_clock" : "11:50 PM",
   "chapter_numeral" : "Chapter I",
+  "cover_title_color" : "clr-101",
   "quote" : "\"At midnight, all the agents and superhuman crew, go out and round up everyone who knows more than they do.\" -- Bob Dylan",
   "title" : "At midnight, all the agents...",
   "pages" : [
