@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" stroke-width="0" fill="yellow" />
+  <circle cx="100" cy="100" r="85" stroke="black" stroke-width="1" fill="yellow" />
+  <defs>
+    <marker id="arrowhead1" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+  <line x1="50%" y1="50%" x2="50%" y2="25%" stroke="#000" 
+  stroke-width="1" marker-end="url(#arrowhead1)" />
+
+  <line x1="50%" y1="50%" x2="40%" y2="17%" stroke="#000" stroke-width="1" marker-end="url(#arrowhead1)" />
+</svg>

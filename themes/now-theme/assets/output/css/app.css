@@ -3645,7 +3645,7 @@ table.panel-grid.cols-1 td {
   padding-bottom: 160%;
 }
 table.panel-grid.cols-2 td {
-  padding-bottom: 148%;
+  padding-bottom: 152%;
 }
 .tsize-0 table.panel-grid.cols-2 td {
   padding-bottom: 167%;
@@ -3705,7 +3705,7 @@ div.tsize-7 table.panel-grid, div.tsize-7 table.cover-grid {
 }
 div.tsize-6 table.panel-grid, div.tsize-6 table.cover-grid {
   border-spacing: 5px;
-  width: 500px;
+  width: 450px;
 }
 div.tsize-5 table.panel-grid, div.tsize-5 table.cover-grid {
   border-spacing: 5px;
@@ -3715,11 +3715,14 @@ div.tsize-4 table.panel-grid, div.tsize-4 table.cover-grid {
   border-spacing: 4px;
   width: 200px;
 }
-div.tsize-4 table.cover-grid {
-  height: 300px;
+div.tsize-6 table.cover-grid {
+  height: 728px;
 }
 div.tsize-5 table.cover-grid {
-  height: 457px;
+  height: 485px;
+}
+div.tsize-4 table.cover-grid {
+  height: 324px;
 }
 table.cover-grid .cover-title {
   -webkit-writing-mode: vertical-lr;
@@ -3736,9 +3739,6 @@ div.tsize-5 table.cover-grid .cover-title {
 }
 div.tsize-6 table.cover-grid .cover-title {
   font-size: 6em;
-}
-div.tsize-6 table.cover-grid {
-  height: 753px;
 }
 div.tsize-3 table.panel-grid, div.tsize-3 table.cover-grid {
   border-spacing: 2px;
