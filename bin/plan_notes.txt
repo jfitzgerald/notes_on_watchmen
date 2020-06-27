@@ -1,10 +1,45 @@
+==== Experience ====
+
+- Tag cloud of signs, headlines, products, ads, etc.
+  - repetition
+- Scroll the entire site, page by page
+  - horizonatal scroll?
+  - allow scroll in both directions (i.e. backwards from Chapter 1 to Chapter 12)
+- Dynamic background color based on page
+  - gradient background around the border of the main content
+- Pivot the "characters by panel" chart vertically
+  - display the character chart alongside the page panels?
+- Full screen page/panel scroll with call to attention links
+  that open a slide-out
+- Slide-outs from all four sides of the screen
+  - (left) verbal/visual
+  - (top) colors
+  - (right) echoed shapes and panel transitions
+  - (bottom) world building
+  - References:
+    - https://codepen.io/shandb/pen/GdyKPm
+    - https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html
+    
+
+Themes
+- pull/zoom out from close detail to far overview
+- fragments and incomplete words, signs, views
+- symmetry
+  - words with pictures
+- symbols
+- meta awareness (what does it mean to read/navigate comics/website?)
+- time
+- eyes
+- layers (foreground, mid-ground, background)
+  - pinned headers, scrolling content, dynamic background
+
 ==== Site ====
 - TODO: Clean up data files
   - remove raw data file from repo
   - remove generated data files from repo
   - generate skeleton chapter.md and page.md files (just ID and Num?)
   - generate character data indexed by page ID or chapter ID
-  
+
   - generate  "characters on page"
   - (DONE) generate character timeline chart for chapter and book (by panel)
     - Use non-numeric y-axis: https://www.chartjs.org/samples/latest/scales/non-numeric-y.html

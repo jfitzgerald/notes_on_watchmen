@@ -3312,6 +3312,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
 }
+@font-face {
+    font-family: "Comic NOW";
+    src: url(/fonts/ArchitectsDaughter-NOW.woff);
+}
 button {
   border: none;
 }
@@ -3755,6 +3759,20 @@ div.tsize-1 table.panel-grid, div.tsize-1 table.cover-grid {
 div.tsize-0 table.panel-grid, div.tsize-0 table.cover-grid {
   border-spacing: 1px;
   width: 30px;
+}
+.comic-now {
+  font-family: "Comic Now";
+  background-color: #FFFF99;
+  display: inline-block;
+  padding: 0 8px 2px 8px;
+  text-transform: uppercase;
+  margin-top: 0;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  line-height: 1em;
+  padding: 4px 6px 4px 6px;
+  font-style: italic;
+  font-weight: 100;
 }
 .ch-marker {
     height: 10px;

@@ -1,6 +1,7 @@
 {{ define "main" }}
 
   <div class="w-90 pa3 mr2 center">
+
     <div class="pv3">
     {{- partial "chapter-nav-bar.html" .Params.chapter_num -}}
     </div>
@@ -40,26 +41,30 @@
           </tbody>
       </table>
 
-      <h2>Characters</h2>
-      <table><tbody>
-      {{ range sort .Params.characters "total" "desc" }}
-        <tr>
-            <td class="v-top">{{ .name }}</td>
-            <td class="v-top">Appears in {{ .total }} panels</td>
-            <td class="v-top">
-            {{ with .appears_with }}
-            Appears with:<br>
-            <ul>
-                {{ range $name, $val := . }}
-                <li>{{$name}} in {{$val}} panels</li>
+      <div class="ba b--black-90">
+        <h2 class="comic-now f2 pl2 pr3 pt2 pb1">Characters</h2>
+        <div class="pa3 pt0">
+          <table><tbody>
+          {{ range sort .Params.characters "total" "desc" }}
+            <tr>
+                <td class="v-top">{{ .name }}</td>
+                <td class="v-top">Appears in {{ .total }} panels</td>
+                <td class="v-top">
+                {{ with .appears_with }}
+                Appears with:<br>
+                <ul>
+                    {{ range $name, $val := . }}
+                    <li>{{$name}} in {{$val}} panels</li>
+                    {{ end }}
+                </ul>
                 {{ end }}
-            </ul>
-            {{ end }}
-            </td>
-        </tr>
-      {{ end }}
-        </tbody>
-    </table>
+                </td>
+            </tr>
+          {{ end }}
+            </tbody>
+        </table>
+      </div>
+    </div>
 
 </div>
 

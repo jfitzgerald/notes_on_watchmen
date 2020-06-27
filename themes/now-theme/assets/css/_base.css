@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Comic NOW";
+    src: url("../fonts/ArchitectsDaughter-NOW.woff");
+}
+
 button {
   border: none;
 }
