@@ -3764,13 +3764,12 @@ div.tsize-0 table.panel-grid, div.tsize-0 table.cover-grid {
   font-family: "Comic Now";
   background-color: #FFFF99;
   display: inline-block;
-  padding: 0 8px 2px 8px;
   text-transform: uppercase;
   margin-top: 0;
+  margin-bottom: .5em;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   line-height: 1em;
-  padding: 4px 6px 4px 6px;
   font-style: italic;
   font-weight: 100;
 }

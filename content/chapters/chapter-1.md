@@ -1,4 +1,1059 @@
 {
+  "total_panels" : 195,
+  "chapter_numeral" : "Chapter I",
+  "chapter_num" : 1,
+  "doomsday_clock" : "11:50 PM",
+  "pages" : [
+    {
+      "characters" : [],
+      "panels" : [],
+      "page_num" : 0,
+      "col_layout" : 3,
+      "id" : "page-01-00"
+    },
+    {
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-01-01"
+          },
+          {
+            "id" : "panel-01-01-02"
+          },
+          {
+            "id" : "panel-01-01-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-01-04"
+          },
+          {
+            "id" : "panel-01-01-05"
+          },
+          {
+            "id" : "panel-01-01-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-01-07",
+            "cols" : 3
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "page_num" : 1,
+      "col_layout" : 3,
+      "id" : "page-01-01"
+    },
+    {
+      "col_layout" : 3,
+      "characters" : [
+        "the_comedian"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-02-01",
+            "cols" : 2
+          },
+          {
+            "id" : "panel-01-02-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-02-04"
+          },
+          {
+            "id" : "panel-01-02-05"
+          },
+          {
+            "id" : "panel-01-02-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-02-07"
+          },
+          {
+            "id" : "panel-01-02-08"
+          },
+          {
+            "id" : "panel-01-02-09"
+          }
+        ]
+      ],
+      "page_num" : 2,
+      "id" : "page-01-02"
+    },
+    {
+      "page_num" : 3,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-03-01"
+          },
+          {
+            "id" : "panel-01-03-02"
+          },
+          {
+            "id" : "panel-01-03-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-03-04"
+          },
+          {
+            "id" : "panel-01-03-05"
+          },
+          {
+            "id" : "panel-01-03-06"
+          }
+        ],
+        [
+          {
+            "cols" : 3,
+            "id" : "panel-01-03-07"
+          }
+        ]
+      ],
+      "characters" : [
+        "the_comedian"
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-03"
+    },
+    {
+      "col_layout" : 3,
+      "page_num" : 4,
+      "characters" : [
+        "",
+        "rorschach",
+        "the_comedian"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-04-01"
+          },
+          {
+            "id" : "panel-01-04-02"
+          },
+          {
+            "id" : "panel-01-04-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-04-04"
+          },
+          {
+            "cols" : 2,
+            "id" : "panel-01-04-05"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-04-07"
+          },
+          {
+            "id" : "panel-01-04-08"
+          },
+          {
+            "id" : "panel-01-04-09"
+          }
+        ]
+      ],
+      "id" : "page-01-04"
+    },
+    {
+      "id" : "page-01-05",
+      "page_num" : 5,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-05-01"
+          },
+          {
+            "id" : "panel-01-05-02"
+          },
+          {
+            "id" : "panel-01-05-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-05-04"
+          },
+          {
+            "id" : "panel-01-05-05"
+          },
+          {
+            "id" : "panel-01-05-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-05-07"
+          },
+          {
+            "id" : "panel-01-05-08"
+          },
+          {
+            "id" : "panel-01-05-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "col_layout" : 3
+    },
+    {
+      "page_num" : 6,
+      "panels" : [
+        [
+          {
+            "cols" : 4,
+            "id" : "panel-01-06-01",
+            "rows" : 2
+          }
+        ],
+        [],
+        [
+          {
+            "id" : "panel-01-06-09"
+          },
+          {
+            "id" : "panel-01-06-10"
+          },
+          {
+            "id" : "panel-01-06-11"
+          },
+          {
+            "id" : "panel-01-06-12"
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "col_layout" : 4,
+      "has_splash" : 1,
+      "id" : "page-01-06"
+    },
+    {
+      "id" : "page-01-07",
+      "col_layout" : 3,
+      "characters" : [
+        "rorschach"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-07-01"
+          },
+          {
+            "id" : "panel-01-07-02"
+          },
+          {
+            "id" : "panel-01-07-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-07-04"
+          },
+          {
+            "id" : "panel-01-07-05"
+          },
+          {
+            "id" : "panel-01-07-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-07-07"
+          },
+          {
+            "id" : "panel-01-07-08"
+          },
+          {
+            "id" : "panel-01-07-09"
+          }
+        ]
+      ],
+      "page_num" : 7
+    },
+    {
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-08-01",
+            "cols" : 2
+          },
+          {
+            "id" : "panel-01-08-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-08-04"
+          },
+          {
+            "id" : "panel-01-08-05"
+          },
+          {
+            "id" : "panel-01-08-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-08-07"
+          },
+          {
+            "id" : "panel-01-08-08"
+          },
+          {
+            "id" : "panel-01-08-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "page_num" : 8,
+      "col_layout" : 3,
+      "id" : "page-01-08"
+    },
+    {
+      "page_num" : 9,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-09-01"
+          },
+          {
+            "id" : "panel-01-09-02"
+          },
+          {
+            "id" : "panel-01-09-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-09-04",
+            "cols" : 2
+          },
+          {
+            "id" : "panel-01-09-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-09-07"
+          },
+          {
+            "id" : "panel-01-09-08"
+          },
+          {
+            "id" : "panel-01-09-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "nite_owl",
+        ""
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-09"
+    },
+    {
+      "page_num" : 10,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-10-01"
+          },
+          {
+            "id" : "panel-01-10-02"
+          },
+          {
+            "id" : "panel-01-10-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-10-04"
+          },
+          {
+            "id" : "panel-01-10-05"
+          },
+          {
+            "id" : "panel-01-10-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-10-07"
+          },
+          {
+            "id" : "panel-01-10-08"
+          },
+          {
+            "id" : "panel-01-10-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "nite_owl",
+        "rorschach"
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-10"
+    },
+    {
+      "page_num" : 11,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-11-01"
+          },
+          {
+            "id" : "panel-01-11-02"
+          },
+          {
+            "id" : "panel-01-11-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-11-04"
+          },
+          {
+            "id" : "panel-01-11-05"
+          },
+          {
+            "id" : "panel-01-11-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-11-07"
+          },
+          {
+            "cols" : 2,
+            "id" : "panel-01-11-08"
+          }
+        ]
+      ],
+      "characters" : [
+        "nite_owl",
+        "rorschach"
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-11"
+    },
+    {
+      "id" : "page-01-12",
+      "col_layout" : 3,
+      "characters" : [
+        "nite_owl",
+        "rorschach"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-12-01"
+          },
+          {
+            "id" : "panel-01-12-02",
+            "cols" : 2
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-12-04"
+          },
+          {
+            "id" : "panel-01-12-05"
+          },
+          {
+            "id" : "panel-01-12-06"
+          }
+        ],
+        [
+          {
+            "cols" : 2,
+            "id" : "panel-01-12-07"
+          },
+          {
+            "id" : "panel-01-12-09"
+          }
+        ]
+      ],
+      "page_num" : 12
+    },
+    {
+      "page_num" : 13,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-13-01"
+          },
+          {
+            "id" : "panel-01-13-02"
+          },
+          {
+            "id" : "panel-01-13-03"
+          },
+          {
+            "id" : "panel-01-13-04"
+          }
+        ],
+        [
+          {
+            "rows" : 2,
+            "id" : "panel-01-13-05",
+            "cols" : 4
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach",
+        "nite_owl"
+      ],
+      "col_layout" : 4,
+      "has_splash" : 1,
+      "id" : "page-01-13"
+    },
+    {
+      "characters" : [
+        "rorschach"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-14-01",
+            "cols" : 3
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-14-04"
+          },
+          {
+            "id" : "panel-01-14-05"
+          },
+          {
+            "id" : "panel-01-14-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-14-07"
+          },
+          {
+            "id" : "panel-01-14-08",
+            "cols" : 2
+          }
+        ]
+      ],
+      "page_num" : 14,
+      "col_layout" : 3,
+      "id" : "page-01-14"
+    },
+    {
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-15-01"
+          },
+          {
+            "id" : "panel-01-15-02"
+          },
+          {
+            "id" : "panel-01-15-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-15-04"
+          },
+          {
+            "id" : "panel-01-15-05"
+          },
+          {
+            "id" : "panel-01-15-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-15-07"
+          },
+          {
+            "id" : "panel-01-15-08"
+          },
+          {
+            "id" : "panel-01-15-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "page_num" : 15,
+      "col_layout" : 3,
+      "id" : "page-01-15"
+    },
+    {
+      "id" : "page-01-16",
+      "col_layout" : 3,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-16-01"
+          },
+          {
+            "id" : "panel-01-16-02"
+          },
+          {
+            "id" : "panel-01-16-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-16-04"
+          },
+          {
+            "id" : "panel-01-16-05"
+          },
+          {
+            "id" : "panel-01-16-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-16-07"
+          },
+          {
+            "id" : "panel-01-16-08"
+          },
+          {
+            "id" : "panel-01-16-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "page_num" : 16
+    },
+    {
+      "col_layout" : 3,
+      "characters" : [
+        "ozymandias",
+        "rorschach"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-17-01"
+          },
+          {
+            "cols" : 2,
+            "id" : "panel-01-17-02"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-17-04"
+          },
+          {
+            "id" : "panel-01-17-05"
+          },
+          {
+            "id" : "panel-01-17-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-17-07"
+          },
+          {
+            "id" : "panel-01-17-08"
+          },
+          {
+            "id" : "panel-01-17-09"
+          }
+        ]
+      ],
+      "page_num" : 17,
+      "id" : "page-01-17"
+    },
+    {
+      "page_num" : 18,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-18-01"
+          },
+          {
+            "id" : "panel-01-18-02"
+          },
+          {
+            "id" : "panel-01-18-03"
+          }
+        ],
+        [
+          {
+            "cols" : 3,
+            "rows" : 2,
+            "id" : "panel-01-18-04"
+          }
+        ]
+      ],
+      "characters" : [
+        "ozymandias",
+        "rorschach"
+      ],
+      "col_layout" : 3,
+      "has_splash" : 1,
+      "id" : "page-01-18"
+    },
+    {
+      "id" : "page-01-19",
+      "characters" : [
+        "rorschach"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-19-01"
+          },
+          {
+            "id" : "panel-01-19-02"
+          },
+          {
+            "id" : "panel-01-19-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-19-04"
+          },
+          {
+            "id" : "panel-01-19-05"
+          },
+          {
+            "id" : "panel-01-19-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-19-07"
+          },
+          {
+            "id" : "panel-01-19-08"
+          },
+          {
+            "id" : "panel-01-19-09"
+          }
+        ]
+      ],
+      "page_num" : 19,
+      "col_layout" : 3
+    },
+    {
+      "id" : "page-01-20",
+      "col_layout" : 3,
+      "page_num" : 20,
+      "panels" : [
+        [
+          {
+            "rows" : 3,
+            "id" : "panel-01-20-01",
+            "cols" : 2
+          },
+          {
+            "id" : "panel-01-20-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-20-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-20-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "dr_manhattan",
+        "rorschach",
+        "silk_spectre"
+      ]
+    },
+    {
+      "id" : "page-01-21",
+      "characters" : [
+        "dr_manhattan",
+        "rorschach",
+        "silk_spectre"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-21-01"
+          },
+          {
+            "id" : "panel-01-21-02"
+          },
+          {
+            "id" : "panel-01-21-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-21-04"
+          },
+          {
+            "id" : "panel-01-21-05"
+          },
+          {
+            "id" : "panel-01-21-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-21-07"
+          },
+          {
+            "id" : "panel-01-21-08"
+          },
+          {
+            "id" : "panel-01-21-09"
+          }
+        ]
+      ],
+      "page_num" : 21,
+      "col_layout" : 3
+    },
+    {
+      "id" : "page-01-22",
+      "col_layout" : 3,
+      "page_num" : 22,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-22-01"
+          },
+          {
+            "id" : "panel-01-22-02"
+          },
+          {
+            "id" : "panel-01-22-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-22-04"
+          },
+          {
+            "id" : "panel-01-22-05"
+          },
+          {
+            "id" : "panel-01-22-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-22-07"
+          },
+          {
+            "id" : "panel-01-22-08"
+          },
+          {
+            "id" : "panel-01-22-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "silk_spectre",
+        "rorschach",
+        "dr_manhattan"
+      ]
+    },
+    {
+      "page_num" : 23,
+      "characters" : [
+        "dr_manhattan",
+        "silk_spectre"
+      ],
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-23-01"
+          },
+          {
+            "id" : "panel-01-23-02"
+          },
+          {
+            "id" : "panel-01-23-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-23-04"
+          },
+          {
+            "id" : "panel-01-23-05"
+          },
+          {
+            "id" : "panel-01-23-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-23-07"
+          },
+          {
+            "id" : "panel-01-23-08"
+          },
+          {
+            "id" : "panel-01-23-09"
+          }
+        ]
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-23"
+    },
+    {
+      "page_num" : 24,
+      "panels" : [
+        [
+          {
+            "cols" : 3,
+            "id" : "panel-01-24-01"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-24-04"
+          },
+          {
+            "id" : "panel-01-24-05"
+          },
+          {
+            "id" : "panel-01-24-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-24-07"
+          },
+          {
+            "id" : "panel-01-24-08"
+          },
+          {
+            "id" : "panel-01-24-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-24"
+    },
+    {
+      "page_num" : 25,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-25-01"
+          },
+          {
+            "id" : "panel-01-25-02"
+          },
+          {
+            "id" : "panel-01-25-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-25-04",
+            "cols" : 2
+          },
+          {
+            "id" : "panel-01-25-06"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-25-07"
+          },
+          {
+            "id" : "panel-01-25-08"
+          },
+          {
+            "id" : "panel-01-25-09"
+          }
+        ]
+      ],
+      "characters" : [
+        "nite_owl",
+        "silk_spectre"
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-25"
+    },
+    {
+      "id" : "page-01-26",
+      "page_num" : 26,
+      "panels" : [
+        [
+          {
+            "id" : "panel-01-26-01"
+          },
+          {
+            "id" : "panel-01-26-02"
+          },
+          {
+            "id" : "panel-01-26-03"
+          }
+        ],
+        [
+          {
+            "id" : "panel-01-26-04",
+            "cols" : 2
+          },
+          {
+            "id" : "panel-01-26-06"
+          }
+        ],
+        [
+          {
+            "cols" : 3,
+            "id" : "panel-01-26-07"
+          }
+        ]
+      ],
+      "characters" : [
+        "silk_spectre",
+        "nite_owl"
+      ],
+      "col_layout" : 3
+    }
+  ],
+  "quote" : "\"At midnight, all the agents and superhuman crew, go out and round up everyone who knows more than they do.\" -- Bob Dylan",
   "panel_sequence_labels" : [
     "Page 1, Panel 1",
     "Page 1, Panel 2",
@@ -196,976 +1251,18 @@
     "Page 26, Panel 6",
     "Page 26, Panel 7"
   ],
-  "total_panels" : 195,
-  "chapter_num" : 1,
-  "doomsday_clock" : "11:50 PM",
-  "chapter_numeral" : "Chapter I",
-  "cover_title_color" : "clr-101",
-  "quote" : "\"At midnight, all the agents and superhuman crew, go out and round up everyone who knows more than they do.\" -- Bob Dylan",
   "title" : "At midnight, all the agents...",
-  "pages" : [
-    {
-      "panels" : [],
-      "page_num" : 0,
-      "id" : "page-01-00",
-      "col_layout" : 3
-    },
-    {
-      "col_layout" : 3,
-      "page_num" : 1,
-      "id" : "page-01-01",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-01-01"
-          },
-          {
-            "id" : "panel-01-01-02"
-          },
-          {
-            "id" : "panel-01-01-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-01-04"
-          },
-          {
-            "id" : "panel-01-01-05"
-          },
-          {
-            "id" : "panel-01-01-06"
-          }
-        ],
-        [
-          {
-            "cols" : 3,
-            "id" : "panel-01-01-07"
-          }
-        ]
-      ]
-    },
-    {
-      "col_layout" : 3,
-      "page_num" : 2,
-      "id" : "page-01-02",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-02-01",
-            "cols" : 2
-          },
-          {
-            "id" : "panel-01-02-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-02-04"
-          },
-          {
-            "id" : "panel-01-02-05"
-          },
-          {
-            "id" : "panel-01-02-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-02-07"
-          },
-          {
-            "id" : "panel-01-02-08"
-          },
-          {
-            "id" : "panel-01-02-09"
-          }
-        ]
-      ]
-    },
-    {
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-03-01"
-          },
-          {
-            "id" : "panel-01-03-02"
-          },
-          {
-            "id" : "panel-01-03-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-03-04"
-          },
-          {
-            "id" : "panel-01-03-05"
-          },
-          {
-            "id" : "panel-01-03-06"
-          }
-        ],
-        [
-          {
-            "cols" : 3,
-            "id" : "panel-01-03-07"
-          }
-        ]
-      ],
-      "id" : "page-01-03",
-      "page_num" : 3,
-      "col_layout" : 3
-    },
-    {
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-04-01"
-          },
-          {
-            "id" : "panel-01-04-02"
-          },
-          {
-            "id" : "panel-01-04-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-04-04"
-          },
-          {
-            "id" : "panel-01-04-05",
-            "cols" : 2
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-04-07"
-          },
-          {
-            "id" : "panel-01-04-08"
-          },
-          {
-            "id" : "panel-01-04-09"
-          }
-        ]
-      ],
-      "id" : "page-01-04",
-      "page_num" : 4,
-      "col_layout" : 3
-    },
-    {
-      "col_layout" : 3,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-05-01"
-          },
-          {
-            "id" : "panel-01-05-02"
-          },
-          {
-            "id" : "panel-01-05-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-05-04"
-          },
-          {
-            "id" : "panel-01-05-05"
-          },
-          {
-            "id" : "panel-01-05-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-05-07"
-          },
-          {
-            "id" : "panel-01-05-08"
-          },
-          {
-            "id" : "panel-01-05-09"
-          }
-        ]
-      ],
-      "id" : "page-01-05",
-      "page_num" : 5
-    },
-    {
-      "has_splash" : 1,
-      "col_layout" : 4,
-      "panels" : [
-        [
-          {
-            "cols" : 4,
-            "rows" : 2,
-            "id" : "panel-01-06-01"
-          }
-        ],
-        [],
-        [
-          {
-            "id" : "panel-01-06-09"
-          },
-          {
-            "id" : "panel-01-06-10"
-          },
-          {
-            "id" : "panel-01-06-11"
-          },
-          {
-            "id" : "panel-01-06-12"
-          }
-        ]
-      ],
-      "page_num" : 6,
-      "id" : "page-01-06"
-    },
-    {
-      "col_layout" : 3,
-      "page_num" : 7,
-      "id" : "page-01-07",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-07-01"
-          },
-          {
-            "id" : "panel-01-07-02"
-          },
-          {
-            "id" : "panel-01-07-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-07-04"
-          },
-          {
-            "id" : "panel-01-07-05"
-          },
-          {
-            "id" : "panel-01-07-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-07-07"
-          },
-          {
-            "id" : "panel-01-07-08"
-          },
-          {
-            "id" : "panel-01-07-09"
-          }
-        ]
-      ]
-    },
-    {
-      "col_layout" : 3,
-      "id" : "page-01-08",
-      "page_num" : 8,
-      "panels" : [
-        [
-          {
-            "cols" : 2,
-            "id" : "panel-01-08-01"
-          },
-          {
-            "id" : "panel-01-08-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-08-04"
-          },
-          {
-            "id" : "panel-01-08-05"
-          },
-          {
-            "id" : "panel-01-08-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-08-07"
-          },
-          {
-            "id" : "panel-01-08-08"
-          },
-          {
-            "id" : "panel-01-08-09"
-          }
-        ]
-      ]
-    },
-    {
-      "id" : "page-01-09",
-      "page_num" : 9,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-09-01"
-          },
-          {
-            "id" : "panel-01-09-02"
-          },
-          {
-            "id" : "panel-01-09-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-09-04",
-            "cols" : 2
-          },
-          {
-            "id" : "panel-01-09-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-09-07"
-          },
-          {
-            "id" : "panel-01-09-08"
-          },
-          {
-            "id" : "panel-01-09-09"
-          }
-        ]
-      ],
-      "col_layout" : 3
-    },
-    {
-      "col_layout" : 3,
-      "page_num" : 10,
-      "id" : "page-01-10",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-10-01"
-          },
-          {
-            "id" : "panel-01-10-02"
-          },
-          {
-            "id" : "panel-01-10-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-10-04"
-          },
-          {
-            "id" : "panel-01-10-05"
-          },
-          {
-            "id" : "panel-01-10-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-10-07"
-          },
-          {
-            "id" : "panel-01-10-08"
-          },
-          {
-            "id" : "panel-01-10-09"
-          }
-        ]
-      ]
-    },
-    {
-      "col_layout" : 3,
-      "page_num" : 11,
-      "id" : "page-01-11",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-11-01"
-          },
-          {
-            "id" : "panel-01-11-02"
-          },
-          {
-            "id" : "panel-01-11-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-11-04"
-          },
-          {
-            "id" : "panel-01-11-05"
-          },
-          {
-            "id" : "panel-01-11-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-11-07"
-          },
-          {
-            "cols" : 2,
-            "id" : "panel-01-11-08"
-          }
-        ]
-      ]
-    },
-    {
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-12-01"
-          },
-          {
-            "id" : "panel-01-12-02",
-            "cols" : 2
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-12-04"
-          },
-          {
-            "id" : "panel-01-12-05"
-          },
-          {
-            "id" : "panel-01-12-06"
-          }
-        ],
-        [
-          {
-            "cols" : 2,
-            "id" : "panel-01-12-07"
-          },
-          {
-            "id" : "panel-01-12-09"
-          }
-        ]
-      ],
-      "page_num" : 12,
-      "id" : "page-01-12",
-      "col_layout" : 3
-    },
-    {
-      "has_splash" : 1,
-      "col_layout" : 4,
-      "id" : "page-01-13",
-      "page_num" : 13,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-13-01"
-          },
-          {
-            "id" : "panel-01-13-02"
-          },
-          {
-            "id" : "panel-01-13-03"
-          },
-          {
-            "id" : "panel-01-13-04"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-13-05",
-            "rows" : 2,
-            "cols" : 4
-          }
-        ]
-      ]
-    },
-    {
-      "col_layout" : 3,
-      "page_num" : 14,
-      "id" : "page-01-14",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-14-01",
-            "cols" : 3
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-14-04"
-          },
-          {
-            "id" : "panel-01-14-05"
-          },
-          {
-            "id" : "panel-01-14-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-14-07"
-          },
-          {
-            "id" : "panel-01-14-08",
-            "cols" : 2
-          }
-        ]
-      ]
-    },
-    {
-      "col_layout" : 3,
-      "id" : "page-01-15",
-      "page_num" : 15,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-15-01"
-          },
-          {
-            "id" : "panel-01-15-02"
-          },
-          {
-            "id" : "panel-01-15-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-15-04"
-          },
-          {
-            "id" : "panel-01-15-05"
-          },
-          {
-            "id" : "panel-01-15-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-15-07"
-          },
-          {
-            "id" : "panel-01-15-08"
-          },
-          {
-            "id" : "panel-01-15-09"
-          }
-        ]
-      ]
-    },
-    {
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-16-01"
-          },
-          {
-            "id" : "panel-01-16-02"
-          },
-          {
-            "id" : "panel-01-16-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-16-04"
-          },
-          {
-            "id" : "panel-01-16-05"
-          },
-          {
-            "id" : "panel-01-16-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-16-07"
-          },
-          {
-            "id" : "panel-01-16-08"
-          },
-          {
-            "id" : "panel-01-16-09"
-          }
-        ]
-      ],
-      "id" : "page-01-16",
-      "page_num" : 16,
-      "col_layout" : 3
-    },
-    {
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-17-01"
-          },
-          {
-            "id" : "panel-01-17-02",
-            "cols" : 2
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-17-04"
-          },
-          {
-            "id" : "panel-01-17-05"
-          },
-          {
-            "id" : "panel-01-17-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-17-07"
-          },
-          {
-            "id" : "panel-01-17-08"
-          },
-          {
-            "id" : "panel-01-17-09"
-          }
-        ]
-      ],
-      "page_num" : 17,
-      "id" : "page-01-17",
-      "col_layout" : 3
-    },
-    {
-      "has_splash" : 1,
-      "col_layout" : 3,
-      "page_num" : 18,
-      "id" : "page-01-18",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-18-01"
-          },
-          {
-            "id" : "panel-01-18-02"
-          },
-          {
-            "id" : "panel-01-18-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-18-04",
-            "rows" : 2,
-            "cols" : 3
-          }
-        ]
-      ]
-    },
-    {
-      "col_layout" : 3,
-      "page_num" : 19,
-      "id" : "page-01-19",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-19-01"
-          },
-          {
-            "id" : "panel-01-19-02"
-          },
-          {
-            "id" : "panel-01-19-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-19-04"
-          },
-          {
-            "id" : "panel-01-19-05"
-          },
-          {
-            "id" : "panel-01-19-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-19-07"
-          },
-          {
-            "id" : "panel-01-19-08"
-          },
-          {
-            "id" : "panel-01-19-09"
-          }
-        ]
-      ]
-    },
-    {
-      "panels" : [
-        [
-          {
-            "rows" : 3,
-            "id" : "panel-01-20-01",
-            "cols" : 2
-          },
-          {
-            "id" : "panel-01-20-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-20-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-20-09"
-          }
-        ]
-      ],
-      "id" : "page-01-20",
-      "page_num" : 20,
-      "col_layout" : 3
-    },
-    {
-      "col_layout" : 3,
-      "id" : "page-01-21",
-      "page_num" : 21,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-21-01"
-          },
-          {
-            "id" : "panel-01-21-02"
-          },
-          {
-            "id" : "panel-01-21-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-21-04"
-          },
-          {
-            "id" : "panel-01-21-05"
-          },
-          {
-            "id" : "panel-01-21-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-21-07"
-          },
-          {
-            "id" : "panel-01-21-08"
-          },
-          {
-            "id" : "panel-01-21-09"
-          }
-        ]
-      ]
-    },
-    {
-      "col_layout" : 3,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-22-01"
-          },
-          {
-            "id" : "panel-01-22-02"
-          },
-          {
-            "id" : "panel-01-22-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-22-04"
-          },
-          {
-            "id" : "panel-01-22-05"
-          },
-          {
-            "id" : "panel-01-22-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-22-07"
-          },
-          {
-            "id" : "panel-01-22-08"
-          },
-          {
-            "id" : "panel-01-22-09"
-          }
-        ]
-      ],
-      "page_num" : 22,
-      "id" : "page-01-22"
-    },
-    {
-      "col_layout" : 3,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-23-01"
-          },
-          {
-            "id" : "panel-01-23-02"
-          },
-          {
-            "id" : "panel-01-23-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-23-04"
-          },
-          {
-            "id" : "panel-01-23-05"
-          },
-          {
-            "id" : "panel-01-23-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-23-07"
-          },
-          {
-            "id" : "panel-01-23-08"
-          },
-          {
-            "id" : "panel-01-23-09"
-          }
-        ]
-      ],
-      "id" : "page-01-23",
-      "page_num" : 23
-    },
-    {
-      "id" : "page-01-24",
-      "page_num" : 24,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-24-01",
-            "cols" : 3
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-24-04"
-          },
-          {
-            "id" : "panel-01-24-05"
-          },
-          {
-            "id" : "panel-01-24-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-24-07"
-          },
-          {
-            "id" : "panel-01-24-08"
-          },
-          {
-            "id" : "panel-01-24-09"
-          }
-        ]
-      ],
-      "col_layout" : 3
-    },
-    {
-      "page_num" : 25,
-      "id" : "page-01-25",
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-25-01"
-          },
-          {
-            "id" : "panel-01-25-02"
-          },
-          {
-            "id" : "panel-01-25-03"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-25-04",
-            "cols" : 2
-          },
-          {
-            "id" : "panel-01-25-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-25-07"
-          },
-          {
-            "id" : "panel-01-25-08"
-          },
-          {
-            "id" : "panel-01-25-09"
-          }
-        ]
-      ],
-      "col_layout" : 3
-    },
-    {
-      "col_layout" : 3,
-      "panels" : [
-        [
-          {
-            "id" : "panel-01-26-01"
-          },
-          {
-            "id" : "panel-01-26-02"
-          },
-          {
-            "id" : "panel-01-26-03"
-          }
-        ],
-        [
-          {
-            "cols" : 2,
-            "id" : "panel-01-26-04"
-          },
-          {
-            "id" : "panel-01-26-06"
-          }
-        ],
-        [
-          {
-            "id" : "panel-01-26-07",
-            "cols" : 3
-          }
-        ]
-      ],
-      "id" : "page-01-26",
-      "page_num" : 26
-    }
-  ],
+  "total_pages" : 27,
   "characters" : [
     {
-      "hero_name" : "The Comedian",
-      "hero_name_key" : "the_comedian",
-      "appears_with" : {},
-      "real_name" : "Edward Blake",
       "primary_color" : "clr-178",
-      "chart_order" : 6,
-      "real_name_key" : "edward_blake",
       "total" : 10,
+      "real_name" : "Edward Blake",
+      "appears_with" : {},
+      "real_name_key" : "edward_blake",
+      "hero_name_key" : "the_comedian",
+      "chart_order" : 6,
+      "hero_name" : "The Comedian",
       "panel_appearance_data" : [
         0,
         0,
@@ -1365,18 +1462,6 @@
       ]
     },
     {
-      "real_name" : "Walter Kovacs",
-      "chart_order" : 1,
-      "primary_color" : "clr-172",
-      "hero_name_key" : "rorschach",
-      "hero_name" : "Rorschach",
-      "appears_with" : {
-        "dan_dreiberg" : 20,
-        "adrian_veidt" : 8,
-        "laurie_juspeczyk" : 12,
-        "dr_manhattan" : 13
-      },
-      "total" : 119,
       "panel_appearance_data" : [
         0,
         0,
@@ -1574,219 +1659,240 @@
         0,
         0
       ],
-      "real_name_key" : "walter_kovacs"
+      "chart_order" : 1,
+      "hero_name" : "Rorschach",
+      "real_name" : "Walter Kovacs",
+      "total" : 119,
+      "hero_name_key" : "rorschach",
+      "appears_with" : {
+        "laurie_juspeczyk" : 12,
+        "adrian_veidt" : 8,
+        "dr_manhattan" : 13,
+        "dan_dreiberg" : 20
+      },
+      "real_name_key" : "walter_kovacs",
+      "primary_color" : "clr-172"
     },
     {
-      "hero_name" : "Dr. Manhattan",
-      "hero_name_key" : "dr_manhattan",
+      "panel_appearance_data" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "appears_with" : {
         "rorschach" : 13,
         "laurie_juspeczyk" : 20
       },
-      "primary_color" : "clr-54",
-      "chart_order" : 4,
-      "real_name" : "Jon Osterman",
       "real_name_key" : "jon_osterman",
+      "hero_name_key" : "dr_manhattan",
+      "real_name" : "Jon Osterman",
       "total" : 25,
-      "panel_appearance_data" : [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "hero_name" : "Dr. Manhattan",
+      "chart_order" : 4,
+      "primary_color" : "clr-54"
     },
     {
+      "primary_color" : "clr-179",
+      "hero_name" : "Ozymandias",
+      "chart_order" : 5,
+      "appears_with" : {
+        "rorschach" : 8
+      },
+      "hero_name_key" : "ozymandias",
+      "real_name_key" : "adrian_veidt",
+      "real_name" : "Adrian Veidt",
       "total" : 11,
       "panel_appearance_data" : [
         0,
@@ -1984,20 +2090,9 @@
         0,
         0,
         0
-      ],
-      "real_name_key" : "adrian_veidt",
-      "primary_color" : "clr-179",
-      "chart_order" : 5,
-      "real_name" : "Adrian Veidt",
-      "appears_with" : {
-        "rorschach" : 8
-      },
-      "hero_name_key" : "ozymandias",
-      "hero_name" : "Ozymandias"
+      ]
     },
     {
-      "real_name_key" : "dan_dreiberg",
-      "total" : 48,
       "panel_appearance_data" : [
         0,
         0,
@@ -2195,19 +2290,20 @@
         1,
         1
       ],
-      "appears_with" : {
-        "laurie_juspeczyk" : 13,
-        "hollis_mason" : 5,
-        "rorschach" : 20
-      },
-      "hero_name_key" : "nite_owl",
-      "hero_name" : "Nite Owl",
-      "chart_order" : 2,
       "primary_color" : "clr-194",
-      "real_name" : "Dan Dreiberg"
+      "hero_name_key" : "nite_owl",
+      "appears_with" : {
+        "rorschach" : 20,
+        "laurie_juspeczyk" : 13,
+        "hollis_mason" : 5
+      },
+      "real_name_key" : "dan_dreiberg",
+      "real_name" : "Dan Dreiberg",
+      "total" : 48,
+      "hero_name" : "Nite Owl",
+      "chart_order" : 2
     },
     {
-      "real_name_key" : "laurie_juspeczyk",
       "panel_appearance_data" : [
         0,
         0,
@@ -2405,18 +2501,18 @@
         1,
         1
       ],
-      "total" : 35,
-      "hero_name_key" : "silk_spectre",
       "hero_name" : "Silk Spectre",
-      "appears_with" : {
-        "dr_manhattan" : 20,
-        "rorschach" : 12,
-        "dan_dreiberg" : 13
-      },
-      "real_name" : "Laurie Juspeczyk",
       "chart_order" : 3,
+      "appears_with" : {
+        "rorschach" : 12,
+        "dan_dreiberg" : 13,
+        "dr_manhattan" : 20
+      },
+      "hero_name_key" : "silk_spectre",
+      "real_name_key" : "laurie_juspeczyk",
+      "real_name" : "Laurie Juspeczyk",
+      "total" : 35,
       "primary_color" : "clr-137"
     }
-  ],
-  "total_pages" : 27
+  ]
 }

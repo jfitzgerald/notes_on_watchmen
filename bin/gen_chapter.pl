@@ -80,7 +80,14 @@ foreach my $chap (1..12) {
             foreach my $pg (@{$ch->{pages}}) {
                 my $page_id = sprintf("page-%02d-%02d", $ch->{chapter_num}, $pg->{page_num});
 
-                my $new_pg = { id => $page_id, page_num => $pg->{page_num}, panels => [] };
+                my $new_pg = {
+                  id => $page_id,
+                  page_num => $pg->{page_num},
+                  panels => [],
+                  characters => []
+                };
+                my $chrs = []; # characters
+
                 my $pn_max = $pg->{layout} || 9;
                 $new_pg->{col_layout} = $pn_max/3;
                 my $cols = int $pn_max / 3;
@@ -88,6 +95,7 @@ foreach my $chap (1..12) {
                 foreach my $pn (@{$pg->{panels}}) {
                     my $pn_num = $pn->{panel};
                     #print STDERR "Panel # $pn_num\n";
+                    push @$chrs, @{$pn->{characters}} if(exists $pn->{characters});
 
                     my $pg_pn_label = sprintf("Page %d, Panel %d",
                       $pg->{page_num},
@@ -118,6 +126,10 @@ foreach my $chap (1..12) {
                     push @{ $new_pg->{panels}[$row] }, $new_pn;
                     $total_panels++;
                 }
+                # deduplicate {characters}
+                if(scalar @$chrs) {
+                  $new_pg->{characters} = NOWUtil::dedup_characters($chrs);
+                }
                 push @{ $ch_data->{pages} }, $new_pg;
 
                 # Get color data and generate individual page
@@ -127,6 +139,7 @@ foreach my $chap (1..12) {
                       id => $page_id,
                       col_layout => $new_pg->{col_layout},
                       panels => $new_pg->{panels},
+                      characters => $new_pg->{characters},
                       color_data => $color_data->{$page_id}
                     };
 

@@ -4,6 +4,7 @@
   display: inline-block;
   text-transform: uppercase;
   margin-top: 0;
+  margin-bottom: .5em;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   line-height: 1em;

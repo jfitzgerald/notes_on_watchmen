@@ -1,4 +1,6 @@
 {{ define "main" }}
+<div class="w-90 pa3 mr2 center">
+
   {{ $chapter_num := (int .Params.chapter_num) }}
   {{ $chap_key := printf "chapter%d" $chapter_num }}
 
@@ -9,20 +11,29 @@
   {{- partial "chapter-page-bar.html" (dict "this" .) -}}
   </div>
 
-  <div class="w-90 pa3 mr2">
-  <h2>Chapter {{ $chapter_num }}, Page {{ .Params.page_num }}</h2>
+  <div class="w-90 ba b--black-90">
+  <h2 class="comic-now f2 pl2 pr3 pt2 pb1">Chapter {{ $chapter_num }}, Page {{ .Params.page_num }}</h2>
   <div class="chapter-wrapper tsize-5">
       {{ partial "page-panels.html" (dict "this" .Params) }}
   </div>
   </div>
 
-  <div class="w-90 pa3 mr2">
-  <h2>Characters on this page</h2>
+  <div class="w-90 ba b--black-90">
+  <h2 class="comic-now f2 pl2 pr3 pt2 pb1">Characters on this page</h2>
+  <div class="pa3 pt0">
+    {{ with .Params.characters }}
+    <div class="flex flex-wrap">
+      {{ range . }}
+      {{ partial "character-badge.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
   </div>
 
 
-  <div class="w-90 pa3 mr2">
-    <h2>{{ .Title }} Colors</h2>
+  <div class="w-90 ba b--black-90">
+    <h2 class="comic-now f2 pl2 pr3 pt2 pb1">{{ .Title }} Colors</h2>
     <table>
         <tbody>
           {{ range .Params.color_data.labels }}
@@ -31,5 +42,6 @@
           </tbody>
       </table>
   </div>
+</div>
 
 {{ end }}

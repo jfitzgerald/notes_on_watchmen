@@ -13,6 +13,27 @@ $Data::Dumper::Pair = ' : ';
 
 use constant PROJDIR => '/Users/justin/Code/notes_on_watchmen/';
 
+#  IN: $characters ARRAY REF
+# OUT: $characters ARRAY REF (deduped, cross-referenced hero/real names)
+sub dedup_characters {
+    my ($chrs) = shift;
+
+    my $people = JSON::Parse::json_file_to_perl(PROJDIR.'data/characters.json');
+    my $name_map = {};
+    foreach my $ch (@{$people->{main_characters}}) {
+        $name_map->{$ch->{hero_name_key}} = $ch;
+        $name_map->{$ch->{real_name_key}} = $ch;
+    }
+
+    my %map = ();
+    foreach my $nm (@$chrs) {
+      my $xname = $name_map->{$nm}{hero_name_key};
+      $map{$xname} = 1;
+    }
+    my @dedup = keys %map;
+    return \@dedup;
+}
+
 #  IN: $pages ARRAY REF
 # OUT: $character_data
 sub gen_characters {
@@ -49,7 +70,9 @@ sub gen_characters {
     foreach my $pg (@$pages) {
         foreach my $pn (@{$pg->{panels}}) {
             # initiliaze appearance data to 0
-            map { $_->{panel_appearance_data}[$panel_index] = 0 } @{$people->{main_characters}};
+            map {
+              $_->{panel_appearance_data}[$panel_index] = 0
+            } @{$people->{main_characters}};
 
             if($pn->{characters}) {
                 my @tmp = @{$pn->{characters}};
