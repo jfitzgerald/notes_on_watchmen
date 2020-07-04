@@ -43,11 +43,8 @@ table.page-wrapper {
   padding: 0px;
 }
 
-table.panel-grid td, table.cover-grid td {
-  border: 1px solid;
-}
-
-table.cover-grid td {
+table.panel-grid > tbody > tr > td,
+table.cover-grid > tbody > tr > td {
   border: 1px solid;
 }
 

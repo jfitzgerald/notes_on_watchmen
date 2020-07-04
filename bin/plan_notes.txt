@@ -1,7 +1,64 @@
 ==== Experience ====
+- References:
+  - http://watchmenanalysis.blogspot.com/2008/08/wesleyan-university-honors-college_4957.html
+  - http://capnwacky.com/rj/watchmen/chapter1.html
+  - https://en.wikipedia.org/wiki/Aoxomoxoa
+  - https://www.rickgriffindesigns.com/album-covers
+  - http://www.deaddisc.com/disc/Tales_Of_The_Great_Rum_Runners.htm
+  -
 
-- Tag cloud of signs, headlines, products, ads, etc.
-  - repetition
+- Design References:
+  - https://www.superherodb.com/ant-man-ii/10-166/
+
+- Landing Page Experience mirrors Chap1/Page1 "pull out"
+  Black Page with small yellow rectangle and a zoom in/out control at lowest zoom setting (full zoom out)
+  Input Range: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
+  Each zoom in reveals more:
+    - Level 1: small rectangle
+    - Level 2: larger rectangle with 12 small yellow panels
+    - Level 3: larger rectangle with 12 small yellow panels
+    - Level 4: larger rectangle with 12 larger panels with 26 small yellow panels
+    - Level 5: larger rectangle with 12 larger panels with 26 larger yellow panels
+    - Level 6: larger rectangle with 12 larger panels with 26 larger panels (pages) with their respective panels
+    - Level 7: larger rectangle with 12 larger panels with 26 larger pages each with their respective page panels
+    - Level 8: another zoom?
+    - Level 9: Switch to full book experience on Chapter 1, Page 1.
+      - zoom controller collapses to top-right
+      - expand zoom controller to zoom out to switch back to zoom experience
+
+- TODO: Tag recurring elements. Create modified panel image to highlight element.
+  These are properties of the panel.
+  Panel+tag gets you the custom image:
+   Chapter 1, Page 4, Panel 3, Headline: panel-01-04-03-headline.jpg
+  {
+    panels: [
+      {
+        tags: [ "happy_face", "headline" ]
+      }
+    ]
+  }
+  or with notes
+  {
+    panels: [
+      {
+        tags: {
+          "happy_face" : "The button of the jacket",
+          "headline" : "US Advances War with Afhganistan"
+        }
+      }
+    ]
+  }
+
+  - happy_face
+  - clock
+  - headline
+  - grafitti
+  - poster
+  - hidden_symbol
+  - real_world
+  - commercial (restaurant, product)
+
+- Slide-out for panel
 - Scroll the entire site, page by page
   - horizonatal scroll?
   - allow scroll in both directions (i.e. backwards from Chapter 1 to Chapter 12)
@@ -19,7 +76,7 @@
   - References:
     - https://codepen.io/shandb/pen/GdyKPm
     - https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html
-    
+
 
 Themes
 - pull/zoom out from close detail to far overview
@@ -50,7 +107,7 @@ Themes
 
 - TODO: Add ChartJS Plugin for Image Labels: https://github.com/emn178/chartjs-plugin-labels
 
-- TODO: Create character images
+- DONE: Create character images (hero)
 
 - Styles/Design
   - Headings
@@ -77,23 +134,23 @@ Themes
 - Chapter Grid Colors (clickable)
 
 ==== Chapters ====
-- TODO: Do this next: Character counts, charts, images, chart hovers
-- Meta
-    -X Title
-    -X Cover
-    -X Quote
-    -X # of Pages
-    - Color histogram
+- (DONE)): Do this next: Character counts, charts, images, chart hovers
+-  Meta
+    - (DONE) Title
+    - (DONE) Cover
+    - (DONE) Quote
+    - (DONE) # of Pages
+    - TODO: Color histogram
         - Chronological (horizontal bar chart)
-    -X Characters (# of panels)
-- Characters
-  - # of pages each
-  - chronological per panel
-- Page/Panel grids
-    -X add panel.id to data
-    -X panel canvas circles
-    - color by prevalence
-    - color by spectrum
+    - (DONE) Characters (# of panels)
+- (DONE) Characters
+  - (DONE) # of pages each
+  - (DONE) chronological per panel
+- (DONE) Page/Panel grids
+    - (DONE) add panel.id to data
+    - (DONE) panel canvas circles
+    - (DONE) color by prevalence
+    - (DONE)color by spectrum
   (DONE) random canvas colors
   (DONE) rectangular fill by percentage
 
@@ -125,3 +182,31 @@ Themes
 - vertical color bar chart
   - by chapter
   - by panels
+
+======= Snippets ========
+
+Chapter Cover with Color
+<div class="tsize-5">
+  <table class="page-wrapper ba b--black-20"><tbody><tr><td>
+    <table class="cover-grid">
+      <tbody><tr>
+        <td class="black-20 w-26 bg-black-90">
+          <div class="cover-title ttu db mw5 pv3 pr2 fw8 b--black-90 {{ $chap_color }}">{{ .Params.chapter_numeral }}</div>
+        </td>
+        <td class="black-20"><div></div></td>
+      </tr>
+    </tbody></table>
+  </td></tr></tbody></table>
+</div>
+
+Chapter Clock
+{{ $chap_color := index .Site.Data.cover_colors .Params.chapter_numeral }}
+
+  <div class="tsize-6">
+    <table class="page-wrapper ba b--black-20"><tbody><tr><td>
+      <table class="cover-grid">
+        <tbody><tr>
+          <td class="black-20 w-26 bg-black-90">
+            {{ $clock_svg := printf "svg/clock-%d.svg" (int .Params.chapter_num) }}
+
+            {{ partial $clock_svg (dict "color" (index .Site.Data.colors.map $chap_color) "size" "60") }}

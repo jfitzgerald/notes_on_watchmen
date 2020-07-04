@@ -1,3 +1,35 @@
+div.pill {
+  padding: .5rem .75rem .5rem 0;
+  height: 30px;
+}
+span.pill {
+  padding: .5rem .75rem;
+}
+.pill {
+  background-color: #d1edf9;
+  color: #177da8 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-items: center;
+  background: #dbdbdb;
+  border-radius: 5rem;
+  display: inline-flex;
+  font-size: 90%;
+  height: 1.2rem;
+  margin: .1rem;
+  max-width: 100%;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.avatar-sm {
+  height: 30px;
+  width: 30px;
+  margin-right: 6px;
+}
+.avatar {
+  border-radius: 50%;
+}
 .comic-now {
   font-family: "Comic Now";
   background-color: #FFFF99;
@@ -19,4 +51,17 @@
 }
 .now-page-bar .marker {
   top: 5px;
+}
+.clock-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.clock-wrapper svg {
+  display: block;
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
 }

@@ -3639,10 +3639,8 @@ div.chapter-wrapper.tsize-0 {
 table.page-wrapper {
   padding: 0px;
 }
-table.panel-grid td, table.cover-grid td {
-  border: 1px solid;
-}
-table.cover-grid td {
+table.panel-grid > tbody > tr > td,
+table.cover-grid > tbody > tr > td {
   border: 1px solid;
 }
 table.panel-grid.cols-1 td {
@@ -3760,6 +3758,42 @@ div.tsize-0 table.panel-grid, div.tsize-0 table.cover-grid {
   border-spacing: 1px;
   width: 30px;
 }
+div.pill {
+  padding: .5rem .75rem .5rem 0;
+  height: 30px;
+}
+span.pill {
+  padding: .5rem .75rem;
+}
+.pill {
+  background-color: #d1edf9;
+  color: #177da8 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #dbdbdb;
+  border-radius: 5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 90%;
+  height: 1.2rem;
+  margin: .1rem;
+  max-width: 100%;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.avatar-sm {
+  height: 30px;
+  width: 30px;
+  margin-right: 6px;
+}
+.avatar {
+  border-radius: 50%;
+}
 .comic-now {
   font-family: "Comic Now";
   background-color: #FFFF99;
@@ -3781,5 +3815,19 @@ div.tsize-0 table.panel-grid, div.tsize-0 table.cover-grid {
 }
 .now-page-bar .marker {
   top: 5px;
+}
+.clock-wrapper {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+.clock-wrapper svg {
+  display: block;
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
 }
 

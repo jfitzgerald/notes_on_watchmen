@@ -1,95 +1,94 @@
 {{ define "main" }}
 
-  <div class="w-90 pa3 mr2 center">
-
+  <div class="w-90 pa3 center">
     <div class="pv3">
     {{- partial "chapter-nav-bar.html" .Params.chapter_num -}}
     </div>
 
-    <h2>Chapter Info</h2>
-    <div class="tsize-5">
-      <table class="page-wrapper ba b--black-20"><tbody><tr><td>
-        <table class="cover-grid">
-          <tbody><tr>
-            <td class="black-20 w-26 bg-black-90">
-              <div class="cover-title ttu db mw5 pv3 pr2 fw8 b--black-90 {{ .Params.cover_title_color }}">{{ .Params.chapter_numeral }}</div>
-            </td>
-            <td class="black-20"><div></div></td>
-          </tr>
-        </tbody></table>
-      </td></tr></tbody></table>
+    <div class="ba b--black-90">
+      <h2 class="comic-now f1 pl2 pr3 pt2 pb1">Chapter Info</h2>
+
+      {{ $chap_color := index .Site.Data.cover_colors .Params.chapter_numeral }}
+
+      <div class="pa5 pt0 f2">
+        <div class="bb b--black-20 flex flex-wrap pv2">
+            <div class="w-25 i fw5">{{ .Params.chapter_numeral }}</div>
+            <div class="w-75 fw1">{{ .Params.title }}</div>
+        </div>
+        <div class="bb b--black-20 flex flex-wrap pv2">
+            <div class="w-25 i fw5">Pages</div>
+            <div class="w-75 fw1">{{ .Params.total_pages }}</div>
+        </div>
+        <div class="bb b--black-20 flex flex-wrap pv2">
+            <div class="w-25 i fw5">Panels</div>
+            <div class="w-75 fw1">{{ .Params.total_panels }}</div>
+        </div>
+        <div class="bb b--black-20 flex flex-wrap pv2">
+            <div class="w-25 i fw5">Doomsday Clock</div>
+            <div class="w-75 fw1">{{ .Params.doomsday_clock }}</div>
+        </div>
+        <div class="bb b--black-20 flex flex-wrap pv2">
+            <div class="w-25 i fw5">Quote</div>
+            <div class="w-75 fw1">{{ .Params.quote }}</div>
+        </div>
+      </div>
     </div>
 
-    <table>
-        <tbody>
-            <tr>
-                <td>{{ .Params.chapter_numeral }}</td>
-                <td>{{ .Params.title }}</td>
-            </tr>
-            <tr>
-                <td>Quote</td>
-                <td>{{ .Params.quote }}</td>
-            </tr>
-            <tr>
-                <td>Pages</td>
-                <td>{{ .Params.total_pages }}</td>
-            </tr>
-            <tr>
-                <td>Doomsday Clock</td>
-                <td>{{ .Params.doomsday_clock }}</td>
-            </tr>
-          </tbody>
-      </table>
+    <div class="ba b--black-90">
+      <h2 class="comic-now f1 pl2 pr3 pt2 pb1">Characters</h2>
+      <div class="pa5 pt0 f3">
+        <div class="pa3 pt0 flex flex-wrap">
 
-      <div class="ba b--black-90">
-        <h2 class="comic-now f2 pl2 pr3 pt2 pb1">Characters</h2>
-        <div class="pa3 pt0">
-          <table><tbody>
           {{ range sort .Params.characters "total" "desc" }}
+          <div class="mb3 mr3 ba b--black-20 pa2">
+          <table><tbody>
             <tr>
-                <td class="v-top">{{ .name }}</td>
-                <td class="v-top">Appears in {{ .total }} panels</td>
                 <td class="v-top">
+
+                  {{ partial "character-badge.html" .hero_name_key }}
+
+                </td>
+                <td class="v-top">{{ .hero_name }} <span class="pill">{{ .total }} Panels</span>
                 {{ with .appears_with }}
-                Appears with:<br>
-                <ul>
-                    {{ range $name, $val := . }}
-                    <li>{{$name}} in {{$val}} panels</li>
+                with:<br>
+                <ul class="list pl3">
+                    {{ range sort . "total" "desc" }}
+                    <li><div class="pill">{{ partial "character-pill.html" .name_key }} in {{ int .total }} panels</div></li>
                     {{ end }}
                 </ul>
                 {{ end }}
                 </td>
             </tr>
-          {{ end }}
             </tbody>
         </table>
+        </div>
+        {{ end }}
+
+      </div>
       </div>
     </div>
 
-</div>
+    <div class="ba b--black-90">
+      <h2 class="comic-now f2 pl2 pr3 pt2 pb1">Character Panel Totals</h2>
+      {{ partial "js-characters-panel-total-chart.html" (dict "context" $ "page" .) }}
+    </div>
+    <div class="ba b--black-90">
+      <h2 class="comic-now f2 pl2 pr3 pt2 pb1">Character Panel Timeline</h2>
+      {{ partial "js-characters-panel-timeline-chart.html" (dict "context" $ "page" .) }}
+    </div>
 
+    <div class="ba b--black-90">
+      <h2 class="comic-now f2 pl2 pr3 pt2 pb1">Panels</h2>
+      {{ partial "panel-color-buttons.html" }}
 
-<div class="pa3 mt4 center">
-{{ partial "js-characters-panel-total-chart.html" (dict "context" $ "page" .) }}
-</div>
+      <div class="chapter-wrapper tsize-4">
+      {{ range .Params.pages }}
+        {{ partial "page-panels.html" (dict "this" .) }}
+      {{ end }}
+      </div>
+    </div>
+  </div>
 
-<div class="pa3 mt4 center">
-{{ partial "js-characters-panel-timeline-chart.html" (dict "context" $ "page" .) }}
-</div>
+  {{ partial "js-page-panel-colors.html" (dict "context" $) }}
 
-
-<div class="w-90 pa3 mr2">
-<h2>Panels</h2>
-{{ partial "panel-color-buttons.html" }}
-
-<div class="chapter-wrapper tsize-4">
-{{ range .Params.pages }}
-  {{ partial "page-panels.html" (dict "this" .) }}
-{{ end }}
-</div>
-</div>
-
-{{ partial "js-page-panel-colors.html" (dict "context" $) }}
-
-</div>
 {{ end }}

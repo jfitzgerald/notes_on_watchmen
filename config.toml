@@ -8,3 +8,7 @@ relativeURLs = false
     name = "Chapters"
     identifier = "chapters"
     url = "/chapters/"
+  [[menu.main]]
+    name = "Pages"
+    identifier = "pages"
+    url = "/pages/"

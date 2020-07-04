@@ -51,7 +51,8 @@ sub gen_characters {
     my $name_map = {};
     foreach my $ch (@{$people->{main_characters}}) {
         # set reverse key lookups by real and hero name
-        $ch->{appears_with} = {};
+        $ch->{tmp_appears_with} = {};
+        $ch->{appears_with} = [];
         $ch->{total} = 0;
         $ch->{panel_appearance_data} = [];
 
@@ -82,12 +83,21 @@ sub gen_characters {
                     $chr->{panel_appearance_data}[$panel_index] = 1;
 
                     # tally the character-character associations
-                    map { if($nm ne $_){ $chr->{appears_with}{$_}++; } } @tmp;
+                    map { if($nm ne $_){ $chr->{tmp_appears_with}{$_}++; } } @tmp;
                 }
             }
             $panel_index++;
         }
     }
+
+    # convert appears_with hash to array of objects
+    foreach my $ch (@{$people->{main_characters}}) {
+      while (my ($key, $value) = each (%{$ch->{tmp_appears_with}})) {
+        push @{$ch->{appears_with}}, {name_key => $key, total => $value, name => $name_map->{$key}{hero_name}};
+      }
+      delete $ch->{tmp_appears_with};
+    }
+
 
     my @chars = ();
     map { push @chars, $_ if($_->{hero_name} && $_->{total}) } @{$people->{main_characters}};

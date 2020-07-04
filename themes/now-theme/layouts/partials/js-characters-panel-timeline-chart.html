@@ -1,5 +1,4 @@
-<div class="relative center" style="height: 250px; width: 800px">
-<h2>Character Panel Timeline</h2>
+<div class="mv4 relative center" style="height: 250px; width: 800px">
 <canvas id="cnv-characters-panel-timeline" height="250" width="800"></canvas>
 </div>
 
@@ -53,7 +52,9 @@ var my_data = {
 // to create their timeline on the y-axis
 chart_data.forEach(function(chr) {
   my_data.yLabels.push(chr.label);
-})
+});
+my_data.yLabels.push("");
+
 
 //window.charts.character_panel_timeline(ctx, chart_data, chart_labels);
 
