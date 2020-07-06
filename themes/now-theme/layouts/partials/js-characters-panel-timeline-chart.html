@@ -1,5 +1,5 @@
-<div class="mv4 relative center" style="height: 250px; width: 800px">
-<canvas id="cnv-characters-panel-timeline" height="250" width="800"></canvas>
+<div class="relative center" style="height:650px; width:1200px;">
+<canvas id="cnv-characters-panel-timeline" height="550" width="1200"></canvas>
 </div>
 
 <script>
@@ -62,13 +62,17 @@ var myChart = new Chart(ctx, {
     data: my_data,
     type: 'line',
     responsive: true,
-    maintainAspectRatio: false,
+    maintainAspectRatio: true,
     options: {
+      tooltips: {
+        titleFontSize: 16,
+        bodyFontSize: 16
+      },
       legend: {
         display: false,
-        position: 'bottom',
+        position: 'top',
         labels: {
-          usePointStyle: false,
+          usePointStyle: false
         }
       },
       elements: {
@@ -84,20 +88,20 @@ var myChart = new Chart(ctx, {
           pointStyle: "line",
           //borderColor: "#000000",
           rotation: 90,
-          radius: 13,
-          hoverRadius: 9,
+          radius: 30,
+          hoverRadius: 24,
+          hoverBorderWidth: 4,
           hitRadius: 0,
-          borderWidth: 3
+          borderWidth: 4
         }
       },
       title: {
-        display: false,
+        display: true,
         padding: 20,
-        fontSize: 24,
         fontFamily: "'avenir next', 'avenir', 'sans-serif'",
         fontColor: "#000000",
         fontStyle: 'bold',
-        text: 'Characters on Panels'
+        text: 'Chapter {{ .page.Params.chapter_num }} : Characters on Panels'
       },
       scales: {
         xAxes: [{
@@ -109,11 +113,13 @@ var myChart = new Chart(ctx, {
             drawTicks: false
           },
           scaleLabel: {
-            display: true,
+            display: false,
+            fontSize: 18,
             labelString: 'Chapter {{ .page.Params.chapter_num }}'
           },
           ticks: {
             autoSkip: false,
+            fontSize: 18,
             callback: function(labelString, index) {
               if(labelString.match(/Panel 1$/)) {
                 return labelString.split(',')[0];
@@ -138,6 +144,7 @@ var myChart = new Chart(ctx, {
           },
           scaleLabel: {
             display: false,
+            fontSize: 24,
             labelString: 'Character'
           },
           ticks: {

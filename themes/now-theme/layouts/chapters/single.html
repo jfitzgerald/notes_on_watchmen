@@ -48,12 +48,12 @@
                   {{ partial "character-badge.html" .hero_name_key }}
 
                 </td>
-                <td class="v-top">{{ .hero_name }} <span class="pill">{{ .total }} Panels</span>
+                <td class="v-top">{{ .hero_name }} <span class="pill bg-black-70 {{$chap_color}}">{{ .total }} Panels</span>
                 {{ with .appears_with }}
                 with:<br>
                 <ul class="list pl3">
                     {{ range sort . "total" "desc" }}
-                    <li><div class="pill">{{ partial "character-pill.html" .name_key }} in {{ int .total }} panels</div></li>
+                    <li><div class="pill bg-black-70 {{$chap_color}}">{{ partial "character-pill.html" .name_key }} in {{ int .total }} panels</div></li>
                     {{ end }}
                 </ul>
                 {{ end }}

@@ -1,3 +1,10 @@
+==== Up  Next ====
+- Character pages
+- Chapter color bar
+- Page pages
+- Slide-out
+- tag panels
+
 ==== Experience ====
 - References:
   - http://watchmenanalysis.blogspot.com/2008/08/wesleyan-university-honors-college_4957.html
@@ -10,7 +17,7 @@
 - Design References:
   - https://www.superherodb.com/ant-man-ii/10-166/
 
-- Landing Page Experience mirrors Chap1/Page1 "pull out"
+- Landing Page Experience mirrors the "pull out" from GN Chap1/Page1
   Black Page with small yellow rectangle and a zoom in/out control at lowest zoom setting (full zoom out)
   Input Range: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
   Each zoom in reveals more:
@@ -58,7 +65,7 @@
   - real_world
   - commercial (restaurant, product)
 
-- Slide-out for panel
+- TODO: Slide-out for panel
 - Scroll the entire site, page by page
   - horizonatal scroll?
   - allow scroll in both directions (i.e. backwards from Chapter 1 to Chapter 12)
@@ -164,7 +171,7 @@ Themes
 - Color Chart
 
 ==== Characters ====
-- Hero Picture (Real Picture)
+- TODO: Hero Picture (Real Picture)
 - Bio (Name, Hero Name, )
 - Stats
   - First Panel

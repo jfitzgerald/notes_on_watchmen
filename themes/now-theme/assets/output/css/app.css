@@ -3766,15 +3766,12 @@ span.pill {
   padding: .5rem .75rem;
 }
 .pill {
-  background-color: #d1edf9;
-  color: #177da8 !important;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #dbdbdb;
   border-radius: 5rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

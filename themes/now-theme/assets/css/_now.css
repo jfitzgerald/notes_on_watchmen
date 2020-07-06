@@ -6,13 +6,10 @@ span.pill {
   padding: .5rem .75rem;
 }
 .pill {
-  background-color: #d1edf9;
-  color: #177da8 !important;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   align-items: center;
-  background: #dbdbdb;
   border-radius: 5rem;
   display: inline-flex;
   font-size: 90%;

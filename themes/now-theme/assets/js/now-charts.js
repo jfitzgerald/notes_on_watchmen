@@ -115,3 +115,6 @@ window["charts"] = {
     });
   }
 };
+Chart.defaults.global.defaultFontColor = 'rgb(0,0,0,.7)';
+Chart.defaults.global.defaultFontSize = '24';
+Chart.defaults.global.defaultFontFamily = "'avenir next', 'avenir', 'sans-serif'";

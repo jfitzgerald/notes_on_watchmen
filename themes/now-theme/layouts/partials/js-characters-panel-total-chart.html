@@ -35,8 +35,15 @@ var myChart = new Chart(ctx, {
     data: my_data
     ,options: {
       responsive: true,
+      tooltips: {
+        titleFontSize: 16,
+        bodyFontSize: 16
+      },
       legend: {
         position: 'bottom',
+        labels : {
+          fontSize: 24
+        }
       },
       title: {
         display: false,
