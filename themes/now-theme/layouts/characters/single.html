@@ -1,7 +1,24 @@
 {{ define "main" }}
-<div class="container">
-    <h1>{{ .Title | markdownify}}</h1>
+  <div class="w-90 pa3 center">
 
-    {{ .Content }}
-</div>
+    <div class="pv3">
+    {{- partial "character-nav-bar.html" (dict "this" .) -}}
+    </div>
+
+    <div class="ba b--black-90">
+      <h2 class="comic-now f1 pl2 pr3 pt2 pb1">Character Info</h2>
+
+      <div class="pa5 pt0 f2">
+        <div class="bb b--black-20 flex flex-wrap pv2">
+            <div class="w-25 i fw5">Hero Name</div>
+            <div class="w-75 fw1">{{ .Params.hero_name }}</div>
+        </div>
+        <div class="bb b--black-20 flex flex-wrap pv2">
+            <div class="w-25 i fw5">Real Name</div>
+            <div class="w-75 fw1">{{ .Params.real_name }}</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 {{ end }}

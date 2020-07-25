@@ -1,0 +1,23 @@
+{{ $this := .this }}
+{{ $hero_key := $this.Params.hero_name_key }}
+
+{{ $data := $this.Site.Data.characters }}
+<div class="w-100 pv2 mr2 now-page-bar">
+<div class="flex justify-center bb b--silver">
+{{ range sort $data.main_characters "chart_order" }}
+<a href="/characters/{{.hero_name_key}}/" class="link tc pr1">
+  {{ $key := printf "%s_bw" .hero_name_key }}
+  {{ $cls := "o-20 glow" }}
+
+  {{ if eq $hero_key .hero_name_key }}
+    {{ $key = .hero_name_key }}
+    {{ $cls = "" }}
+  {{ end }}
+
+  {{ partial "character-badge.html" (dict "key" $key "class" $cls) }}
+
+  <span class="marker relative black-90 {{ if ne $hero_key .hero_name_key }}dn{{end}}">&#9650;</span>
+</a>
+{{ end }}
+</div>
+</div>

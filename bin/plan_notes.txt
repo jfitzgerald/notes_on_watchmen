@@ -1,5 +1,6 @@
 ==== Up  Next ====
 - Character pages
+  - layout, info display
 - Chapter color bar
 - Page pages
 - Slide-out
@@ -182,7 +183,7 @@ Themes
 - # panels (%)
 - # of panels appears solo
 - # of panels appears with characters
-- Book timeline (broken line graph)
+- ? Book timeline (broken line graph)
 
 ---- Colors ----
 - characters primary colors

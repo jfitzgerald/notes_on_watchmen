@@ -24,7 +24,7 @@
     {{ with .Params.characters }}
     <div class="flex flex-wrap">
       {{ range . }}
-      {{ partial "character-badge.html" . }}
+      {{ partial "character-badge.html" (dict "key" .) }}
       {{ end }}
     </div>
     {{ end }}

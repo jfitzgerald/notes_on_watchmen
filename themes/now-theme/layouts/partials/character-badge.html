@@ -1,3 +1,6 @@
+{{ $key := .key }}
+{{ $class := .class }}
+
 <div class="ba pa1 mr1 b--black-20">
-  <img src="/images/badges/{{.}}.png">
+  <img src="/images/badges/{{$key}}.png" {{if $class}}class="{{$class}}"{{end}}>
 </div>

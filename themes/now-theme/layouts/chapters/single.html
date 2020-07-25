@@ -45,7 +45,7 @@
             <tr>
                 <td class="v-top">
 
-                  {{ partial "character-badge.html" .hero_name_key }}
+                  {{ partial "character-badge.html" (dict "key" .hero_name_key) }}
 
                 </td>
                 <td class="v-top">{{ .hero_name }} <span class="pill bg-black-70 {{$chap_color}}">{{ .total }} Panels</span>
