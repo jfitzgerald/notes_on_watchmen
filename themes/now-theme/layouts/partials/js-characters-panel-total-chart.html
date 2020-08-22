@@ -1,5 +1,5 @@
-<div class="mv4 relative center" style="height: 300px; width: 800px">
-<canvas id="cnv-characters-panel-total" height="300" width="800"></canvas>
+<div class="mv4 relative center" style="height: 80vh; width: 80vw">
+<canvas id="cnv-characters-panel-total"></canvas>
 </div>
 
 <script>
@@ -34,7 +34,8 @@ var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: my_data
     ,options: {
-      responsive: true,
+      //responsive: true,
+      maintainAspectRatio: false,
       tooltips: {
         titleFontSize: 16,
         bodyFontSize: 16

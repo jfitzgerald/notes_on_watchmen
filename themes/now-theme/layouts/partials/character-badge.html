@@ -1,6 +1,11 @@
 {{ $key := .key }}
-{{ $class := .class }}
+{{ $fade := .fade }}
+{{ $class := "" }}
+{{ if $fade }}
+  {{ $class = "o-20 glow"}}
+  {{ $key = printf "%s_bw" $key }}
+{{ end }}
 
 <div class="ba pa1 mr1 b--black-20">
-  <img src="/images/badges/{{$key}}.png" {{if $class}}class="{{$class}}"{{end}}>
+  <img src="/images/badges/{{$key}}.png" class="{{$class}}">
 </div>

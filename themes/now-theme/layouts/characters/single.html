@@ -8,16 +8,22 @@
     <div class="ba b--black-90">
       <h2 class="comic-now f1 pl2 pr3 pt2 pb1">Character Info</h2>
 
-      <div class="pa5 pt0 f2">
-        <div class="bb b--black-20 flex flex-wrap pv2">
-            <div class="w-25 i fw5">Hero Name</div>
-            <div class="w-75 fw1">{{ .Params.hero_name }}</div>
-        </div>
-        <div class="bb b--black-20 flex flex-wrap pv2">
-            <div class="w-25 i fw5">Real Name</div>
-            <div class="w-75 fw1">{{ .Params.real_name }}</div>
+      <div class="mw9 center ph3-ns">
+        <div class="cf ph2-ns">
+
+          <div class="fl w-100 w-50-ns pa2 f2 pv2">
+            <div class="bb b--black-20 i fw5">{{ .Params.hero_name }}</div>
+            <div class="fw1 ttu tracked f3 mt1">Hero Name</div>
+          </div>
+
+          <div class="fl w-100 w-50-ns pa2 f2 pv2">
+            <div class="bb b--black-20 i fw5">{{ .Params.real_name }}</div>
+            <div class="fw1 ttu tracked f3 mt1">Real Name</div>
+          </div>
+
         </div>
       </div>
+      
     </div>
 
   </div>

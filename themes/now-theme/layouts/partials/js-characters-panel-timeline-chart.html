@@ -1,5 +1,5 @@
-<div class="relative center" style="height:650px; width:1200px;">
-<canvas id="cnv-characters-panel-timeline" height="550" width="1200"></canvas>
+<div class="relative center" style="height:80vh; width:80vw;">
+<canvas id="cnv-characters-panel-timeline" ></canvas>
 </div>
 
 <script>
@@ -61,8 +61,8 @@ my_data.yLabels.push("");
 var myChart = new Chart(ctx, {
     data: my_data,
     type: 'line',
-    responsive: true,
-    maintainAspectRatio: true,
+    //responsive: true,
+    maintainAspectRatio: false,
     options: {
       tooltips: {
         titleFontSize: 16,

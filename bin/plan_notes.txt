@@ -1,9 +1,19 @@
 ==== Up  Next ====
 - Character pages
   - layout, info display
+  - character panels:
+    - (top) image with large number to right
+    - (bottom) "Appears With" heading, row of smaller images with numbers underneath
 - Chapter color bar
 - Page pages
 - Slide-out
+- research scrolling timeline
+  - https://uicookies.com/horizontal-timeline/
+  - https://webdesign.tutsplus.com/tutorials/building-a-horizontal-timeline-with-css-and-javascript--cms-28378
+  - https://developers.google.com/web/updates/2016/12/performant-parallaxing
+  - https://materializecss.com/parallax-demo.html
+  - https://www.freecodecamp.org/news/css-3d-scrolling-on-the-z-axis-92503c3ecf3f/
+  - https://eng.wealthfront.com/2012/03/22/scrolling-z-axis-with-css-3d-transforms/
 - tag panels
 
 ==== Experience ====
@@ -114,6 +124,7 @@ Themes
 - Consider "rough" chart plugin: https://nagix.github.io/chartjs-plugin-rough/
 
 - TODO: Add ChartJS Plugin for Image Labels: https://github.com/emn178/chartjs-plugin-labels
+- Responsive chart: https://codepen.io/chartjs/pen/YVWZbz
 
 - DONE: Create character images (hero)
 

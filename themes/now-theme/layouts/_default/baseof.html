@@ -8,7 +8,7 @@
   {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
   <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 
-  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   {{ hugo.Generator }}
 
   {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}

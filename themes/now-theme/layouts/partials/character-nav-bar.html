@@ -6,15 +6,12 @@
 <div class="flex justify-center bb b--silver">
 {{ range sort $data.main_characters "chart_order" }}
 <a href="/characters/{{.hero_name_key}}/" class="link tc pr1">
-  {{ $key := printf "%s_bw" .hero_name_key }}
-  {{ $cls := "o-20 glow" }}
-
+  {{ $fade := true }}
   {{ if eq $hero_key .hero_name_key }}
-    {{ $key = .hero_name_key }}
-    {{ $cls = "" }}
+    {{ $fade = false }}
   {{ end }}
 
-  {{ partial "character-badge.html" (dict "key" $key "class" $cls) }}
+  {{ partial "character-badge.html" (dict "key" .hero_name_key "fade" $fade) }}
 
   <span class="marker relative black-90 {{ if ne $hero_key .hero_name_key }}dn{{end}}">&#9650;</span>
 </a>
