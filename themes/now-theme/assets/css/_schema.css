@@ -1,0 +1,17 @@
+pre {
+  white-space: pre;
+  position: relative;
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  font-family: inconsolata,Menlo,Monaco,courier new,monospace;
+  font-size: 1em;
+  padding: 1.5em;
+  background-color: #f1f2f2;
+}
+
+code {
+  font-family: inconsolata,Menlo,Monaco,courier new,monospace;
+  line-height: 2;
+  color: #555;
+}
