@@ -1,6 +1,3 @@
-title: JSON Schema Spec
---
-
 ## Chapter
 
 <table class="collapse ba br2 b--black-10 pv2 ph3">
@@ -47,6 +44,8 @@ title: JSON Schema Spec
 
 The default page layout uses 9 panels. Set the `layout` attribute for pages that have a different panel layout (for example, 12).
 
+The cover page should have a page entry with page_num set to 0.
+
 <table class="collapse ba br2 b--black-10 pv2 ph3">
   <tbody>
     <tr class="striped--light-gray">
@@ -74,13 +73,317 @@ The default page layout uses 9 panels. Set the `layout` attribute for pages that
 
 ## Panel
 
-Panels are numbered based on their top-left position in the page grid, from the top left of the page, reading to the right. For a standard page, the panels are numbered 1-9.
+<div class="fl w-60 pa2">
+  <p>Panels are numbered based on their top-left position in the page grid, from the top left of the page, reading to the right. For a standard page, the panels are numbered 1-9.</p>
+</div>
 
-In a 9-panel grid, if the third row appears as a single panel, the panels would be numbered 1-7 and panel 7 would have `width:3`.
+<div class="fl w-40 pa2">
+  <div class="chapter-wrapper tsize-3">
+    <table class="page-wrapper ba  b--black-20"><tbody><tr><td>
+      <table id="page-01-10" class="panel-grid cols-3">
+        <tbody><tr>
 
-In a 9-panel grid, if the first panel in the second row (panel 4) has a width of 2, the next panel would be panel 6.
 
-In a 9-panel grid, if the third panel in the first row (panel 3) has a height of 3, meaning the full height of the page, that page would not have entries for panel 6 nor for panel 9.
+
+          <td id="panel-01-10-01" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-10-02" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-10-03" class=" black-20  w-32"></td>
+
+        </tr>
+
+
+
+        <tr>
+
+
+
+          <td id="panel-01-10-04" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-10-05" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-10-06" class=" black-20  w-32"></td>
+
+        </tr>
+
+
+
+        <tr>
+
+
+
+          <td id="panel-01-10-07" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-10-08" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-10-09" class=" black-20  w-32"></td>
+
+        </tr>
+
+
+      </tbody></table>
+    </td></tr></tbody></table>
+
+
+  </div>
+</div>
+
+Example:
+
+```json
+{
+  "page_num": 10,
+  "panels": [
+    { "panel": 1 },
+    { "panel": 2 },
+    { "panel": 3 },
+    { "panel": 4 },
+    { "panel": 5 },
+    { "panel": 6 },
+    { "panel": 7 },
+    { "panel": 8 },
+    { "panel": 9 }
+  ]
+}
+```
+
+<div class="fl w-60 pa2">
+  <p>In a 9-panel grid, if the third row appears as a single panel, the panels would be numbered 1-7 and panel 7 would have `width:3`.</p>
+</div></p>
+
+<div class="fl w-40 pa2">
+  <div class="chapter-wrapper tsize-3">
+    <table class="page-wrapper ba  b--black-20"><tbody><tr><td>
+      <table id="page-01-03" class="panel-grid cols-3">
+        <tbody><tr>
+          <td id="panel-01-03-01" class=" black-20  w-32"></td>
+          <td id="panel-01-03-02" class=" black-20  w-32"></td>
+
+          <td id="panel-01-03-03" class=" black-20  w-32"></td>
+
+        </tr>
+
+
+
+        <tr>
+
+
+
+          <td id="panel-01-03-04" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-03-05" class=" black-20  w-32"></td>
+
+
+
+          <td id="panel-01-03-06" class=" black-20  w-32"></td>
+
+        </tr>
+
+
+
+        <tr>
+
+
+
+          <td id="panel-01-03-07" colspan="3" class=" black-20  "></td>
+
+        </tr>
+
+
+      </tbody></table>
+    </td></tr></tbody></table>
+
+
+  </div>
+</div>
+
+Example:
+
+```json
+{
+  "page_num": 10,
+  "panels": [
+    { "panel": 1 },
+    { "panel": 2 },
+    { "panel": 3 },
+    { "panel": 4 },
+    { "panel": 5 },
+    { "panel": 6 },
+    { "panel": 7, "width": 3 }
+  ]
+}
+```
+
+<div class="fl w-60 pa2">
+  <p>In a 9-panel grid, if the first panel in the second row (panel 4) has a width of 2, the next panel would be panel 6.</p>
+</div>
+
+<div class="flw-40 pa2">
+  <div class="chapter-wrapper tsize-3">
+
+
+
+
+
+  <table class="page-wrapper ba  b--black-20"><tbody><tr><td>
+    <table id="page-01-25" class="panel-grid
+    cols-3">
+
+
+      <tbody><tr>
+
+
+
+        <td id="panel-01-25-01" class=" black-20  w-32"></td>
+
+
+
+        <td id="panel-01-25-02" class=" black-20  w-32"></td>
+
+
+
+        <td id="panel-01-25-03" class=" black-20  w-32"></td>
+
+      </tr>
+
+
+
+      <tr>
+
+
+
+        <td id="panel-01-25-04" colspan="2" class=" black-20  "></td>
+
+
+
+        <td id="panel-01-25-06" class=" black-20  w-32"></td>
+
+      </tr>
+
+
+
+      <tr>
+
+
+
+        <td id="panel-01-25-07" class=" black-20  w-32"></td>
+
+
+
+        <td id="panel-01-25-08" class=" black-20  w-32"></td>
+
+
+
+        <td id="panel-01-25-09" class=" black-20  w-32"></td>
+
+      </tr>
+
+
+    </tbody></table>
+  </td></tr></tbody></table>
+
+
+    </div>
+</div>
+
+Example:
+
+```json
+{
+  "page_num": 10,
+  "panels": [
+    { "panel": 1 },
+    { "panel": 2 },
+    { "panel": 3 },
+    { "panel": 4, "width": 2 },
+    { "panel": 6 },
+    { "panel": 7 },
+    { "panel": 8 },
+    { "panel": 9 }
+  ]
+}
+```
+
+<div class="fl w-60 pa2">
+  <p>In a 12-panel grid, if the first panel has a height of 2 (rows) and width of 4 (columns), that page would not have entries for panels 2-8.</p>
+</div>
+
+<div class="fl w-40 pa2">
+  <div class="chapter-wrapper tsize-3">
+    <table class="page-wrapper ba  b--black-20"><tbody><tr><td>
+      <table id="page-01-06" class="panel-grid cols-4">
+
+
+        <tbody><tr>
+
+
+
+          <td id="panel-01-06-01" colspan="4" class=" black-20  double "></td>
+
+        </tr>
+
+
+
+
+
+        <tr>
+
+
+
+          <td id="panel-01-06-09" class=" black-20  w-24"></td>
+
+
+
+          <td id="panel-01-06-10" class=" black-20  w-24"></td>
+
+
+
+          <td id="panel-01-06-11" class=" black-20  w-24"></td>
+
+
+
+          <td id="panel-01-06-12" class=" black-20  w-24"></td>
+
+        </tr>
+
+
+      </tbody></table>
+    </td></tr></tbody></table>
+
+
+  </div>
+</div>
+
+Example:
+
+```json
+{
+  "page_num": 6,
+  "layout": 12,
+  "panels": [
+    { "panel": 1, "width": 4, "height": 2 },
+    { "panel": 9 },
+    { "panel": 10 },
+    { "panel": 11 },
+    { "panel": 12 }
+  ]
+}
+```
 
 The panel numbers, width, and height are relative to the page layout.
 
@@ -126,6 +429,11 @@ The panel numbers, width, and height are relative to the page layout.
       <td class="pv2 ph3"><em>Array of strings</em></td>
       <td class="pv2 ph3"><code>["dan_dreiberg", "laurie_juspeczyk"]</code></td>
     </tr>
+    <tr>
+      <td class="pv2 ph3">tags</td>
+      <td class="pv2 ph3"><em>Array of strings</em></td>
+      <td class="pv2 ph3"><code>["happy_face"]</code></td>
+    </tr>
   </tbody>
 </table>
 
@@ -149,6 +457,8 @@ dan_dreiberg
 silk_spectre
 laurie_juspeczyk
 ```
+
+### Tags
 
 
 ## Example: Chapter 1
