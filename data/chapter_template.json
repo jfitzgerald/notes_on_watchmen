@@ -1,0 +1,1333 @@
+{
+  "chapter_num": 1,
+  "chapter_numeral": "Chapter I",
+  "title": "At midnight, all the agents...",
+  "quote": "\"Usually found on the last page of the chapter.\" -- Quoted Person",
+  "doomsday_clock": "11:48 PM",
+  "pages": [
+  {"page_num": 0},
+  {
+    "page_num": 1,
+    "layout": 9,
+    "panels": [
+    {
+      "panel": 1,
+      "chronology": "present|past",
+      "characters": ["rorschach", "edward_blake"]
+      "tags": [
+        "happy_face"
+      ],
+      "notes" : {
+        "textual_visual" : "I have seen its true face."
+      },
+      "rorschachs_journal_date": "October 12th, 1985",
+      "rorschachs_journal": true
+    },
+    {
+      "panel": 2,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 3,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 4,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 5,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 6,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 7,
+      "characters": [],
+      "chronology": "present"
+    }
+  ]
+  },
+  {
+    "page_num": 2,
+    "layout": 9,
+    "panels": [
+    {
+      "panel": 1,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 2,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 3,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 4,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 5,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 6,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 7,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 8,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 9,
+      "characters": [],
+      "chronology": "present"
+    }
+  ]
+  },
+  {
+    "page_num": 3,
+    "layout": 9,
+    "panels": [
+    {
+      "panel": 1,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 2,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 3,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 4,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 5,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 6,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 7,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 8,
+      "characters": [],
+      "chronology": "present"
+    },
+    {
+      "panel": 9,
+      "characters": [],
+      "chronology": "present"
+    }
+  ]
+},
+{
+  "page_num": 4,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 5,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 6,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 7,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 8,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 9,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 10,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 11,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 12,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 13,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 14,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 15,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 16,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 17,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 18,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 19,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 20,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 21,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 22,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 23,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 24,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 25,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+},
+{
+  "page_num": 26,
+  "layout": 9,
+  "panels": [
+  {
+    "panel": 1,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 2,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 3,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 4,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 5,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 6,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 7,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 8,
+    "characters": [],
+    "chronology": "present"
+  },
+  {
+    "panel": 9,
+    "characters": [],
+    "chronology": "present"
+  }
+]
+}
+}
