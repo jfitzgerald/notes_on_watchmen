@@ -5,22 +5,23 @@ relativeURLs = false
 
 [menu]
   [[menu.main]]
-    name = "Characters"
-    identifier = "characters"
-    url = "/characters/"
-    weight = 10
-
-  [[menu.main]]
     name = "Chapters"
     identifier = "chapters"
     url = "/chapters/"
-    weight = 20
+    weight = 10
 
   [[menu.main]]
     name = "Pages"
     identifier = "pages"
     url = "/pages/"
+    weight = 20
+    
+  [[menu.main]]
+    name = "Characters"
+    identifier = "characters"
+    url = "/characters/"
     weight = 30
+
 
 pygmentsUseClasses=true
 

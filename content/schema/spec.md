@@ -46,6 +46,10 @@ The default page layout uses 9 panels. Set the `layout` attribute for pages that
 
 The cover page should have a page entry with page_num set to 0.
 
+The quote is usually on the last page of the chapter.
+
+The chapter title is usually not on page 1, but a few pages later.
+
 <table class="collapse ba br2 b--black-10 pv2 ph3">
   <tbody>
     <tr class="striped--light-gray">
@@ -457,6 +461,131 @@ dan_dreiberg
 silk_spectre
 laurie_juspeczyk
 ```
+
+<div class="w-100 pv2 mr2 now-page-bar">
+<div class="flex justify-center bb b--silver">
+
+<a href="/characters/rorschach/" class="link tc pr1">
+
+
+
+
+
+
+
+
+
+
+
+<div class="ba pa1 mr1 b--black-20">
+  <img src="/images/badges/rorschach.png" class="">
+</div>
+
+
+  <span class="marker relative black-90">Rorschach</span>
+</a>
+
+<a href="/characters/nite_owl/" class="link tc pr1">
+
+
+
+
+
+
+
+
+
+
+<div class="ba pa1 mr1 b--black-20">
+  <img src="/images/badges/nite_owl.png" class="">
+</div>
+
+
+  <span class="marker relative black-90 ">Nite Owl</span>
+</a>
+
+<a href="/characters/silk_spectre/" class="link tc pr1">
+
+
+
+
+
+
+
+
+
+
+
+<div class="ba pa1 mr1 b--black-20">
+  <img src="/images/badges/silk_spectre.png" class="">
+</div>
+
+
+  <span class="marker relative black-90">Silk Spectre</span>
+</a>
+
+<a href="/characters/dr_manhattan/" class="link tc pr1">
+
+
+
+
+
+
+
+
+
+
+
+<div class="ba pa1 mr1 b--black-20">
+  <img src="/images/badges/dr_manhattan.png" class="">
+</div>
+
+
+  <span class="marker relative black-90">Dr. Manhattan</span>
+</a>
+
+<a href="/characters/ozymandias/" class="link tc pr1">
+
+
+
+
+
+
+
+
+
+
+
+<div class="ba pa1 mr1 b--black-20">
+  <img src="/images/badges/ozymandias.png" class="">
+</div>
+
+
+  <span class="marker relative black-90">Ozymandias</span>
+</a>
+
+<a href="/characters/the_comedian/" class="link tc pr1">
+
+
+
+
+
+
+
+
+
+
+
+<div class="ba pa1 mr1 b--black-20">
+  <img src="/images/badges/the_comedian.png" class="">
+</div>
+
+
+  <span class="marker relative black-90">The Comedian</span>
+</a>
+
+</div>
+</div>
 
 ### Tags
 

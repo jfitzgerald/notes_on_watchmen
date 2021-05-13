@@ -12,7 +12,6 @@ $Data::Dumper::Useqq = 1;
 $Data::Dumper::Pair = ' : ';
 
 
-#my $hist_file = '/Users/justin/Pictures/watchmen/Chapter01/chapter1-hist.txt';
 my $data = {};
 foreach my $hist_file (@ARGV) {
   my $fh;

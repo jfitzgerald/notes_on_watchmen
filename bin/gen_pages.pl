@@ -21,7 +21,7 @@ foreach my $chap (1..12) {
 
     # color data in data/colors/chapter1.json
 
-    my $color_file = NOWUTIL::PROJDIR;
+    my $color_file = NowUtil::PROJDIR;
     my $data = JSON::Parse::json_file_to_perl($color_file);
 
     foreach my $page_id (keys %$data) {

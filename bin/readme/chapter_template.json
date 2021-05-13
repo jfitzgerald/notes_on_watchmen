@@ -13,7 +13,7 @@
     {
       "panel": 1,
       "chronology": "present|past",
-      "characters": ["rorschach", "edward_blake"]
+      "characters": ["rorschach", "edward_blake"],
       "tags": [
         "happy_face"
       ],

@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Use this after converting JPG to PNG.
+#
+# Creates websafe versions of the PNG images.
+# Creates a folder named `websafe` in the source folder.
+#
+# Usage:
+# expects a folder containing a PNG for each page of the chapter
+# ~/Pictures/watchmen/Chapter01/png/*.png
+#
+# cd ~/Code/notes_on_watchmen/bin/image_utils
+# $ ./websafe.sh ~/Pictures/watchmen/Chapter01/png
+
 src=$1
 dest="${src}/websafe"
 mkdir -p $dest
@@ -23,4 +35,3 @@ if [ ${#list[@]} -gt 1 ]; then
         convert ${file} -remap netscape: ${dest}/${base}
     done
 fi
-

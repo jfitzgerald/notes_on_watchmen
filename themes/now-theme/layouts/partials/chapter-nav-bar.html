@@ -5,7 +5,7 @@
     <tr>
       {{ $numerals := slice "I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X" "XI" "XII" }}
       {{ range $index, $num := (seq 12) }}
-        <td width="8%" class="{{ if eq (int $chapter_num) $num }}bg-black-90{{ else }}ba b--black-20{{ end }}"><a class="w-100 db pv1 ph2 link mw5 f2 fw8 {{ if eq (int $chapter_num) $num }}b--black-90 yellow{{ else }}b--black-20 black-20 hover-black-90{{ end }}" href="/chapter/chapter-{{$num}}/">{{ index $numerals $index}}</a></td>
+        <td width="8%" class="{{ if eq (int $chapter_num) $num }}bg-black-90{{ else }}ba b--black-20{{ end }}"><a class="w-100 db pv1 ph2 link mw5 f2 fw8 {{ if eq (int $chapter_num) $num }}b--black-90 yellow{{ else }}b--black-20 black-20 hover-black-90{{ end }}" href="/chapters/chapter-{{$num}}/">{{ index $numerals $index}}</a></td>
       {{ end }}
     </tr>
     <tr>

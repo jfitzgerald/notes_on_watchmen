@@ -1,0 +1,1226 @@
+{
+  "chapters": [
+  {
+    "chapter_num": 3,
+    "chapter_numeral": "Chapter III",
+    "title": "The Judge Of All The Earth",
+    "quote": "\"Shall not the Judge of all the earth do right?\" -- GENESIS chapter 18, verse 25",
+    "doomsday_clock": "11:49 PM",
+    "pages": [
+    {"page_num": 0},
+    {
+      "page_num": 1,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "chronology": "present",
+        "characters": [],
+        "tags": [
+
+        ],
+        "notes" : {
+        }
+      },
+      {
+        "panel": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 3,
+        "height": 2,
+        "characters": [],
+        "chronology": "present"
+      }
+     ]
+     },
+    {
+      "page_num": 2,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 3,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+  },
+    {
+    "page_num": 4,
+    "layout": 9,
+    "panels": [
+    {
+      "panel": 1,
+      "characters": ["laurie_juspeczyk", "dr_manhattan"],
+      "chronology": "present"
+    },
+    {
+      "panel": 2,
+      "characters": ["laurie_juspeczyk", "dr_manhattan"],
+      "chronology": "present"
+    },
+    {
+      "panel": 3,
+      "characters": ["laurie_juspeczyk", "dr_manhattan"],
+      "chronology": "present"
+    },
+    {
+      "panel": 4,
+      "width": 3,
+      "characters": ["laurie_juspeczyk", "dr_manhattan"],
+      "chronology": "present"
+    },
+    {
+      "panel": 7,
+      "characters": ["laurie_juspeczyk", "dr_manhattan"],
+      "chronology": "present"
+    },
+    {
+      "panel": 8,
+      "characters": ["laurie_juspeczyk", "dr_manhattan"],
+      "chronology": "present"
+    },
+    {
+      "panel": 9,
+      "characters": ["laurie_juspeczyk"],
+      "chronology": "present"
+    }
+  ]
+  },
+    {
+      "page_num": 5,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 6,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "width": 2,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+
+      }
+    ]
+    },
+    {
+      "page_num": 7,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "width": 2,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 8,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 9,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["dr_manhtattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 10,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 11,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 12,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 13,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 14,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 15,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 16,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": ["]laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 17,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 18,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 19,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["dr_manhattanb"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 20,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 21,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 3,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 22,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 23,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 3,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": ["laurie_juspeczyk"],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 24,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": ["dan_dreiberg", "rorschach"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": ["dan_dreiberg"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": ["dan_dreiberg", "rorschach"],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dan_dreiberg", "rorschach"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": ["dan_dreiberg", "rorschach"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 25,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 26,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 6,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "characters": ["dr_manhattanb"],
+        "chronology": "present"
+      },
+      {
+        "panel": 8,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 27,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 5,
+        "width": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 7,
+        "width": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 9,
+        "characters": [],
+        "chronology": "present"
+      }
+    ]
+    },
+    {
+      "page_num": 28,
+      "layout": 9,
+      "panels": [
+      {
+        "panel": 1,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 2,
+        "characters": [],
+        "chronology": "present"
+      },
+      {
+        "panel": 3,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      },
+      {
+        "panel": 4,
+        "width": 3,
+        "height": 2,
+        "characters": ["dr_manhattan"],
+        "chronology": "present"
+      }
+    ]
+    }
+  ]
+  }
+  ]
+}

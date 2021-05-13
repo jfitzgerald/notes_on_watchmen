@@ -1,8 +1,12 @@
 <script>
 
 // Get all panels
-//var chapter_colors = {};
-var chapter_colors = {{ .context.Site.Data.colors.chapter1 | jsonify | safeJS }};
+// var chapter_colors = {};
+// which chapter are we loading?
+{{ $chap_key := printf "chapter%d" (int .page.Params.chapter_num) }}
+console.log("chapter key: {{$chap_key}}");
+
+var chapter_colors = {{ index .context.Site.Data.colors $chap_key | jsonify | safeJS }};
 </script>
 
 <script>

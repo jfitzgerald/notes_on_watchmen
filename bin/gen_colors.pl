@@ -19,7 +19,7 @@ open $fh, "<$hist_file" or die "Could not open $hist_file\n";
 #my $hist = JSON::Parse::json_file_to_perl($hist_file);
 
 
-my $json_file = NOWUtil::PROJDIR.'data/colors.json';
+my $json_file = NOWUtil::PROJDIR.'data/colors/map.json';
 #my $json_file = $ARGV[0] or die "Missing input JSON file\n";
 my $colors = JSON::Parse::json_file_to_perl($json_file);
 my %rev_colors = reverse %$colors;
@@ -27,11 +27,13 @@ my %rev_colors = reverse %$colors;
 my $next_clr = 0;
 foreach my $k (keys %$colors) {
     my (undef, $num) = split '-', $k;
-    if($num gt $next_clr) {
+    if($num > $next_clr) {
         $next_clr = $num;
     }
 }
 $next_clr++;
+
+print "Next color number: $next_clr\n";
 
 #    1854154: ( 51, 51, 51) #333333 grey20
 while(my $line = <$fh>) {
