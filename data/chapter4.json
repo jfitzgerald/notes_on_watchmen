@@ -1,0 +1,1159 @@
+{
+  "chapters": [
+    {
+      "chapter_num": 4,
+      "chapter_numeral": "Chapter IV",
+      "title": "Watchmaker",
+      "quote": "\"The release of atom power has changed everything except our way of thinking... The solution to this problem lies in the      heart of mankind. If only I had known, I should have become a watchmaker.\" -- Albert Einstein",
+      "doomsday_clock": "11:51 PM",
+      "pages": [
+        {"page_num": 0},
+        {
+          "page_num": 1,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "chronology": "present",
+              "characters": ["dr_manhattan"]
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 2,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 3,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 4,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 2,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "width": 2,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 5,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 3
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 6,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 7,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 8,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["jon_osterman"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["jon_osterman"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["jon_osterman"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "width": 3,
+              "height": 2,
+              "characters": ["jon_osterman", "dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 9,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["jon-osterman", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 3,
+              "characters": ["jon_osterman", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["jon_osterman", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["jon_osterman", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 10,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "height": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "Height": 2,
+              "characters": [],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 11,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 12,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 13,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 14,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": ["the_comedian", "dr_manhattan", "ozymandias", "nite_owl"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 15,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "width": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "width": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 16,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 17,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 2,
+              "characters": ["silk_spectre", "the_comedian", "dr_manhattan", "nite_owl", "rorschach", "ozymandias"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan", "silk_spectre", "rorschach", "nite_owl"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["dr_manhattan", "silk_spectre"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["silk_spectre", "dr_manhattan", "rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["silk_spectre", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan", "silk_spectre", "nite_owl", "rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 18,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["silk_spectre", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "width": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "characters": ["silk_spectre", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["silk_spectre", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "width": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 19,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 3,
+              "characters": ["edward_blake", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "width": 2,
+              "characters": ["edward_blake"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["edward_blake"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 20,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 2,
+              "Height": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan", "the_comedian"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 21,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "width": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "characters": ["dr_manhattan", "adrian_veidt", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan", "adrian_veidt", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["adrian_veidt", "laurie_juspeczyk", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "width": 2,
+              "characters": ["adrian_veidt", "dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 22,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["silk_spectre", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "characters": ["dr_manhattan", "silk_spectre"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["silk_spectre", "dr_manhattan"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 23,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "characters": ["the_comedian"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "width": 2,
+              "characters": ["nite_owl"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 24,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "characters": ["dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["jon_osterman"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 25,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["adrian_veidt", "dan_dreiberg", "dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "width": 2,
+              "characters": ["dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["dr_manhattan"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 26,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 27,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 28,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "Chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "Width": 3,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
