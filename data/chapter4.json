@@ -212,7 +212,7 @@
             },
             {
               "panel": 4,
-              "width": 3
+              "width": 3,
               "characters": ["jon_osterman"],
               "chronology": "past"
             },
@@ -379,7 +379,7 @@
             },
             {
               "panel": 3,
-              "characters": ["jon-osterman", "dr_manhattan"],
+              "characters": ["jon_osterman", "dr_manhattan"],
               "chronology": "past"
             },
             {

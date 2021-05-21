@@ -378,7 +378,7 @@
       },
       {
         "panel": 2,
-        "characters": ["dr_manhtattan"],
+        "characters": ["dr_manhattan"],
         "chronology": "present"
       },
       {
@@ -697,7 +697,7 @@
       {
         "panel": 8,
         "width": 2,
-        "characters": ["]laurie_juspeczyk", "dan_dreiberg"],
+        "characters": ["laurie_juspeczyk", "dan_dreiberg"],
         "chronology": "present"
       }
     ]
@@ -834,7 +834,7 @@
       },
       {
         "panel": 9,
-        "characters": ["dr_manhattanb"],
+        "characters": ["dr_manhattan"],
         "chronology": "present"
       }
     ]
@@ -1142,7 +1142,7 @@
       },
       {
         "panel": 7,
-        "characters": ["dr_manhattanb"],
+        "characters": ["dr_manhattan"],
         "chronology": "present"
       },
       {

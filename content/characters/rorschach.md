@@ -1,41 +1,77 @@
 {
-  "real_name_key" : "walter_kovacs",
-  "hero_name" : "Rorschach",
-  "first_panel" : "panel-01-01-03",
-  "total_panels" : 119,
-  "chapter_totals" : [
-    119
-  ],
-  "chart_order" : 1,
-  "appears_with_most" : "",
-  "total_panels_solo" : 0,
-  "weight" : 1,
-  "primary_color" : "clr-172",
-  "hero_name_key" : "rorschach",
-  "primary_chapter" : 1,
-  "real_name" : "Walter Kovacs",
   "appears_with" : [
     {
-      "name_key" : "adrian_veidt",
-      "total" : 8,
-      "name" : "Ozymandias"
-    },
-    {
-      "total" : 20,
+      "name_key" : "dan_dreiberg",
       "name" : "Nite Owl",
-      "name_key" : "dan_dreiberg"
+      "total" : 30
     },
     {
-      "name_key" : "dr_manhattan",
-      "total" : 13,
-      "name" : "Dr. Manhattan"
+      "name" : "The Comedian",
+      "name_key" : "edward_blake",
+      "total" : 1
     },
     {
-      "name_key" : "laurie_juspeczyk",
-      "total" : 12,
-      "name" : "Silk Spectre"
+      "total" : 22,
+      "name" : "Silk Spectre",
+      "name_key" : "silk_spectre"
+    },
+    {
+      "total" : 44,
+      "name" : "Dr. Manhattan",
+      "name_key" : "dr_manhattan"
+    },
+    {
+      "name_key" : "nite_owl",
+      "name" : "Nite Owl",
+      "total" : 198
+    },
+    {
+      "name_key" : "adrian_veidt",
+      "name" : "Ozymandias",
+      "total" : 8
+    },
+    {
+      "name_key" : "the_comedian",
+      "name" : "The Comedian",
+      "total" : 9
+    },
+    {
+      "total" : 30,
+      "name" : "Silk Spectre",
+      "name_key" : "laurie_juspeczyk"
+    },
+    {
+      "name_key" : "ozymandias",
+      "name" : "Ozymandias",
+      "total" : 69
     }
   ],
+  "chapter_totals" : [
+    119,
+    35,
+    4,
+    4,
+    81,
+    149,
+    3,
+    54,
+    3,
+    100,
+    64,
+    45
+  ],
+  "weight" : 1,
+  "real_name_key" : "walter_kovacs",
   "title" : "Rorschach",
-  "primary_chapter_total" : 119
+  "hero_name_key" : "rorschach",
+  "first_panel" : "panel-01-01-03",
+  "primary_chapter_total" : 149,
+  "total_panels_solo" : 0,
+  "appears_with_most" : "",
+  "real_name" : "Walter Kovacs",
+  "hero_name" : "Rorschach",
+  "primary_color" : "clr-172",
+  "chart_order" : 1,
+  "primary_chapter" : 6,
+  "total_panels" : 661
 }

@@ -1,0 +1,1268 @@
+{
+  "chapters": [
+    {
+      "chapter_num": 8,
+      "chapter_numeral": "Chapter VIII",
+      "title": "Old Ghosts",
+      "quote": "\"On Hallowe'en the old ghosts come about us, and they speak to some; to others they are dumb.\" -- Hallowe'en Eleanor Farjean",
+      "doomsday_clock": "11:55 PM",
+      "pages": [
+        {"page_num": 0},
+        {
+          "page_num": 1,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "chronology": "present",
+              "characters": []
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 2,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 3,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 4,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "height": 2,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "height": 2,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "height": 2,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["dan_dreiberg", "laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 5,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["dan_dreiberg", "laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["dan_dreiberg", "laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "height": 2,
+              "characters": ["dan_dreiberg", "laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "height": 2,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "height": 2,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 6,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 7,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "Width": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 8,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 9,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["laurie_juspeczyk", "dan_dreiberg"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 10,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 11,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["nite_owl", "silk_spectre"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 12,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["laurie_juspeczyk", "nite_owl"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 13,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 14,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "Width": 3,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 15,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 16,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "height": 2,
+              "characters": ["nite_owl", "silk_spectre"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["nite_owl", "silk_spectre"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 17,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 18,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["nite_owl", "silk_spectre"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 19,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["silk_spectre", "nite_owl", "walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["nite_owl", "walter_kovacs", "silk_spectre"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 20,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["nite_owl", "silk_spectre", "walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["silk_spectre", "walter_kovacs", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["walter_kovacs", "nite_owl", "silk_spectre"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 21,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["silk_spectre", "walter_kovacs", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs", "silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs", "nite_owl", "silk_spectre"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["silk_spectre", "walter_kovacs", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs", "silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["silk_spectre", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 22,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["dan_dreiberg", "walter_kovacs", "laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs", "dan_dreiberg", "laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["laurie_juspeczyk", "dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["laurie_juspeczyk", "dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["dr_manhattan", "laurie_juspeczyk"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 23,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["laurie_juspeczyk", "dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["laurie_juspeczyk", "dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["dr_manhattan", "dan_dreiberg", "laurie_juspeczyk"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["dan_dreiberg", "laurie_juspeczyk", "dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["dan_dreiberg", "laurie_juspeczyk", "dr_manhattan"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs", "dan_dreiberg"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs", "dan_dreiberg"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 24,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs", "nite_owl"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["nite_owl", "walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 25,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 26,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 27,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["nite_owl"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["nite_owl"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["nite_owl"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 28,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

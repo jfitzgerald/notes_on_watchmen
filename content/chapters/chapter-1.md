@@ -1,7 +1,4 @@
 {
-  "title" : "At midnight, all the agents...",
-  "quote" : "\"At midnight, all the agents and superhuman crew, go out and round up everyone who knows more than they do.\" -- Bob Dylan",
-  "chapter_num" : 1,
   "panel_sequence_labels" : [
     "Page 1, Panel 1",
     "Page 1, Panel 2",
@@ -199,13 +196,15 @@
     "Page 26, Panel 6",
     "Page 26, Panel 7"
   ],
-  "total_pages" : 27,
   "characters" : [
     {
-      "hero_name" : "The Comedian",
       "real_name" : "Edward Blake",
       "total" : 10,
-      "first_panel" : "panel-xx-02-04",
+      "chart_order" : 6,
+      "real_name_key" : "edward_blake",
+      "hero_name" : "The Comedian",
+      "primary_color" : "clr-178",
+      "hero_name_key" : "the_comedian",
       "panel_appearance_data" : [
         0,
         0,
@@ -404,243 +403,256 @@
         0
       ],
       "appears_with" : [],
-      "real_name_key" : "edward_blake",
-      "primary_color" : "clr-178",
-      "chart_order" : 6,
-      "hero_name_key" : "the_comedian"
+      "first_panel" : "panel-xx-02-04"
     },
     {
-      "panel_appearance_data" : [
-        0,
-        0,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "real_name_key" : "walter_kovacs",
       "appears_with" : [
         {
-          "name" : "Dr. Manhattan",
+          "name_key" : "dan_dreiberg",
+          "total" : 20,
+          "name" : "Nite Owl"
+        },
+        {
           "total" : 13,
+          "name" : "Dr. Manhattan",
           "name_key" : "dr_manhattan"
         },
         {
+          "total" : 12,
           "name" : "Silk Spectre",
-          "name_key" : "laurie_juspeczyk",
-          "total" : 12
+          "name_key" : "laurie_juspeczyk"
         },
         {
-          "name_key" : "adrian_veidt",
+          "name" : "Ozymandias",
           "total" : 8,
-          "name" : "Ozymandias"
-        },
-        {
-          "name" : "Nite Owl",
-          "name_key" : "dan_dreiberg",
-          "total" : 20
+          "name_key" : "adrian_veidt"
         }
       ],
-      "total" : 119,
       "first_panel" : "panel-xx-01-03",
-      "hero_name_key" : "rorschach",
-      "chart_order" : 1,
       "primary_color" : "clr-172",
+      "hero_name_key" : "rorschach",
+      "panel_appearance_data" : [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "hero_name" : "Rorschach",
-      "real_name" : "Walter Kovacs"
+      "real_name_key" : "walter_kovacs",
+      "total" : 119,
+      "real_name" : "Walter Kovacs",
+      "chart_order" : 1
     },
     {
+      "real_name_key" : "jon_osterman",
       "hero_name" : "Dr. Manhattan",
+      "chart_order" : 4,
       "real_name" : "Jon Osterman",
+      "total" : 25,
+      "first_panel" : "panel-xx-20-01",
+      "appears_with" : [
+        {
+          "name_key" : "rorschach",
+          "total" : 13,
+          "name" : "Rorschach"
+        },
+        {
+          "total" : 20,
+          "name" : "Silk Spectre",
+          "name_key" : "laurie_juspeczyk"
+        }
+      ],
       "panel_appearance_data" : [
         0,
         0,
@@ -838,37 +850,23 @@
         0,
         0
       ],
-      "real_name_key" : "jon_osterman",
-      "appears_with" : [
-        {
-          "name_key" : "laurie_juspeczyk",
-          "total" : 20,
-          "name" : "Silk Spectre"
-        },
-        {
-          "name" : "Rorschach",
-          "name_key" : "rorschach",
-          "total" : 13
-        }
-      ],
-      "first_panel" : "panel-xx-20-01",
-      "total" : 25,
-      "hero_name_key" : "dr_manhattan",
       "primary_color" : "clr-54",
-      "chart_order" : 4
+      "hero_name_key" : "dr_manhattan"
     },
     {
       "hero_name" : "Ozymandias",
+      "real_name_key" : "adrian_veidt",
+      "chart_order" : 5,
       "real_name" : "Adrian Veidt",
       "total" : 11,
-      "first_panel" : "panel-xx-17-02",
       "appears_with" : [
         {
-          "name_key" : "rorschach",
+          "name" : "Rorschach",
           "total" : 8,
-          "name" : "Rorschach"
+          "name_key" : "rorschach"
         }
       ],
+      "first_panel" : "panel-xx-17-02",
       "panel_appearance_data" : [
         0,
         0,
@@ -1066,468 +1064,462 @@
         0,
         0
       ],
-      "real_name_key" : "adrian_veidt",
       "primary_color" : "clr-179",
-      "chart_order" : 5,
       "hero_name_key" : "ozymandias"
     },
     {
-      "hero_name_key" : "nite_owl",
-      "primary_color" : "clr-194",
-      "chart_order" : 2,
-      "real_name_key" : "dan_dreiberg",
-      "panel_appearance_data" : [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "appears_with" : [
-        {
-          "total" : 20,
-          "name_key" : "rorschach",
-          "name" : "Rorschach"
-        },
-        {
-          "total" : 13,
-          "name_key" : "laurie_juspeczyk",
-          "name" : "Silk Spectre"
-        }
-      ],
       "first_panel" : "panel-xx-09-03",
-      "total" : 48,
-      "real_name" : "Dan Dreiberg",
-      "hero_name" : "Nite Owl"
-    },
-    {
-      "hero_name_key" : "silk_spectre",
-      "primary_color" : "clr-137",
-      "chart_order" : 3,
-      "panel_appearance_data" : [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
       "appears_with" : [
         {
           "total" : 20,
-          "name_key" : "dr_manhattan",
-          "name" : "Dr. Manhattan"
-        },
-        {
           "name" : "Rorschach",
-          "total" : 12,
           "name_key" : "rorschach"
         },
         {
-          "name" : "Nite Owl",
-          "name_key" : "dan_dreiberg",
-          "total" : 13
+          "name" : "Silk Spectre",
+          "total" : 13,
+          "name_key" : "laurie_juspeczyk"
         }
       ],
-      "real_name_key" : "laurie_juspeczyk",
-      "total" : 35,
+      "panel_appearance_data" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "hero_name_key" : "nite_owl",
+      "primary_color" : "clr-194",
+      "hero_name" : "Nite Owl",
+      "real_name_key" : "dan_dreiberg",
+      "chart_order" : 2,
+      "total" : 48,
+      "real_name" : "Dan Dreiberg"
+    },
+    {
       "first_panel" : "panel-xx-20-01",
+      "appears_with" : [
+        {
+          "name_key" : "dr_manhattan",
+          "name" : "Dr. Manhattan",
+          "total" : 20
+        },
+        {
+          "total" : 13,
+          "name" : "Nite Owl",
+          "name_key" : "dan_dreiberg"
+        },
+        {
+          "name_key" : "rorschach",
+          "name" : "Rorschach",
+          "total" : 12
+        }
+      ],
+      "primary_color" : "clr-137",
+      "hero_name_key" : "silk_spectre",
+      "panel_appearance_data" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "real_name_key" : "laurie_juspeczyk",
+      "hero_name" : "Silk Spectre",
+      "total" : 35,
       "real_name" : "Laurie Juspeczyk",
-      "hero_name" : "Silk Spectre"
+      "chart_order" : 3
     }
   ],
   "pages" : [
     {
       "panels" : [],
       "page_num" : 0,
-      "col_layout" : 3,
       "id" : "page-01-00",
-      "characters" : []
+      "characters" : [],
+      "col_layout" : 3
     },
     {
-      "characters" : [
-        "rorschach"
-      ],
-      "col_layout" : 3,
       "id" : "page-01-01",
       "page_num" : 1,
       "panels" : [
@@ -1555,24 +1547,24 @@
         ],
         [
           {
-            "cols" : 3,
-            "id" : "panel-01-01-07"
+            "id" : "panel-01-01-07",
+            "cols" : 3
           }
         ]
+      ],
+      "col_layout" : 3,
+      "characters" : [
+        "rorschach"
       ]
     },
     {
-      "characters" : [
-        "the_comedian"
-      ],
-      "col_layout" : 3,
       "id" : "page-01-02",
       "page_num" : 2,
       "panels" : [
         [
           {
-            "cols" : 2,
-            "id" : "panel-01-02-01"
+            "id" : "panel-01-02-01",
+            "cols" : 2
           },
           {
             "id" : "panel-01-02-03"
@@ -1600,9 +1592,15 @@
             "id" : "panel-01-02-09"
           }
         ]
+      ],
+      "col_layout" : 3,
+      "characters" : [
+        "the_comedian"
       ]
     },
     {
+      "id" : "page-01-03",
+      "page_num" : 3,
       "panels" : [
         [
           {
@@ -1633,14 +1631,13 @@
           }
         ]
       ],
-      "page_num" : 3,
-      "id" : "page-01-03",
       "col_layout" : 3,
       "characters" : [
         "the_comedian"
       ]
     },
     {
+      "page_num" : 4,
       "panels" : [
         [
           {
@@ -1674,16 +1671,19 @@
           }
         ]
       ],
-      "page_num" : 4,
-      "col_layout" : 3,
       "id" : "page-01-04",
+      "col_layout" : 3,
       "characters" : [
-        "",
         "rorschach",
         "the_comedian"
       ]
     },
     {
+      "col_layout" : 3,
+      "characters" : [
+        "rorschach"
+      ],
+      "id" : "page-01-05",
       "page_num" : 5,
       "panels" : [
         [
@@ -1719,25 +1719,18 @@
             "id" : "panel-01-05-09"
           }
         ]
-      ],
-      "characters" : [
-        "rorschach"
-      ],
-      "col_layout" : 3,
-      "id" : "page-01-05"
+      ]
     },
     {
       "id" : "page-01-06",
-      "col_layout" : 4,
-      "characters" : [
-        "rorschach"
-      ],
+      "page_num" : 6,
+      "has_splash" : 1,
       "panels" : [
         [
           {
-            "id" : "panel-01-06-01",
+            "cols" : 4,
             "rows" : 2,
-            "cols" : 4
+            "id" : "panel-01-06-01"
           }
         ],
         [],
@@ -1756,15 +1749,17 @@
           }
         ]
       ],
-      "has_splash" : 1,
-      "page_num" : 6
+      "col_layout" : 4,
+      "characters" : [
+        "rorschach"
+      ]
     },
     {
-      "col_layout" : 3,
-      "id" : "page-01-07",
       "characters" : [
         "rorschach"
       ],
+      "col_layout" : 3,
+      "page_num" : 7,
       "panels" : [
         [
           {
@@ -1800,15 +1795,13 @@
           }
         ]
       ],
-      "page_num" : 7
+      "id" : "page-01-07"
     },
     {
       "characters" : [
         "rorschach"
       ],
       "col_layout" : 3,
-      "id" : "page-01-08",
-      "page_num" : 8,
       "panels" : [
         [
           {
@@ -1841,9 +1834,17 @@
             "id" : "panel-01-08-09"
           }
         ]
-      ]
+      ],
+      "page_num" : 8,
+      "id" : "page-01-08"
     },
     {
+      "col_layout" : 3,
+      "characters" : [
+        "nite_owl"
+      ],
+      "id" : "page-01-09",
+      "page_num" : 9,
       "panels" : [
         [
           {
@@ -1858,8 +1859,8 @@
         ],
         [
           {
-            "cols" : 2,
-            "id" : "panel-01-09-04"
+            "id" : "panel-01-09-04",
+            "cols" : 2
           },
           {
             "id" : "panel-01-09-06"
@@ -1876,22 +1877,15 @@
             "id" : "panel-01-09-09"
           }
         ]
-      ],
-      "page_num" : 9,
-      "col_layout" : 3,
-      "id" : "page-01-09",
-      "characters" : [
-        "nite_owl"
       ]
     },
     {
       "characters" : [
-        "nite_owl",
-        "rorschach"
+        "rorschach",
+        "nite_owl"
       ],
-      "id" : "page-01-10",
       "col_layout" : 3,
-      "page_num" : 10,
+      "id" : "page-01-10",
       "panels" : [
         [
           {
@@ -1926,9 +1920,11 @@
             "id" : "panel-01-10-09"
           }
         ]
-      ]
+      ],
+      "page_num" : 10
     },
     {
+      "id" : "page-01-11",
       "panels" : [
         [
           {
@@ -1963,7 +1959,6 @@
         ]
       ],
       "page_num" : 11,
-      "id" : "page-01-11",
       "col_layout" : 3,
       "characters" : [
         "rorschach",
@@ -1971,15 +1966,14 @@
       ]
     },
     {
-      "page_num" : 12,
       "panels" : [
         [
           {
             "id" : "panel-01-12-01"
           },
           {
-            "cols" : 2,
-            "id" : "panel-01-12-02"
+            "id" : "panel-01-12-02",
+            "cols" : 2
           }
         ],
         [
@@ -2003,15 +1997,22 @@
           }
         ]
       ],
+      "page_num" : 12,
+      "id" : "page-01-12",
+      "characters" : [
+        "nite_owl",
+        "rorschach"
+      ],
+      "col_layout" : 3
+    },
+    {
       "characters" : [
         "rorschach",
         "nite_owl"
       ],
-      "col_layout" : 3,
-      "id" : "page-01-12"
-    },
-    {
+      "col_layout" : 4,
       "page_num" : 13,
+      "has_splash" : 1,
       "panels" : [
         [
           {
@@ -2029,26 +2030,25 @@
         ],
         [
           {
-            "id" : "panel-01-13-05",
             "rows" : 2,
+            "id" : "panel-01-13-05",
             "cols" : 4
           }
         ]
       ],
-      "has_splash" : 1,
-      "characters" : [
-        "nite_owl",
-        "rorschach"
-      ],
-      "col_layout" : 4,
       "id" : "page-01-13"
     },
     {
+      "characters" : [
+        "rorschach"
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-14",
       "panels" : [
         [
           {
-            "cols" : 3,
-            "id" : "panel-01-14-01"
+            "id" : "panel-01-14-01",
+            "cols" : 3
           }
         ],
         [
@@ -2072,14 +2072,13 @@
           }
         ]
       ],
-      "page_num" : 14,
-      "col_layout" : 3,
-      "id" : "page-01-14",
-      "characters" : [
-        "rorschach"
-      ]
+      "page_num" : 14
     },
     {
+      "characters" : [
+        "rorschach"
+      ],
+      "col_layout" : 3,
       "panels" : [
         [
           {
@@ -2116,19 +2115,14 @@
         ]
       ],
       "page_num" : 15,
-      "id" : "page-01-15",
-      "col_layout" : 3,
-      "characters" : [
-        "rorschach"
-      ]
+      "id" : "page-01-15"
     },
     {
       "characters" : [
         "rorschach"
       ],
-      "id" : "page-01-16",
       "col_layout" : 3,
-      "page_num" : 16,
+      "id" : "page-01-16",
       "panels" : [
         [
           {
@@ -2163,15 +2157,10 @@
             "id" : "panel-01-16-09"
           }
         ]
-      ]
+      ],
+      "page_num" : 16
     },
     {
-      "id" : "page-01-17",
-      "col_layout" : 3,
-      "characters" : [
-        "rorschach",
-        "ozymandias"
-      ],
       "panels" : [
         [
           {
@@ -2205,10 +2194,23 @@
           }
         ]
       ],
-      "page_num" : 17
+      "page_num" : 17,
+      "id" : "page-01-17",
+      "characters" : [
+        "ozymandias",
+        "rorschach"
+      ],
+      "col_layout" : 3
     },
     {
+      "col_layout" : 3,
+      "characters" : [
+        "ozymandias",
+        "rorschach"
+      ],
+      "id" : "page-01-18",
       "page_num" : 18,
+      "has_splash" : 1,
       "panels" : [
         [
           {
@@ -2223,21 +2225,19 @@
         ],
         [
           {
+            "rows" : 2,
             "id" : "panel-01-18-04",
-            "cols" : 3,
-            "rows" : 2
+            "cols" : 3
           }
         ]
-      ],
-      "has_splash" : 1,
-      "characters" : [
-        "rorschach",
-        "ozymandias"
-      ],
-      "col_layout" : 3,
-      "id" : "page-01-18"
+      ]
     },
     {
+      "characters" : [
+        "rorschach"
+      ],
+      "col_layout" : 3,
+      "id" : "page-01-19",
       "page_num" : 19,
       "panels" : [
         [
@@ -2273,27 +2273,23 @@
             "id" : "panel-01-19-09"
           }
         ]
-      ],
-      "characters" : [
-        "rorschach"
-      ],
-      "id" : "page-01-19",
-      "col_layout" : 3
+      ]
     },
     {
-      "id" : "page-01-20",
-      "col_layout" : 3,
       "characters" : [
         "rorschach",
-        "silk_spectre",
-        "dr_manhattan"
+        "dr_manhattan",
+        "silk_spectre"
       ],
+      "col_layout" : 3,
+      "id" : "page-01-20",
+      "page_num" : 20,
       "panels" : [
         [
           {
             "rows" : 3,
-            "cols" : 2,
-            "id" : "panel-01-20-01"
+            "id" : "panel-01-20-01",
+            "cols" : 2
           },
           {
             "id" : "panel-01-20-03"
@@ -2309,17 +2305,17 @@
             "id" : "panel-01-20-09"
           }
         ]
-      ],
-      "page_num" : 20
+      ]
     },
     {
-      "id" : "page-01-21",
-      "col_layout" : 3,
       "characters" : [
         "silk_spectre",
         "dr_manhattan",
         "rorschach"
       ],
+      "col_layout" : 3,
+      "id" : "page-01-21",
+      "page_num" : 21,
       "panels" : [
         [
           {
@@ -2354,17 +2350,10 @@
             "id" : "panel-01-21-09"
           }
         ]
-      ],
-      "page_num" : 21
+      ]
     },
     {
       "id" : "page-01-22",
-      "col_layout" : 3,
-      "characters" : [
-        "rorschach",
-        "silk_spectre",
-        "dr_manhattan"
-      ],
       "panels" : [
         [
           {
@@ -2400,9 +2389,16 @@
           }
         ]
       ],
-      "page_num" : 22
+      "page_num" : 22,
+      "col_layout" : 3,
+      "characters" : [
+        "rorschach",
+        "dr_manhattan",
+        "silk_spectre"
+      ]
     },
     {
+      "id" : "page-01-23",
       "page_num" : 23,
       "panels" : [
         [
@@ -2439,25 +2435,20 @@
           }
         ]
       ],
+      "col_layout" : 3,
       "characters" : [
-        "dr_manhattan",
-        "silk_spectre"
-      ],
-      "id" : "page-01-23",
-      "col_layout" : 3
+        "silk_spectre",
+        "dr_manhattan"
+      ]
     },
     {
-      "characters" : [
-        "rorschach"
-      ],
       "id" : "page-01-24",
-      "col_layout" : 3,
       "page_num" : 24,
       "panels" : [
         [
           {
-            "cols" : 3,
-            "id" : "panel-01-24-01"
+            "id" : "panel-01-24-01",
+            "cols" : 3
           }
         ],
         [
@@ -2482,15 +2473,14 @@
             "id" : "panel-01-24-09"
           }
         ]
-      ]
+      ],
+      "characters" : [
+        "rorschach"
+      ],
+      "col_layout" : 3
     },
     {
-      "col_layout" : 3,
-      "id" : "page-01-25",
-      "characters" : [
-        "silk_spectre",
-        "nite_owl"
-      ],
+      "page_num" : 25,
       "panels" : [
         [
           {
@@ -2524,9 +2514,15 @@
           }
         ]
       ],
-      "page_num" : 25
+      "id" : "page-01-25",
+      "col_layout" : 3,
+      "characters" : [
+        "nite_owl",
+        "silk_spectre"
+      ]
     },
     {
+      "id" : "page-01-26",
       "panels" : [
         [
           {
@@ -2541,8 +2537,8 @@
         ],
         [
           {
-            "id" : "panel-01-26-04",
-            "cols" : 2
+            "cols" : 2,
+            "id" : "panel-01-26-04"
           },
           {
             "id" : "panel-01-26-06"
@@ -2557,14 +2553,17 @@
       ],
       "page_num" : 26,
       "col_layout" : 3,
-      "id" : "page-01-26",
       "characters" : [
-        "nite_owl",
-        "silk_spectre"
+        "silk_spectre",
+        "nite_owl"
       ]
     }
   ],
+  "total_pages" : 27,
+  "title" : "At midnight, all the agents...",
+  "chapter_num" : 1,
+  "doomsday_clock" : "11:48 PM",
   "chapter_numeral" : "Chapter I",
-  "total_panels" : 195,
-  "doomsday_clock" : "11:48 PM"
+  "quote" : "\"At midnight, all the agents and superhuman crew, go out and round up everyone who knows more than they do.\" -- Bob Dylan",
+  "total_panels" : 195
 }

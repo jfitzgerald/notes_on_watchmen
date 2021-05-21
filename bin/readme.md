@@ -47,5 +47,18 @@ cd ~/Code/notes_on_watchmen/bin/
 ./gen_colors.pl ~/Pictures/watchmen/Chapter01/png/websafe/hist/chapter-hist.txt
 ```
 
+Generate Chapter/Pages
+----------------------
 
-6. Generate Pages
+```
+cd ~/Code/notes_on_watchmen/bin/
+./gen_chapter.pl
+```
+
+Generate Characters
+----------------------
+
+```
+cd ~/Code/notes_on_watchmen/bin/
+./gen_characters.pl
+```

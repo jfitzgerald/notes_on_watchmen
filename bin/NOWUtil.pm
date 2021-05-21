@@ -85,7 +85,9 @@ sub gen_characters {
       if($pn->{characters}) {
         my @tmp = @{$pn->{characters}};
         foreach my $nm (@{$pn->{characters}}) {
-          my $chr = $name_map->{$nm};
+          my $chr = $name_map->{$nm} or die "Character not found: $nm (page "
+          . $pg->{page_num} . " panel $panel_index)\n";
+
           $chr->{total}++;
           $chr->{panel_appearance_data}[$panel_index] = 1;
 

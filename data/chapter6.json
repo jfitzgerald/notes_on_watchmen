@@ -15,1357 +15,1356 @@
             {
               "panel": 1,
               "chronology": "present",
-              "characters": ["walter_kovacs"]
+              "characters": ["walter_kovacs"],
               "rorschachs_journal_date": "October 25th, 1985",
               "rorschachs_journal": true
             },
-          },
-          {
-            "panel": 2,
-            "characters": ["walter-kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 2,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "width": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 3,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 4,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 5,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 6,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 7,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 8,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 9,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "width": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 10,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 11,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 12,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "width": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "width": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 13,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 14,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": ["rorschach", "nite_owl"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 15,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "width": 2,
-            "characters": ["rorschach", "nite_owl"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "width": 2,
-            "characters": ["nite_owl", "silk_spectre", "rorschach", "dr_manhattan", "the_comedian", "ozymandias"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "width": 2,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 16,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "width": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 17,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 18,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 19,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 20,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 21,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 22,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 23,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "width": 3,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "width": 3,
-            "characters": [],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 24,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          }
-        ]
-      },
-      {
-        "page_num": 25,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 5,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 6,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 7,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 8,
-            "characters": ["rorschach"],
-            "chronology": "past"
-          },
-          {
-            "panel": 9,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 26,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 2,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 3,
-            "characters": [],
-            "chronology": "past"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": ["walter_kovacs"],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 27,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      },
-      {
-        "page_num": 28,
-        "layout": 9,
-        "panels": [
-          {
-            "panel": 1,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 2,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 3,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 4,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 5,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 6,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 7,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 8,
-            "width": 2,
-            "characters": [],
-            "chronology": "present"
-          },
-          {
-            "panel": 9,
-            "characters": [],
-            "chronology": "present"
-          }
-        ]
-      }
-    ]
-  }
-]
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 2,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 3,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 4,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 5,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 6,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 7,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 8,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 9,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 10,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 11,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 12,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 13,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 14,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["rorschach", "nite_owl"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 15,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "width": 2,
+              "characters": ["rorschach", "nite_owl"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "width": 2,
+              "characters": ["nite_owl", "silk_spectre", "rorschach", "dr_manhattan", "the_comedian", "ozymandias"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "width": 2,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 16,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 17,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 18,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 19,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 20,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 21,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 22,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 23,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "width": 3,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "width": 3,
+              "characters": [],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 24,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            }
+          ]
+        },
+        {
+          "page_num": 25,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 5,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 6,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 7,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 8,
+              "characters": ["rorschach"],
+              "chronology": "past"
+            },
+            {
+              "panel": 9,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 26,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "past"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": ["walter_kovacs"],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 27,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        },
+        {
+          "page_num": 28,
+          "layout": 9,
+          "panels": [
+            {
+              "panel": 1,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 3,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 4,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 5,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 6,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 7,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 8,
+              "width": 2,
+              "characters": [],
+              "chronology": "present"
+            },
+            {
+              "panel": 9,
+              "characters": [],
+              "chronology": "present"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

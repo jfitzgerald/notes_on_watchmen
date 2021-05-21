@@ -16,7 +16,7 @@
         <div class="flex flex-wrap">
         <section class="flex-ns flex-wrap justify-between w-100">
         <div class="chapter-wrapper tsize-3">
-        {{ range $section }}
+        {{ range sort $section }}
           {{ partial "list-summaries" (dict "context" . "classes" "" "fullcontent" true) }}
         {{ end }}
         </div>
